@@ -2,16 +2,14 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]          # Deploys on every push to main
-  workflow_dispatch:          # Allows manual runs from the Actions tab
+    branches: [main]
+  workflow_dispatch:
 
-# Set permissions for the GITHUB_TOKEN
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Only allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -20,20 +18,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # If you need a build step (e.g., npm run build), add it here.
-      # Example for a simple static site (just copy files):
-      - name: Setup Pages
+      # Prevent Jekyll from being triggered
+      - name: Create .nojekyll file
+        run: touch .nojekyll
+
+      - name: Configure Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      - name: Upload static files
         uses: actions/upload-pages-artifact@v3
-        # with:
-          # By default, uploads the entire repository root.
-          # If your site lives in a subfolder (like /public), specify:
-          # path: ./public
+        with:
+          # Force artifact to be the root (where index.html is)
+          path: .
 
   deploy:
     needs: build
