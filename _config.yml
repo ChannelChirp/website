@@ -1,7 +1,7 @@
 title: Channel Chirp
 description: Green-cheeked and Big Beaked
 url: https://channelchirp.com
-baseurl: /
+baseurl: ""
 
 # The blog structure
 permalink: /:title/
@@ -17,3 +17,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  
+# The plugin section!
+plugins:
+  - jekyll-paginate
