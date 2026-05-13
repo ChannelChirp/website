@@ -422,3 +422,12 @@ tbody tr:nth-child(odd) {
   color: #727272;
 }
 
+/* Pagefind Component UI – custom colours */
+pagefind-search {
+  --pagefind-ui-primary: #29a518;        /* your green accent */
+  --pagefind-ui-primary-light: #d4f0d4;  /* lighter tint for highlights */
+  --pagefind-ui-border: #ddd;
+  --pagefind-ui-border-radius: 3px;
+  --pagefind-ui-font: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  --pagefind-ui-scale: 1;
+}
