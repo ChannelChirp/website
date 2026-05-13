@@ -250,10 +250,20 @@ blockquote p {
   background: #29a518;
   border: 1px solid #29a518;
 }
+
 .btn-primary:hover,
 .btn-secondary:hover {
   background: #1e8c10;
   border-color: #1e8c10;
+}
+
+/* Small pill button for the sidebar search link */
+.btn-sm-pill {
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 35px;
 }
 
 /* ----- 6. Widgets ----- */
