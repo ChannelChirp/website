@@ -514,6 +514,10 @@ body.post-layout .entry-title {
   margin: 2em 0;
 }
 
+/* Remove the green accent bar when the title is hidden */
+body.hide-title .entry-title::after {
+  display: none;
+}
 
 
 /* ============================
