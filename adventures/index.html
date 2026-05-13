@@ -31,20 +31,62 @@ show_hero: false
       </li>
     {% endif %}
 
-    <!-- Page numbers -->
-    {% for page_num in (1..paginator.total_pages) %}
-      {% if page_num == paginator.page %}
-        <li class="page-item active" aria-current="page">
-          <span class="page-link">{{ page_num }}</span>
-        </li>
-      {% else %}
-        <!-- Build the page number link manually from site.paginate_path -->
-        {% assign page_path = site.paginate_path | replace: ':num', page_num %}
-        <li class="page-item">
-          <a class="page-link" href="{{ page_path | relative_url }}">{{ page_num }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
+{% assign total = paginator.total_pages %}
+{% assign current = paginator.page %}
+{% assign window = 2 %}   <!-- show 2 pages before and after current -->
+
+{% if total > 1 %}
+  <!-- Always show first page -->
+  {% if current > 1 %}
+    <li class="page-item">
+      <a class="page-link" href="{% if current == 1 %}{{ site.paginate_path | replace: ':num', 1 | relative_url }}{% else %}{{ site.paginate_path | replace: ':num', 1 | relative_url }}{% endif %}">1</a>
+    </li>
+  {% else %}
+    <li class="page-item active"><span class="page-link">1</span></li>
+  {% endif %}
+
+  <!-- Show ellipsis if current is far from start -->
+  {% if current > window + 2 %}
+    <li class="page-item disabled"><span class="page-link">…</span></li>
+  {% endif %}
+
+  <!-- Window of pages around current -->
+  {% assign start = current | minus: window %}
+  {% assign end = current | plus: window %}
+
+  {% if start < 2 %}
+    {% assign start = 2 %}
+  {% endif %}
+  {% if end > total | minus: 1 %}
+    {% assign end = total | minus: 1 %}
+  {% endif %}
+
+  {% for page_num in (start..end) %}
+    {% if page_num == current %}
+      <li class="page-item active" aria-current="page"><span class="page-link">{{ page_num }}</span></li>
+    {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | replace: ':num', page_num | relative_url }}">{{ page_num }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+
+  <!-- Show ellipsis if current is far from end -->
+  {% if current < total | minus: window | minus: 1 %}
+    <li class="page-item disabled"><span class="page-link">…</span></li>
+  {% endif %}
+
+  <!-- Always show last page if it's different from the first -->
+  {% if total > 1 %}
+    {% if current == total %}
+      <li class="page-item active"><span class="page-link">{{ total }}</span></li>
+    {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | replace: ':num', total | relative_url }}">{{ total }}</a>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endif %}
 
     <!-- Next page -->
     {% if paginator.next_page %}

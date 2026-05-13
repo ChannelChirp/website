@@ -416,3 +416,8 @@ tbody tr:nth-child(odd) {
   border-color: #29a518;
   color: #fff;
 }
+.pagination .page-item.disabled .page-link {
+  background: transparent;
+  border: none;
+  color: #727272;
+}
