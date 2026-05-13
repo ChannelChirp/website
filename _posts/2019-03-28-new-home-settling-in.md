@@ -7,7 +7,7 @@ format: false
 guid: https://channelchirp.ddev.site/?p=524
 id: 524
 layout: post
-permalink: /new-home-settling-in/
+permalink: /adventures/new-home-settling-in/
 title: New Home &#8211; Settling In!
 ---
 
