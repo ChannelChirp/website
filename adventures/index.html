@@ -6,13 +6,13 @@ show_hero: false
 ---
 
 {% for post in paginator.posts %}
-  <article class="post-card">
+
     <header class="entry-header">
       <h2 class="entry-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
       <div class="entry-meta">
-        {{ post.date | date: "%B %-d, %Y" }}
+        {{ post.date | date: "%-d %B, %Y" }}
       </div>
     </header>
 
@@ -23,9 +23,7 @@ show_hero: false
     <footer class="entry-footer">
       <!-- Optional: tags, categories, etc. -->
     </footer>
-  </article>
 
-  <hr class="post-separator">
 {% endfor %}
 
 
