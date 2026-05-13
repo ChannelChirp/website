@@ -500,3 +500,19 @@ tbody tr:nth-child(odd) {
 body.post-layout .entry-title::after {
   display: none;
 }
+
+/* Reduce gap between heading and date on Adventure posts */
+body.post-layout .entry-title {
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+/* Remove the green title bar on the timeline page */
+body.timeline-page .entry-title::after {
+  display: none;
+}
+
+body.timeline-page .entry-title {
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
