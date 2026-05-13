@@ -12,7 +12,7 @@ body {
 }
 
 .container-main {
-  margin-top: 180px;
+  margin-top: 120px;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -53,20 +53,22 @@ blockquote p {
 
 /* ----- 2. Navbar ----- */
 .navbar {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
   transition: all 1s;
   box-shadow: 0 1px 1px rgba(100, 100, 0, .2);
+  min-height: 50px;
 }
 
 .navbar-brand {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  line-height: 40px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
 }
 
 /* Transparent effect */
@@ -77,6 +79,8 @@ blockquote p {
 .lh-nav-bg-transform .navbar-brand,
 .lh-nav-bg-transform .navbar-nav .nav-link {
   color: #fff !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 .lh-nav-bg-transform .navbar-nav .nav-link:hover,
