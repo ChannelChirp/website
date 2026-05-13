@@ -44,7 +44,7 @@ jobs:
         run: npm install -g pagefind
 
       - name: Run Pagefind
-        run: pagefind --site _site --output-subdir pagefind
+        run: pagefind --site _site --output-subdir pagefind --ui component
 
       - name: Configure Pages
         uses: actions/configure-pages@v6   # was v4
