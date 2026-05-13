@@ -5,7 +5,6 @@ permalink: /adventures/
 show_hero: false
 ---
 
-{% raw %}
 Here are all our adventures:
 
 <ul>
@@ -16,4 +15,3 @@ Here are all our adventures:
   </li>
 {% endfor %}
 </ul>
-{% endraw %}
