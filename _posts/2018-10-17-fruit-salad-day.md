@@ -1,17 +1,16 @@
 ---
-id: 548
-title: 'Fruit Salad Day!'
-date: '2018-10-17T07:08:26+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-10-17T07:08:26+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=548'
-permalink: /fruit-salad-day/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=548
+id: 548
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /fruit-salad-day/
+title: Fruit Salad Day!
 ---
 
 {% include embed/youtube.html id="kiZublQd3io" %}

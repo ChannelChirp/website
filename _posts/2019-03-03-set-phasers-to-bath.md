@@ -1,17 +1,16 @@
 ---
-id: 442
-title: 'Set Phasers to Bath!'
-date: '2019-03-03T17:24:23+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-03T17:24:23+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=442'
-permalink: /set-phasers-to-bath/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=442
+id: 442
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /set-phasers-to-bath/
+title: Set Phasers to Bath!
 ---
 
 {% include embed/youtube.html id="iV3snegmhXk" %}

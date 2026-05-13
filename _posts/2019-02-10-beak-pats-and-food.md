@@ -1,17 +1,16 @@
 ---
-id: 382
-title: 'Beak Pats and Food!'
-date: '2019-02-10T12:43:12+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-10T12:43:12+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=382'
-permalink: /beak-pats-and-food/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=382
+id: 382
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /beak-pats-and-food/
+title: Beak Pats and Food!
 ---
 
 {% include embed/youtube.html id="HkTEfdCEqhQ" %}

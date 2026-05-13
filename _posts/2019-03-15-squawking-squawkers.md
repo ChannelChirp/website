@@ -1,17 +1,16 @@
 ---
-id: 472
-title: 'Squawking Squawkers!'
-date: '2019-03-15T12:53:55+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-15T12:53:55+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=472'
-permalink: /squawking-squawkers/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=472
+id: 472
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /squawking-squawkers/
+title: Squawking Squawkers!
 ---
 
 {% include embed/youtube.html id="KQPZWjhVjKs" %}

@@ -1,17 +1,16 @@
 ---
-id: 325
-title: 'Deep Thinker!'
-date: '2018-11-03T11:24:16+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-11-03T11:24:16+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=325'
-permalink: /deep-thinker/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=325
+id: 325
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /deep-thinker/
+title: Deep Thinker!
 ---
 
 {% include embed/youtube.html id="5hEb0AySSkI" %}

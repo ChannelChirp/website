@@ -1,17 +1,16 @@
 ---
-id: 422
-title: 'Carrot, Parrot Party!'
-date: '2019-02-26T10:28:28+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-26T10:28:28+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=422'
-permalink: /carrot-parrot-party/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=422
+id: 422
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /carrot-parrot-party/
+title: Carrot, Parrot Party!
 ---
 
 {% include embed/youtube.html id="j4WDBC88k54" %}

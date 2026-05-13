@@ -1,17 +1,16 @@
 ---
-id: 489
-title: 'Baby Borb Live Stream True Colour Camera Testing!'
-date: '2018-02-06T08:59:14+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-06T08:59:14+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=489'
-permalink: /baby-borb-live-stream-true-colour-camera-testing/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=489
+id: 489
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /baby-borb-live-stream-true-colour-camera-testing/
+title: Baby Borb Live Stream True Colour Camera Testing!
 ---
 
 {% include embed/youtube.html id="N4jiV6N1fAE" %}

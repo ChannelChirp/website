@@ -1,17 +1,16 @@
 ---
-id: 360
-title: 'Airing The Dirty Laundry!'
-date: '2019-02-07T14:41:48+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-07T14:41:48+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=360'
-permalink: /airing-the-dirty-laundry/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=360
+id: 360
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /airing-the-dirty-laundry/
+title: Airing The Dirty Laundry!
 ---
 
 {% include embed/youtube.html id="VyZPPyaWqqY" %}

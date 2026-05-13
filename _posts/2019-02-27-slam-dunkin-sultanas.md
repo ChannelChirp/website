@@ -1,17 +1,16 @@
 ---
-id: 424
-title: 'Slam Dunkin&#8217; Sultanas!'
-date: '2019-02-27T09:53:59+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-27T09:53:59+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=424'
-permalink: /slam-dunkin-sultanas/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=424
+id: 424
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /slam-dunkin-sultanas/
+title: Slam Dunkin&#8217; Sultanas!
 ---
 
 {% include embed/youtube.html id="an2W7JQLzKU" %}

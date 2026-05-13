@@ -1,17 +1,16 @@
 ---
-id: 344
-title: 'Banana from a Bowl!'
-date: '2018-10-24T14:57:58+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-10-24T14:57:58+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=344'
-permalink: /banana-from-a-bowl/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=344
+id: 344
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /banana-from-a-bowl/
+title: Banana from a Bowl!
 ---
 
 {% include embed/youtube.html id="hDgtWbB2Rwg" %}

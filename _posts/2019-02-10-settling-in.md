@@ -1,17 +1,16 @@
 ---
-id: 371
-title: 'Settling In!'
-date: '2019-02-10T07:33:10+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-10T07:33:10+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=371'
-permalink: /settling-in/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=371
+id: 371
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /settling-in/
+title: Settling In!
 ---
 
 {% include embed/youtube.html id="dOeLOtoUPVI" %}

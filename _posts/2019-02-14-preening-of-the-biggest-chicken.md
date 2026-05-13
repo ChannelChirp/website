@@ -1,17 +1,16 @@
 ---
-id: 542
-title: 'Preening of the Biggest Chicken!'
-date: '2019-02-14T16:42:25+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-14T16:42:25+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=542'
-permalink: /preening-of-the-biggest-chicken/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=542
+id: 542
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /preening-of-the-biggest-chicken/
+title: Preening of the Biggest Chicken!
 ---
 
 {% include embed/youtube.html id="4TwjZScwQSA" %}

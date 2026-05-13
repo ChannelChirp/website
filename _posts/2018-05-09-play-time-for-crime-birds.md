@@ -1,17 +1,16 @@
 ---
-id: 501
-title: 'Play Time for Crime Birds!'
-date: '2018-05-09T10:48:56+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-05-09T10:48:56+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=501'
-permalink: /play-time-for-crime-birds/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=501
+id: 501
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /play-time-for-crime-birds/
+title: Play Time for Crime Birds!
 ---
 
 {% include embed/youtube.html id="tWWXm8q5Y-s" %}

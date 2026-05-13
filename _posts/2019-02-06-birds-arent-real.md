@@ -1,17 +1,16 @@
 ---
-id: 534
-title: 'Birds Aren&#8217;t Real!'
-date: '2019-02-06T20:00:34+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-06T20:00:34+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=534'
-permalink: /birds-arent-real/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=534
+id: 534
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /birds-arent-real/
+title: Birds Aren&#8217;t Real!
 ---
 
 {% include embed/youtube.html id="N5XDjJoDmRM" %}

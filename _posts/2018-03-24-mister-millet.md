@@ -1,17 +1,16 @@
 ---
-id: 306
-title: 'Mister Millet!'
-date: '2018-03-24T08:58:51+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-03-24T08:58:51+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=306'
-permalink: /mister-millet/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=306
+id: 306
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /mister-millet/
+title: Mister Millet!
 ---
 
 {% include embed/youtube.html id="VfkAAMlyJ7U" %}

@@ -1,17 +1,16 @@
 ---
-id: 403
-title: 'Chip Eating!'
-date: '2019-02-19T23:29:25+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-19T23:29:25+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=403'
-permalink: /chip-eating/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=403
+id: 403
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chip-eating/
+title: Chip Eating!
 ---
 
 {% include embed/youtube.html id="F5CpLmbYncg" %}

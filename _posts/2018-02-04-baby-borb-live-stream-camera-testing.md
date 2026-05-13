@@ -1,17 +1,16 @@
 ---
-id: 486
-title: 'Baby Borb Live Stream Camera Testing!'
-date: '2018-02-04T19:28:43+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-04T19:28:43+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=486'
-permalink: /baby-borb-live-stream-camera-testing/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=486
+id: 486
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /baby-borb-live-stream-camera-testing/
+title: Baby Borb Live Stream Camera Testing!
 ---
 
 {% include embed/youtube.html id="B-IsaRLiKMI" %}

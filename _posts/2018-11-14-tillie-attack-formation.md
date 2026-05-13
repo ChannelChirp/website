@@ -1,17 +1,16 @@
 ---
-id: 541
-title: 'Tillie Attack Formation!'
-date: '2018-11-14T16:39:58+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-11-14T16:39:58+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=541'
-permalink: /tillie-attack-formation/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=541
+id: 541
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /tillie-attack-formation/
+title: Tillie Attack Formation!
 ---
 
 {% include embed/youtube.html id="2EpHFcDFzgE" %}

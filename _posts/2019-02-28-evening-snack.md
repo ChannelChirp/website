@@ -1,17 +1,16 @@
 ---
-id: 433
-title: 'Evening Snack!'
-date: '2019-02-28T20:11:24+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-28T20:11:24+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=433'
-permalink: /evening-snack/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=433
+id: 433
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /evening-snack/
+title: Evening Snack!
 ---
 
 {% include embed/youtube.html id="scBqeNNTBpA" %}

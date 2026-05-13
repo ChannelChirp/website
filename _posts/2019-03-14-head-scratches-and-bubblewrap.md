@@ -1,17 +1,16 @@
 ---
-id: 469
-title: 'Head Scratches and Bubblewrap!'
-date: '2019-03-14T09:22:24+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-14T09:22:24+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=469'
-permalink: /head-scratches-and-bubblewrap/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=469
+id: 469
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /head-scratches-and-bubblewrap/
+title: Head Scratches and Bubblewrap!
 ---
 
 {% include embed/youtube.html id="isCYbYN7J3w" %}

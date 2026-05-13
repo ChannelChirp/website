@@ -1,17 +1,16 @@
 ---
-id: 318
-title: 'Half-Bowl Water Skating Bath!'
-date: '2018-08-04T07:28:02+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-08-04T07:28:02+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=318'
-permalink: /half-bowl-water-skating-bath/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=318
+id: 318
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /half-bowl-water-skating-bath/
+title: Half-Bowl Water Skating Bath!
 ---
 
 {% include embed/youtube.html id="G73xU-1Ib80" %}

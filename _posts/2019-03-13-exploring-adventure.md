@@ -1,17 +1,16 @@
 ---
-id: 463
-title: 'Exploring Adventure!'
-date: '2019-03-13T20:37:39+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-13T20:37:39+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=463'
-permalink: /exploring-adventure/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=463
+id: 463
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /exploring-adventure/
+title: Exploring Adventure!
 ---
 
 {% include embed/youtube.html id="TF33culSSRQ" %}

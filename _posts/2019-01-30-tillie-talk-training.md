@@ -1,17 +1,16 @@
 ---
-id: 247
-title: 'Tillie Talk Training!'
-date: '2019-01-30T11:47:01+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-30T11:47:01+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=247'
-permalink: /tillie-talk-training/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=247
+id: 247
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /tillie-talk-training/
+title: Tillie Talk Training!
 ---
 
 {% include embed/youtube.html id="oTULXkdN6fs" %}

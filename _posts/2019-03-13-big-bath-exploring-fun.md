@@ -1,17 +1,16 @@
 ---
-id: 465
-title: 'Big Bath Exploring Fun!'
-date: '2019-03-13T21:30:49+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-13T21:30:49+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=465'
-permalink: /big-bath-exploring-fun/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=465
+id: 465
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /big-bath-exploring-fun/
+title: Big Bath Exploring Fun!
 ---
 
 {% include embed/youtube.html id="A38NWj8BYok" %}

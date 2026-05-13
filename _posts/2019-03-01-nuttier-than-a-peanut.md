@@ -1,17 +1,16 @@
 ---
-id: 434
-title: 'Nuttier Than a Peanut!'
-date: '2019-03-01T17:13:18+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-01T17:13:18+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=434'
-permalink: /nuttier-than-a-peanut/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=434
+id: 434
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /nuttier-than-a-peanut/
+title: Nuttier Than a Peanut!
 ---
 
 {% include embed/youtube.html id="SS3Y6UGSrvM" %}

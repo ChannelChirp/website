@@ -1,17 +1,16 @@
 ---
-id: 384
-title: 'Head Scritches and The Sultana War!'
-date: '2019-02-14T08:37:27+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-14T08:37:27+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=384'
-permalink: /head-scritches-and-the-sultana-war/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=384
+id: 384
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /head-scritches-and-the-sultana-war/
+title: Head Scritches and The Sultana War!
 ---
 
 {% include embed/youtube.html id="HWFKk8djfig" %}

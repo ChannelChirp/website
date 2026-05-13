@@ -1,17 +1,16 @@
 ---
-id: 205
-title: 'Undercover Desk Ornaments'
-date: '2018-10-08T11:59:08+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-10-08T11:59:08+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=205'
-permalink: /undercover-desk-ornaments/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=205
+id: 205
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /undercover-desk-ornaments/
+title: Undercover Desk Ornaments
 ---
 
 {% include embed/youtube.html id="ZOqoTkHZpIo" %}

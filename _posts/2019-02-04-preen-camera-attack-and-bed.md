@@ -1,17 +1,16 @@
 ---
-id: 355
-title: 'Preen, Camera Attack and Bed!'
-date: '2019-02-04T21:00:43+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-04T21:00:43+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=355'
-permalink: /preen-camera-attack-and-bed/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=355
+id: 355
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /preen-camera-attack-and-bed/
+title: Preen, Camera Attack and Bed!
 ---
 
 {% include embed/youtube.html id="Dza5AwIBmZA" %}

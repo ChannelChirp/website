@@ -1,17 +1,16 @@
 ---
-id: 345
-title: 'Sing Like a Trumpet!'
-date: '2018-10-24T15:00:55+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-10-24T15:00:55+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=345'
-permalink: /sing-like-a-trumpet/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=345
+id: 345
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /sing-like-a-trumpet/
+title: Sing Like a Trumpet!
 ---
 
 {% include embed/youtube.html id="965feW1JQIE" %}

@@ -1,17 +1,16 @@
 ---
-id: 497
-title: 'The First Day!'
-date: '2018-01-01T16:45:26+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-01T16:45:26+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=497'
-permalink: /the-first-day/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=497
+id: 497
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-first-day/
+title: The First Day!
 ---
 
 {% include embed/youtube.html id="cvD2F663q3I" %}

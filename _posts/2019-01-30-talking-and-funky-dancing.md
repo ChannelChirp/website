@@ -1,17 +1,16 @@
 ---
-id: 244
-title: 'Talking and Funky Dancing!'
-date: '2019-01-30T10:42:45+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-30T10:42:45+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=244'
-permalink: /talking-and-funky-dancing/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=244
+id: 244
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /talking-and-funky-dancing/
+title: Talking and Funky Dancing!
 ---
 
 {% include embed/youtube.html id="JkADatQU7ho" %}

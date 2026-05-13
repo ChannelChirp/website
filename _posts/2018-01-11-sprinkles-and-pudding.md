@@ -1,17 +1,16 @@
 ---
-id: 1
-title: 'Sprinkles and Pudding!'
-date: '2018-01-11T12:53:44+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-11T12:53:44+10:00'
 excerpt: ''
-layout: post
-guid: 'http://thedailyparrot.com/?p=1'
-permalink: /sprinkles-and-pudding/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://thedailyparrot.com/?p=1
+id: 1
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /sprinkles-and-pudding/
+title: Sprinkles and Pudding!
 ---
 
 {% include embed/youtube.html id="mincxA4rJbk" %}

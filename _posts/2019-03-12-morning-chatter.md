@@ -1,17 +1,16 @@
 ---
-id: 462
-title: 'Morning Chatter!'
-date: '2019-03-12T09:20:31+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-12T09:20:31+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=462'
-permalink: /morning-chatter/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=462
+id: 462
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /morning-chatter/
+title: Morning Chatter!
 ---
 
 {% include embed/youtube.html id="NwhMlbOxw-U" %}

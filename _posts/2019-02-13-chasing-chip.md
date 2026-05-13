@@ -1,17 +1,16 @@
 ---
-id: 390
-title: 'Chasing Chip!'
-date: '2019-02-13T09:29:24+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-13T09:29:24+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=390'
-permalink: /chasing-chip/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=390
+id: 390
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chasing-chip/
+title: Chasing Chip!
 ---
 
 {% include embed/youtube.html id="fb3hO7Ss6CI" %}

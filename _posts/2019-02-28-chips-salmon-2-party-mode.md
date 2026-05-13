@@ -1,17 +1,16 @@
 ---
-id: 429
-title: 'Chip&#8217;s Salmon 2: Party Mode!'
-date: '2019-02-28T10:51:32+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-28T10:51:32+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=429'
-permalink: /chips-salmon-2-party-mode/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=429
+id: 429
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chips-salmon-2-party-mode/
+title: 'Chip&#8217;s Salmon 2: Party Mode!'
 ---
 
 {% include embed/youtube.html id="2S0F81QzjHM" %}

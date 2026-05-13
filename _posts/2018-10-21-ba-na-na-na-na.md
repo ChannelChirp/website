@@ -1,17 +1,16 @@
 ---
-id: 343
-title: Ba-na-na-na-na!
-date: '2018-10-21T14:33:24+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-10-21T14:33:24+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=343'
-permalink: /ba-na-na-na-na/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=343
+id: 343
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /ba-na-na-na-na/
+title: Ba-na-na-na-na!
 ---
 
 {% include embed/youtube.html id="86-nWKVnEZE" %}

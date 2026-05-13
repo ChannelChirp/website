@@ -1,17 +1,16 @@
 ---
-id: 380
-title: 'The Capsicum Top Drop!'
-date: '2019-02-10T12:35:37+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-10T12:35:37+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=380'
-permalink: /the-capsicum-top-drop/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=380
+id: 380
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-capsicum-top-drop/
+title: The Capsicum Top Drop!
 ---
 
 {% include embed/youtube.html id="MwFO-bRxG6M" %}

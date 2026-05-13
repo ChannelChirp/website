@@ -1,17 +1,16 @@
 ---
-id: 483
-title: 'The Very Last Good Morning Chirpies!'
-date: '2019-03-20T07:00:20+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-20T07:00:20+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=483'
-permalink: /the-very-last-good-morning-chirpies/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=483
+id: 483
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-very-last-good-morning-chirpies/
+title: The Very Last Good Morning Chirpies!
 ---
 
 {% include embed/youtube.html id="y64Oq5-mhZY" %}

@@ -1,17 +1,16 @@
 ---
-id: 397
-title: 'Tillie, Tillie Bath Time!'
-date: '2019-02-17T09:33:31+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-17T09:33:31+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=397'
-permalink: /tillie-tillie-bath-time/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=397
+id: 397
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /tillie-tillie-bath-time/
+title: Tillie, Tillie Bath Time!
 ---
 
 {% include embed/youtube.html id="1rfRqSrbQtQ" %}

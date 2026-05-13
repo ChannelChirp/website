@@ -1,17 +1,16 @@
 ---
-id: 314
-title: 'Chip&#8217;s First Bath'
-date: '2018-02-13T07:18:13+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-13T07:18:13+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=314'
-permalink: /chips-first-bath/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=314
+id: 314
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chips-first-bath/
+title: Chip&#8217;s First Bath
 ---
 
 https://www.youtube.com/watch?v=1yOt-\_CpdnQ

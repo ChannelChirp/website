@@ -1,17 +1,16 @@
 ---
-id: 366
-title: 'Chip The Headbanger!'
-date: '2019-02-09T08:22:36+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-09T08:22:36+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=366'
-permalink: /chip-the-headbanger/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=366
+id: 366
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chip-the-headbanger/
+title: Chip The Headbanger!
 ---
 
 {% include embed/youtube.html id="uIlJbo8UVOU" %}

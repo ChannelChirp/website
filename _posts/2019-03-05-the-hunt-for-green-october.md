@@ -1,17 +1,16 @@
 ---
-id: 443
-title: 'The Hunt for Green October!'
-date: '2019-03-05T17:25:34+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-05T17:25:34+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=443'
-permalink: /the-hunt-for-green-october/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=443
+id: 443
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-hunt-for-green-october/
+title: The Hunt for Green October!
 ---
 
 {% include embed/youtube.html id="53aDvmgGo4w" %}

@@ -1,17 +1,16 @@
 ---
-id: 239
-title: 'Chip on Your Shoulder!'
-date: '2018-02-19T19:34:38+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-19T19:34:38+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=239'
-permalink: /chip-on-your-shoulder/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=239
+id: 239
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chip-on-your-shoulder/
+title: Chip on Your Shoulder!
 ---
 
 {% include embed/youtube.html id="TbSTMeer2mI" %}

@@ -1,17 +1,16 @@
 ---
-id: 334
-title: 'Play! Preen! Nap! Repeat!'
-date: '2018-01-11T14:09:55+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-11T14:09:55+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=334'
-permalink: /play-preen-nap-repeat/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=334
+id: 334
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /play-preen-nap-repeat/
+title: Play! Preen! Nap! Repeat!
 ---
 
 {% include embed/youtube.html id="WQ0h42NQUnk" %}

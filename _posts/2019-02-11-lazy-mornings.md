@@ -1,17 +1,16 @@
 ---
-id: 387
-title: 'Lazy Mornings!'
-date: '2019-02-11T09:27:42+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-11T09:27:42+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=387'
-permalink: /lazy-mornings/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=387
+id: 387
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /lazy-mornings/
+title: Lazy Mornings!
 ---
 
 {% include embed/youtube.html id="oTY0Z5Wm5sc" %}

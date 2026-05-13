@@ -1,17 +1,16 @@
 ---
-id: 404
-title: 'The Chip Stomp!'
-date: '2019-02-19T23:31:25+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-19T23:31:25+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=404'
-permalink: /the-chip-stomp/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=404
+id: 404
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-chip-stomp/
+title: The Chip Stomp!
 ---
 
 {% include embed/youtube.html id="W1xOHyu-BNM" %}

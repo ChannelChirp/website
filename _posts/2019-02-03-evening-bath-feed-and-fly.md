@@ -1,17 +1,16 @@
 ---
-id: 352
-title: 'Evening Bath, Feed and Fly!'
-date: '2019-02-03T21:07:00+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-03T21:07:00+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=352'
-permalink: /evening-bath-feed-and-fly/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=352
+id: 352
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /evening-bath-feed-and-fly/
+title: Evening Bath, Feed and Fly!
 ---
 
 {% include embed/youtube.html id="JbhczzXPuvs" %}

@@ -1,17 +1,16 @@
 ---
-id: 327
-title: 'Bird Attack!'
-date: '2018-11-03T11:29:17+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-11-03T11:29:17+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=327'
-permalink: /bird-attack/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=327
+id: 327
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /bird-attack/
+title: Bird Attack!
 ---
 
 {% include embed/youtube.html id="g2QN4nWlqK0" %}

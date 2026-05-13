@@ -1,17 +1,16 @@
 ---
-id: 365
-title: 'Morning Chirps!'
-date: '2019-02-09T08:20:44+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-09T08:20:44+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=365'
-permalink: /morning-chirps/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=365
+id: 365
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /morning-chirps/
+title: Morning Chirps!
 ---
 
 {% include embed/youtube.html id="wuqyVr26mJQ" %}

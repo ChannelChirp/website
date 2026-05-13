@@ -1,17 +1,16 @@
 ---
-id: 396
-title: 'The Sultana Heist!'
-date: '2019-02-16T09:32:38+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-16T09:32:38+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=396'
-permalink: /the-sultana-heist/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=396
+id: 396
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-sultana-heist/
+title: The Sultana Heist!
 ---
 
 {% include embed/youtube.html id="18Cyn0sr8L8" %}

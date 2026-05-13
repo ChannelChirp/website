@@ -1,17 +1,16 @@
 ---
-id: 321
-title: 'Seed and Legos!'
-date: '2018-09-28T11:12:42+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-09-28T11:12:42+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=321'
-permalink: /seed-and-legos/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=321
+id: 321
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /seed-and-legos/
+title: Seed and Legos!
 ---
 
 {% include embed/youtube.html id="wxsvdZ4Br3I" %}

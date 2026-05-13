@@ -1,17 +1,16 @@
 ---
-id: 393
-title: 'Pecking and Playing!'
-date: '2019-02-14T09:31:20+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-14T09:31:20+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=393'
-permalink: /pecking-and-playing/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=393
+id: 393
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /pecking-and-playing/
+title: Pecking and Playing!
 ---
 
 {% include embed/youtube.html id="CQuzLl96Duo" %}

@@ -1,17 +1,16 @@
 ---
-id: 329
-title: 'Tillie Plummets!'
-date: '2018-01-06T13:59:37+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-06T13:59:37+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=329'
-permalink: /tillie-plummets/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=329
+id: 329
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /tillie-plummets/
+title: Tillie Plummets!
 ---
 
 {% include embed/youtube.html id="UhWYKeKkIac" %}

@@ -1,17 +1,16 @@
 ---
-id: 183
-title: 'Tillie Talk!'
-date: '2019-01-23T07:02:03+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-23T07:02:03+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=183'
-permalink: /tillie-talk/
-lazyload_thumbnail_quality:
-    - max
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=183
+id: 183
+layout: post
+lazyload_thumbnail_quality:
+- max
+permalink: /tillie-talk/
+title: Tillie Talk!
 ---
 
 {% include embed/youtube.html id="G5TY56fwwB8" %}

@@ -1,17 +1,16 @@
 ---
-id: 385
-title: 'Sunflowers on a Rainy Day!'
-date: '2019-02-10T09:26:35+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-10T09:26:35+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=385'
-permalink: /sunflowers-on-a-rainy-day/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=385
+id: 385
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /sunflowers-on-a-rainy-day/
+title: Sunflowers on a Rainy Day!
 ---
 
 {% include embed/youtube.html id="qIAUoZ6GASU" %}

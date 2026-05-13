@@ -1,17 +1,16 @@
 ---
-id: 444
-title: 'Autumn Morning Breakout!'
-date: '2019-03-08T17:26:44+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-08T17:26:44+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=444'
-permalink: /autumn-morning-breakout/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=444
+id: 444
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /autumn-morning-breakout/
+title: Autumn Morning Breakout!
 ---
 
 {% include embed/youtube.html id="tOnrpRpQ-7Y" %}

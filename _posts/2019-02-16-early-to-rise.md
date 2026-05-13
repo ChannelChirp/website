@@ -1,17 +1,16 @@
 ---
-id: 395
-title: 'Early to Rise!'
-date: '2019-02-16T09:32:05+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-16T09:32:05+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=395'
-permalink: /early-to-rise/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=395
+id: 395
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /early-to-rise/
+title: Early to Rise!
 ---
 
 {% include embed/youtube.html id="12UtFs3cx6w" %}

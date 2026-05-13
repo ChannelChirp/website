@@ -1,17 +1,16 @@
 ---
-id: 388
-title: 'Peck and Run!'
-date: '2019-02-11T09:28:08+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-11T09:28:08+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=388'
-permalink: /peck-and-run/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=388
+id: 388
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /peck-and-run/
+title: Peck and Run!
 ---
 
 {% include embed/youtube.html id="mCImveYkK4g" %}

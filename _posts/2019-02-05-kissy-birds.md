@@ -1,17 +1,16 @@
 ---
-id: 549
-title: 'Kissy Birds!'
-date: '2019-02-05T09:10:20+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-05T09:10:20+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=549'
-permalink: /kissy-birds/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=549
+id: 549
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /kissy-birds/
+title: Kissy Birds!
 ---
 
 {% include embed/youtube.html id="dNnmpOew9Rw" %}

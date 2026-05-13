@@ -1,17 +1,16 @@
 ---
-id: 230
-title: 'A Day in the Life&#8230;'
-date: '2018-12-05T17:17:13+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-12-05T17:17:13+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=230'
-permalink: /a-day-in-the-life/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=230
+id: 230
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /a-day-in-the-life/
+title: A Day in the Life&#8230;
 ---
 
 {% include embed/youtube.html id="fOFKxYHJgD4" %}

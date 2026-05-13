@@ -1,17 +1,16 @@
 ---
-id: 440
-title: 'Run, Chippy, Run!'
-date: '2019-03-03T17:21:53+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-03T17:21:53+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=440'
-permalink: /run-chippy-run/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=440
+id: 440
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /run-chippy-run/
+title: Run, Chippy, Run!
 ---
 
 {% include embed/youtube.html id="OGaxinDhP2o" %}

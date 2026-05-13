@@ -1,17 +1,16 @@
 ---
-id: 445
-title: 'Bug Zapper Panic!'
-date: '2019-03-09T06:22:58+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-09T06:22:58+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=445'
-permalink: /bug-zapper-panic/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=445
+id: 445
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /bug-zapper-panic/
+title: Bug Zapper Panic!
 ---
 
 {% include embed/youtube.html id="xXQUCRicvFU" %}

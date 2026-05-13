@@ -1,17 +1,16 @@
 ---
-id: 303
-title: 'Have a Drink on Me!'
-date: '2018-02-01T08:40:11+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-01T08:40:11+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=303'
-permalink: /have-a-drink-on-me/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=303
+id: 303
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /have-a-drink-on-me/
+title: Have a Drink on Me!
 ---
 
 {% include embed/youtube.html id="7m3E4DqQ1Vs" %}

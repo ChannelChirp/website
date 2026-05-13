@@ -1,17 +1,16 @@
 ---
-id: 319
-title: 'Birds in the Kitchen!'
-date: '2018-08-27T11:05:12+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-08-27T11:05:12+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=319'
-permalink: /birds-in-the-kitchen/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=319
+id: 319
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /birds-in-the-kitchen/
+title: Birds in the Kitchen!
 ---
 
 {% include embed/youtube.html id="vrAoHj-ykcw" %}

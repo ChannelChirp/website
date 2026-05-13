@@ -1,17 +1,16 @@
 ---
-id: 209
-title: 'When We Were Young&#8230;'
-date: '2018-02-02T12:10:53+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-02T12:10:53+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=209'
-permalink: /when-we-were-young/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=209
+id: 209
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /when-we-were-young/
+title: When We Were Young&#8230;
 ---
 
 {% include embed/youtube.html id="iWzxU0Pk2wk" %}

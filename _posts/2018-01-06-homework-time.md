@@ -1,17 +1,16 @@
 ---
-id: 232
-title: 'Homework Time!'
-date: '2018-01-06T17:45:51+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-06T17:45:51+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=232'
-permalink: /homework-time/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=232
+id: 232
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /homework-time/
+title: Homework Time!
 ---
 
 https://www.youtube.com/watch?v=Gsj70wGg\_V4

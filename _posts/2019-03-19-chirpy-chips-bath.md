@@ -1,17 +1,16 @@
 ---
-id: 481
-title: 'Chirpy Chip&#8217;s Bath!'
-date: '2019-03-19T16:11:34+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-19T16:11:34+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=481'
-permalink: /chirpy-chips-bath/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=481
+id: 481
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chirpy-chips-bath/
+title: Chirpy Chip&#8217;s Bath!
 ---
 
 {% include embed/youtube.html id="RFRvayU1VQ8" %}

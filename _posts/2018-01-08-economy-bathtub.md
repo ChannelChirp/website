@@ -1,17 +1,16 @@
 ---
-id: 207
-title: 'Economy Bathtub!'
-date: '2018-01-08T12:09:45+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-08T12:09:45+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=207'
-permalink: /economy-bathtub/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=207
+id: 207
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /economy-bathtub/
+title: Economy Bathtub!
 ---
 
 {% include embed/youtube.html id="cyNuz9CtbpE" %}

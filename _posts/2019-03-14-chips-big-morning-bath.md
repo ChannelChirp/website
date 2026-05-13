@@ -1,17 +1,16 @@
 ---
-id: 467
-title: 'Chip&#8217;s Big Morning Bath!'
-date: '2019-03-14T08:08:44+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-14T08:08:44+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=467'
-permalink: /chips-big-morning-bath/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=467
+id: 467
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chips-big-morning-bath/
+title: Chip&#8217;s Big Morning Bath!
 ---
 
 {% include embed/youtube.html id="vNQdNuSrxNA" %}

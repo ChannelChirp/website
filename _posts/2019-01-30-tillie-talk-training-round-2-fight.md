@@ -1,17 +1,16 @@
 ---
-id: 253
-title: 'Tillie Talk Training! Round 2! Fight!'
-date: '2019-01-30T13:04:05+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-30T13:04:05+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=253'
-permalink: /tillie-talk-training-round-2-fight/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=253
+id: 253
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /tillie-talk-training-round-2-fight/
+title: Tillie Talk Training! Round 2! Fight!
 ---
 
 {% include embed/youtube.html id="lSOWMha6Ves" %}

@@ -1,17 +1,16 @@
 ---
-id: 335
-title: 'Rattle Ball Wars!'
-date: '2018-01-11T14:13:44+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-11T14:13:44+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=335'
-permalink: /rattle-ball-wars/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=335
+id: 335
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /rattle-ball-wars/
+title: Rattle Ball Wars!
 ---
 
 {% include embed/youtube.html id="eUXzQrgS0TI" %}

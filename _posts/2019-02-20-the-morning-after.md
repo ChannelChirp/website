@@ -1,17 +1,16 @@
 ---
-id: 406
-title: 'The Morning After!'
-date: '2019-02-20T17:33:34+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-20T17:33:34+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=406'
-permalink: /the-morning-after/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=406
+id: 406
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-morning-after/
+title: The Morning After!
 ---
 
 {% include embed/youtube.html id="7eDAWfuZPws" %}

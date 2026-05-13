@@ -1,17 +1,16 @@
 ---
-id: 547
-title: 'King of the Food Tower!'
-date: '2018-12-09T07:06:12+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-12-09T07:06:12+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=547'
-permalink: /king-of-the-food-tower/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=547
+id: 547
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /king-of-the-food-tower/
+title: King of the Food Tower!
 ---
 
 {% include embed/youtube.html id="yC7EViK1g0c" %}

@@ -1,17 +1,16 @@
 ---
-id: 405
-title: 'Upside Down: Back to Normal!'
-date: '2019-02-19T23:32:24+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-19T23:32:24+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=405'
-permalink: /upside-down-back-to-normal/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=405
+id: 405
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /upside-down-back-to-normal/
+title: 'Upside Down: Back to Normal!'
 ---
 
 {% include embed/youtube.html id="WHWCzdR7BPg" %}

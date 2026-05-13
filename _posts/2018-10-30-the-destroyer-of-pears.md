@@ -1,17 +1,16 @@
 ---
-id: 346
-title: 'The Destroyer of Pears!'
-date: '2018-10-30T15:02:49+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-10-30T15:02:49+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=346'
-permalink: /the-destroyer-of-pears/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=346
+id: 346
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-destroyer-of-pears/
+title: The Destroyer of Pears!
 ---
 
 {% include embed/youtube.html id="xlAD1vdalPA" %}

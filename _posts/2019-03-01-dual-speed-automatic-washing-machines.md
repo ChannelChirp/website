@@ -1,17 +1,16 @@
 ---
-id: 430
-title: 'Dual Speed Automatic Washing Machines!'
-date: '2019-03-01T10:54:00+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-01T10:54:00+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=430'
-permalink: /dual-speed-automatic-washing-machines/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=430
+id: 430
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /dual-speed-automatic-washing-machines/
+title: Dual Speed Automatic Washing Machines!
 ---
 
 {% include embed/youtube.html id="texPs64FN0o" %}

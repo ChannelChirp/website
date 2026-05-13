@@ -1,17 +1,16 @@
 ---
-id: 457
-title: 'Motel Bath Time!'
-date: '2019-03-11T07:59:12+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-11T07:59:12+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=457'
-permalink: /motel-bath-time/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=457
+id: 457
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /motel-bath-time/
+title: Motel Bath Time!
 ---
 
 {% include embed/youtube.html id="rVpE9-pgcV0" %}

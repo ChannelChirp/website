@@ -1,17 +1,16 @@
 ---
-id: 336
-title: 'Heart Ball of Love!'
-date: '2018-01-11T14:16:43+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-11T14:16:43+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=336'
-permalink: /heart-ball-of-love/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=336
+id: 336
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /heart-ball-of-love/
+title: Heart Ball of Love!
 ---
 
 {% include embed/youtube.html id="9KQEBE2moEg" %}

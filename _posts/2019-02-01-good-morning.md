@@ -1,17 +1,16 @@
 ---
-id: 328
-title: 'Good Morning!'
-date: '2019-02-01T11:50:48+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-01T11:50:48+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=328'
-permalink: /good-morning/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=328
+id: 328
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /good-morning/
+title: Good Morning!
 ---
 
 {% include embed/youtube.html id="7kWbxV7KqPg" %}

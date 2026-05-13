@@ -1,17 +1,16 @@
 ---
-id: 474
-title: 'Peaceful Party Parrots!'
-date: '2019-03-16T07:13:35+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-16T07:13:35+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=474'
-permalink: /peaceful-party-parrots/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=474
+id: 474
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /peaceful-party-parrots/
+title: Peaceful Party Parrots!
 ---
 
 {% include embed/youtube.html id="rA7WrIjzf04" %}

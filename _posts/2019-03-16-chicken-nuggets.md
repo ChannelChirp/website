@@ -1,17 +1,16 @@
 ---
-id: 475
-title: 'Chicken Nuggets!'
-date: '2019-03-16T12:18:30+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-16T12:18:30+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=475'
-permalink: /chicken-nuggets/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=475
+id: 475
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chicken-nuggets/
+title: Chicken Nuggets!
 ---
 
 {% include embed/youtube.html id="qqgS09vBAlU" %}

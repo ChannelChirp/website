@@ -1,17 +1,16 @@
 ---
-id: 506
-title: 'War of the Pen!'
-date: '2019-01-20T18:04:22+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-20T18:04:22+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=506'
-permalink: /war-of-the-pen/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=506
+id: 506
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /war-of-the-pen/
+title: War of the Pen!
 ---
 
 {% include embed/youtube.html id="fuL9b-h4dn0" %}

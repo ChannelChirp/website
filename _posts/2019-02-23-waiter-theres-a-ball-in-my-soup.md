@@ -1,17 +1,16 @@
 ---
-id: 413
-title: 'Waiter, There&#8217;s a Ball in My Soup!'
-date: '2019-02-23T17:54:23+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-23T17:54:23+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=413'
-permalink: /waiter-theres-a-ball-in-my-soup/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=413
+id: 413
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /waiter-theres-a-ball-in-my-soup/
+title: Waiter, There&#8217;s a Ball in My Soup!
 ---
 
 {% include embed/youtube.html id="SDR1UGw9eUs" %}

@@ -1,17 +1,16 @@
 ---
-id: 543
-title: 'Tillie Finds the Calci-YUM Bell!'
-date: '2019-02-09T16:48:22+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-09T16:48:22+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=543'
-permalink: /tillie-finds-the-calci-yum-bell/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=543
+id: 543
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /tillie-finds-the-calci-yum-bell/
+title: Tillie Finds the Calci-YUM Bell!
 ---
 
 {% include embed/youtube.html id="0ORW5lfUZ4w" %}

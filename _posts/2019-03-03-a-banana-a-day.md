@@ -1,17 +1,16 @@
 ---
-id: 439
-title: 'A Banana a Day!'
-date: '2019-03-03T17:21:16+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-03T17:21:16+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=439'
-permalink: /a-banana-a-day/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=439
+id: 439
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /a-banana-a-day/
+title: A Banana a Day!
 ---
 
 {% include embed/youtube.html id="gksbRtb8C6M" %}

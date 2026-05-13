@@ -1,17 +1,16 @@
 ---
-id: 223
-title: 'Snuggle Sleepers&#8230;'
-date: '2018-01-09T14:11:23+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-09T14:11:23+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=223'
-permalink: /snuggle-sleepers/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=223
+id: 223
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /snuggle-sleepers/
+title: Snuggle Sleepers&#8230;
 ---
 
 {% include embed/youtube.html id="IGty-cYTTNw" %}

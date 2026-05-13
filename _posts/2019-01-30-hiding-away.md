@@ -1,17 +1,16 @@
 ---
-id: 241
-title: 'Hiding Away!'
-date: '2019-01-30T00:34:51+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-30T00:34:51+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=241'
-permalink: /hiding-away/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=241
+id: 241
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /hiding-away/
+title: Hiding Away!
 ---
 
 {% include embed/youtube.html id="gJhxJoNYyjQ" %}

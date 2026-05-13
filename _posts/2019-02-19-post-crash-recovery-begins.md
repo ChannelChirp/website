@@ -1,17 +1,16 @@
 ---
-id: 402
-title: 'Post Crash, Recovery Begins!'
-date: '2019-02-19T23:27:50+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-19T23:27:50+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=402'
-permalink: /post-crash-recovery-begins/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=402
+id: 402
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /post-crash-recovery-begins/
+title: Post Crash, Recovery Begins!
 ---
 
 {% include embed/youtube.html id="RuyK-IM6Aac" %}

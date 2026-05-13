@@ -1,17 +1,16 @@
 ---
-id: 476
-title: 'Hopping Mad!'
-date: '2019-03-16T15:21:01+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-16T15:21:01+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=476'
-permalink: /hopping-mad/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=476
+id: 476
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /hopping-mad/
+title: Hopping Mad!
 ---
 
 {% include embed/youtube.html id="Gwz2lm0ogno" %}

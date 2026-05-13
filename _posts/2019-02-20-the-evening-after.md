@@ -1,17 +1,16 @@
 ---
-id: 407
-title: 'The Evening After!'
-date: '2019-02-20T17:34:20+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-20T17:34:20+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=407'
-permalink: /the-evening-after/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=407
+id: 407
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-evening-after/
+title: The Evening After!
 ---
 
 {% include embed/youtube.html id="vKHZYFe9tkU" %}

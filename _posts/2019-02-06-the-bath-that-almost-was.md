@@ -1,17 +1,16 @@
 ---
-id: 358
-title: 'The Bath That Almost Was!'
-date: '2019-02-06T11:30:35+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-06T11:30:35+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=358'
-permalink: /the-bath-that-almost-was/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=358
+id: 358
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /the-bath-that-almost-was/
+title: The Bath That Almost Was!
 ---
 
 {% include embed/youtube.html id="OWH8Fqb5rqI" %}

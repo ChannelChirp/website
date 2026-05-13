@@ -1,17 +1,16 @@
 ---
-id: 480
-title: 'Sultana Box Hijacking!'
-date: '2019-03-19T13:02:01+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-19T13:02:01+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=480'
-permalink: /sultana-box-hijacking/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=480
+id: 480
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /sultana-box-hijacking/
+title: Sultana Box Hijacking!
 ---
 
 {% include embed/youtube.html id="fHnX7-7IsBM" %}

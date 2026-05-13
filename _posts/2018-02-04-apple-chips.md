@@ -1,17 +1,16 @@
 ---
-id: 235
-title: 'Apple Chips!'
-date: '2018-02-04T18:57:42+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-04T18:57:42+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=235'
-permalink: /apple-chips/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=235
+id: 235
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /apple-chips/
+title: Apple Chips!
 ---
 
 {% include embed/youtube.html id="Z5qtVuw3MI4" %}

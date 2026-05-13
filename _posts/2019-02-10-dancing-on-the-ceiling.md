@@ -1,17 +1,16 @@
 ---
-id: 379
-title: 'Dancing on the Ceiling!'
-date: '2019-02-10T12:28:51+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-10T12:28:51+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=379'
-permalink: /dancing-on-the-ceiling/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=379
+id: 379
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /dancing-on-the-ceiling/
+title: Dancing on the Ceiling!
 ---
 
 {% include embed/youtube.html id="9RSAlVIjh6Y" %}

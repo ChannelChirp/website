@@ -1,17 +1,16 @@
 ---
-id: 227
-title: 'Chip&#8217;s Power Nap!'
-date: '2018-02-11T14:20:34+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-11T14:20:34+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=227'
-permalink: /chips-power-nap/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=227
+id: 227
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chips-power-nap/
+title: Chip&#8217;s Power Nap!
 ---
 
 {% include embed/youtube.html id="61-xQo8iZu0" %}

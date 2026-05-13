@@ -1,17 +1,16 @@
 ---
-id: 109
-title: 'Professional Turkeys!'
-date: '2018-01-31T03:21:53+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-01-31T03:21:53+10:00'
 excerpt: ''
-layout: post
-guid: 'http://thedailyparrot.com/sprinkles-and-pudding-2018-01-31/'
-permalink: /professional-turkeys/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://thedailyparrot.com/sprinkles-and-pudding-2018-01-31/
+id: 109
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /professional-turkeys/
+title: Professional Turkeys!
 ---
 
 {% include embed/youtube.html id="g1XxaNzJc2Q" %}

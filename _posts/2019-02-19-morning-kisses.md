@@ -1,17 +1,16 @@
 ---
-id: 398
-title: 'Morning Kisses!'
-date: '2019-02-19T09:34:11+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-19T09:34:11+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=398'
-permalink: /morning-kisses/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=398
+id: 398
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /morning-kisses/
+title: Morning Kisses!
 ---
 
 {% include embed/youtube.html id="Lt3dgiIa9cQ" %}

@@ -1,17 +1,16 @@
 ---
-id: 225
-title: 'Pudge&#8217;s New Home'
-date: '2018-07-03T14:13:25+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-07-03T14:13:25+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=225'
-permalink: /pudges-new-home/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=225
+id: 225
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /pudges-new-home/
+title: Pudge&#8217;s New Home
 ---
 
 {% include embed/youtube.html id="3knpcoBfDH4" %}

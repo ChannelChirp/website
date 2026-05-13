@@ -1,17 +1,16 @@
 ---
-id: 381
-title: 'Drinky Flaps!'
-date: '2019-02-10T12:39:29+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-10T12:39:29+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=381'
-permalink: /drinky-flaps/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=381
+id: 381
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /drinky-flaps/
+title: Drinky Flaps!
 ---
 
 {% include embed/youtube.html id="slkT80F43Xk" %}

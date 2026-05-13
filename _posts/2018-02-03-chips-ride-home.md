@@ -1,17 +1,16 @@
 ---
-id: 211
-title: 'Chip&#8217;s Ride Home'
-date: '2018-02-03T12:20:17+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-03T12:20:17+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=211'
-permalink: /chips-ride-home/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=211
+id: 211
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chips-ride-home/
+title: Chip&#8217;s Ride Home
 ---
 
 {% include embed/youtube.html id="VAQKRXZAn50" %}

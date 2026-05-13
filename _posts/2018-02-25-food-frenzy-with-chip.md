@@ -1,17 +1,16 @@
 ---
-id: 219
-title: 'Food Frenzy with Chip!'
-date: '2018-02-25T13:13:58+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-25T13:13:58+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/?p=219'
-permalink: /food-frenzy-with-chip/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/?p=219
+id: 219
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /food-frenzy-with-chip/
+title: Food Frenzy with Chip!
 ---
 
 {% include embed/youtube.html id="IiVePKbqdwk" %}

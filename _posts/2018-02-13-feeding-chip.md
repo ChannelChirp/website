@@ -1,17 +1,16 @@
 ---
-id: 551
-title: 'Feeding Chip!'
-date: '2018-02-13T07:20:30+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-13T07:20:30+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=551'
-permalink: /feeding-chip/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=551
+id: 551
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /feeding-chip/
+title: Feeding Chip!
 ---
 
 {% include embed/youtube.html id="OaiZEs3wthk" %}

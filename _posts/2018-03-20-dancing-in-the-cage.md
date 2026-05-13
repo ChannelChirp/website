@@ -1,17 +1,16 @@
 ---
-id: 499
-title: 'Dancing in the Cage!'
-date: '2018-03-20T10:18:54+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-03-20T10:18:54+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=499'
-permalink: /dancing-in-the-cage/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=499
+id: 499
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /dancing-in-the-cage/
+title: Dancing in the Cage!
 ---
 
 {% include embed/youtube.html id="bHQsO-uBCJs" %}

@@ -1,17 +1,16 @@
 ---
-id: 391
-title: 'Another Good Morning!'
-date: '2019-02-14T09:30:11+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-14T09:30:11+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=391'
-permalink: /another-good-morning/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=391
+id: 391
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /another-good-morning/
+title: Another Good Morning!
 ---
 
 {% include embed/youtube.html id="VlAyKO579j0" %}

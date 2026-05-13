@@ -1,17 +1,16 @@
 ---
-id: 119
-title: 'Chip Scritches!'
-date: '2018-02-19T23:59:52+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-19T23:59:52+10:00'
 excerpt: ''
-layout: post
-guid: 'http://channelchirp.com/chip-scritches-2018-02-19/'
-permalink: /chip-scritches/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: http://channelchirp.com/chip-scritches-2018-02-19/
+id: 119
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chip-scritches/
+title: Chip Scritches!
 ---
 
 {% include embed/youtube.html id="PmmzgRsj4sI" %}

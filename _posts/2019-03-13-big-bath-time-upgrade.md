@@ -1,17 +1,16 @@
 ---
-id: 464
-title: 'Big Bath Time Upgrade!'
-date: '2019-03-13T20:58:29+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-13T20:58:29+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=464'
-permalink: /big-bath-time-upgrade/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=464
+id: 464
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /big-bath-time-upgrade/
+title: Big Bath Time Upgrade!
 ---
 
 {% include embed/youtube.html id="GmWZQNnWLvg" %}

@@ -1,17 +1,16 @@
 ---
-id: 315
-title: 'Preening Party!'
-date: '2018-03-08T07:19:35+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-03-08T07:19:35+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=315'
-permalink: /preening-party/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=315
+id: 315
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /preening-party/
+title: Preening Party!
 ---
 
 {% include embed/youtube.html id="pogoy1Rvt8Y" %}

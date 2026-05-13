@@ -1,17 +1,16 @@
 ---
-id: 508
-title: 'Morning Squabble!'
-date: '2019-02-08T18:56:24+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-08T18:56:24+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=508'
-permalink: /morning-squabble/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=508
+id: 508
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /morning-squabble/
+title: Morning Squabble!
 ---
 
 {% include embed/youtube.html id="zW-uKCDZRIE" %}

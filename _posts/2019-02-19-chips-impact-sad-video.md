@@ -1,17 +1,16 @@
 ---
-id: 399
-title: 'Chip&#8217;s Impact! (Sad Video!)'
-date: '2019-02-19T10:34:50+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-19T10:34:50+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=399'
-permalink: /chips-impact-sad-video/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=399
+id: 399
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /chips-impact-sad-video/
+title: Chip&#8217;s Impact! (Sad Video!)
 ---
 
 {% include embed/youtube.html id="o4dyBiWJiFI" %}

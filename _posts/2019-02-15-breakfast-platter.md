@@ -1,17 +1,16 @@
 ---
-id: 394
-title: 'Breakfast Platter!'
-date: '2019-02-15T09:31:39+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-15T09:31:39+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=394'
-permalink: /breakfast-platter/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=394
+id: 394
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /breakfast-platter/
+title: Breakfast Platter!
 ---
 
 {% include embed/youtube.html id="usJJnmYmxrs" %}

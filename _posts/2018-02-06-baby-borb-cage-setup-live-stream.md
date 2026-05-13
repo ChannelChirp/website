@@ -1,17 +1,16 @@
 ---
-id: 488
-title: 'Baby Borb Cage Setup Live Stream!'
-date: '2018-02-06T08:41:00+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-02-06T08:41:00+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=488'
-permalink: /baby-borb-cage-setup-live-stream/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=488
+id: 488
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /baby-borb-cage-setup-live-stream/
+title: Baby Borb Cage Setup Live Stream!
 ---
 
 {% include embed/youtube.html id="16GTQsMe708" %}

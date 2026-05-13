@@ -1,17 +1,16 @@
 ---
-id: 378
-title: 'Attempted Bath and Play Time!'
-date: '2019-02-09T11:56:25+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-09T11:56:25+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=378'
-permalink: /attempted-bath-and-play-time/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=378
+id: 378
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /attempted-bath-and-play-time/
+title: Attempted Bath and Play Time!
 ---
 
 {% include embed/youtube.html id="5MXXpykPFPk" %}

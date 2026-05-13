@@ -1,17 +1,16 @@
 ---
-id: 500
-title: 'Baby Borb, Chip, is Hatching a New Plan!'
-date: '2018-03-20T23:37:42+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-03-20T23:37:42+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=500'
-permalink: /baby-borb-chip-is-hatching-a-new-plan/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=500
+id: 500
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /baby-borb-chip-is-hatching-a-new-plan/
+title: Baby Borb, Chip, is Hatching a New Plan!
 ---
 
 {% include embed/youtube.html id="G-kOYNlWXIY" %}

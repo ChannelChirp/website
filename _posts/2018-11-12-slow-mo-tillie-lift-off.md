@@ -1,17 +1,16 @@
 ---
-id: 503
-title: 'Slow-mo Tillie Lift-off!'
-date: '2018-11-12T17:10:55+10:00'
 author: Sprinkles
+categories: adventures
+date: '2018-11-12T17:10:55+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=503'
-permalink: /slow-mo-tillie-lift-off/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=503
+id: 503
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /slow-mo-tillie-lift-off/
+title: Slow-mo Tillie Lift-off!
 ---
 
 {% include embed/youtube.html id="97AElw4mDdQ" %}

@@ -1,17 +1,16 @@
 ---
-id: 511
-title: 'Quiet Time!'
-date: '2019-01-20T23:25:44+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-01-20T23:25:44+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=511'
-permalink: /quiet-time/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=511
+id: 511
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /quiet-time/
+title: Quiet Time!
 ---
 
 {% include embed/youtube.html id="JT3Xa6pB4ig" %}

@@ -1,17 +1,16 @@
 ---
-id: 510
-title: 'Attack the Camera!'
-date: '2019-02-17T19:22:42+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-17T19:22:42+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=510'
-permalink: /attack-the-camera/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=510
+id: 510
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /attack-the-camera/
+title: Attack the Camera!
 ---
 
 {% include embed/youtube.html id="JOhhmKZ1cpE" %}

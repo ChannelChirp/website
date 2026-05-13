@@ -1,17 +1,16 @@
 ---
-id: 389
-title: 'Hello Chip, Chirp, Chirp!'
-date: '2019-02-12T09:28:40+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-02-12T09:28:40+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=389'
-permalink: /hello-chip-chirp-chirp/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=389
+id: 389
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /hello-chip-chirp-chirp/
+title: Hello Chip, Chirp, Chirp!
 ---
 
 {% include embed/youtube.html id="8c5nGoPUV7M" %}

@@ -1,17 +1,16 @@
 ---
-id: 453
-title: 'Sunrise Beak Scratches!'
-date: '2019-03-11T07:41:50+10:00'
 author: Sprinkles
+categories: adventures
+date: '2019-03-11T07:41:50+10:00'
 excerpt: ''
-layout: post
-guid: 'https://channelchirp.ddev.site/?p=453'
-permalink: /sunrise-beak-scratches/
-lazyload_thumbnail_quality:
-    - default
-categories:
-    - Birds
 format: false
+guid: https://channelchirp.ddev.site/?p=453
+id: 453
+layout: post
+lazyload_thumbnail_quality:
+- default
+permalink: /sunrise-beak-scratches/
+title: Sunrise Beak Scratches!
 ---
 
 {% include embed/youtube.html id="MkW5AIToQgQ" %}
