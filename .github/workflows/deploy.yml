@@ -30,7 +30,7 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
+        # with:
           # By default, uploads the entire repository root.
           # If your site lives in a subfolder (like /public), specify:
           # path: ./public
