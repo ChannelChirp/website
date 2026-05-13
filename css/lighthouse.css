@@ -448,3 +448,31 @@ tbody tr:nth-child(odd) {
   max-width: 600px;      /* nice readable width */
   margin: 0 auto 1.5em;
 }
+
+/* Thinner fonts for titles, nav, and sidebar */
+
+/* Post / page titles */
+.entry-title,
+.entry-title a {
+  font-weight: 500;   /* was 900 – try 400 or 500 */
+}
+
+/* Site title (hero) if you ever show it */
+.site-title {
+  font-weight: 600;   /* optional, if you use the hero */
+}
+
+/* Navigation links */
+.navbar-nav .nav-link {
+  font-weight: 400;   /* was 600 – 400 is regular weight */
+}
+
+/* Navbar brand (site name) */
+.navbar-brand {
+  font-weight: 600;   /* slightly bolder than links, but still thinner than 900 */
+}
+
+/* Sidebar widget titles */
+.widget-title {
+  font-weight: 500;   /* was 900 */
+}
