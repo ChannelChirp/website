@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s Bath Dance feat. Tillie!
 date: '2019-03-15T19:09:10+10:00'
 categories: adventures

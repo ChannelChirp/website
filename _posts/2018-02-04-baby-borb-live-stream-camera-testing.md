@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Baby Borb Live Stream Camera Testing!
 date: '2018-02-04T19:28:43+10:00'
 categories: adventures

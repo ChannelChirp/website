@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Slow-mo Borbs!
 date: '2019-02-28T10:31:19+10:00'
 categories: adventures

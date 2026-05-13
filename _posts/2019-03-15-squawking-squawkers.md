@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Squawking Squawkers!
 date: '2019-03-15T12:53:55+10:00'
 categories: adventures

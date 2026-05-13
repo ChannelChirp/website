@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Millet Madness!
 date: '2019-01-23T09:27:42+10:00'
 categories: adventures

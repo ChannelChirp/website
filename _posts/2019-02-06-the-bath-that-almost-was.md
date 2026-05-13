@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Bath That Almost Was!
 date: '2019-02-06T11:30:35+10:00'
 categories: adventures

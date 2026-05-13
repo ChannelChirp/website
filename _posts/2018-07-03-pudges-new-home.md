@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pudge’s New Home
 date: '2018-07-03T14:13:25+10:00'
 categories: adventures

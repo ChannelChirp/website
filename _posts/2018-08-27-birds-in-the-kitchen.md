@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Birds in the Kitchen!
 date: '2018-08-27T11:05:12+10:00'
 categories: adventures

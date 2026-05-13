@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: King of the Tower!
 date: '2018-12-09T17:48:54+10:00'
 categories: adventures

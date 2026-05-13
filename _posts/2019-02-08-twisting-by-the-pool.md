@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Twisting by the Pool!
 date: '2019-02-08T06:59:24+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Almost a Bath Video!
 date: '2019-03-14T20:46:23+10:00'
 categories: adventures

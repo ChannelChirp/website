@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Alert! Alert! Alert!
 date: '2019-01-15T07:37:39+10:00'
 categories: adventures

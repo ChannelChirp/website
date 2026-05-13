@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Sultana Heist!
 date: '2019-02-16T09:32:38+10:00'
 categories: adventures

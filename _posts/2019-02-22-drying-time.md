@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drying Time!
 date: '2019-02-22T17:37:16+10:00'
 categories: adventures

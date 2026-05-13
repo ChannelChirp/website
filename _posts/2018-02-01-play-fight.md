@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Play Fight!
 date: '2018-02-01T08:48:08+10:00'
 categories: adventures

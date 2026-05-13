@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s Big Morning Bath!
 date: '2019-03-14T08:08:44+10:00'
 categories: adventures

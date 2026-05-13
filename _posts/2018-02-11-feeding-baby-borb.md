@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Feeding Baby Borb!
 date: '2018-02-11T14:27:15+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Big Pooper!
 date: '2018-11-03T11:21:03+10:00'
 categories: adventures

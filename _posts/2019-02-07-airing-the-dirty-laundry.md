@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Airing The Dirty Laundry!
 date: '2019-02-07T14:41:48+10:00'
 categories: adventures

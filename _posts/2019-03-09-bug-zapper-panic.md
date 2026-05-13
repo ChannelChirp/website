@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bug Zapper Panic!
 date: '2019-03-09T06:22:58+10:00'
 categories: adventures

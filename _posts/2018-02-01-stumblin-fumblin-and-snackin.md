@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Stumblin’, Fumblin’ and Snackin’
 date: '2018-02-01T08:49:05+10:00'
 categories: adventures

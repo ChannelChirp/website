@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Motel Bed Time Preening!
 date: '2019-03-11T21:00:02+10:00'
 categories: adventures

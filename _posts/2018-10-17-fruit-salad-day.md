@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fruit Salad Day!
 date: '2018-10-17T07:08:26+10:00'
 categories: adventures

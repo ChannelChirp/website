@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip Scritches!
 date: '2018-02-19T23:59:52+10:00'
 categories: adventures

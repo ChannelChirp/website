@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Big Bath Time Upgrade!
 date: '2019-03-13T20:58:29+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Undercover Desk Ornaments
 date: '2018-10-08T11:59:08+10:00'
 categories: adventures

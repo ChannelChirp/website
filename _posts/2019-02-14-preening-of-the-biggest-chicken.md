@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Preening of the Biggest Chicken!
 date: '2019-02-14T16:42:25+10:00'
 categories: adventures

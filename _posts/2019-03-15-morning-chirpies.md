@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Morning Chirpies!
 date: '2019-03-15T06:01:03+10:00'
 categories: adventures

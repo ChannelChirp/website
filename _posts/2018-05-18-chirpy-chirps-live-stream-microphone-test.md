@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chirpy Chirps Live Stream Microphone Test!
 date: '2018-05-18T13:34:50+10:00'
 categories: adventures

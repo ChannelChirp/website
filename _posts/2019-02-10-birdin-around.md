@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Birdin’ Around
 date: '2019-02-10T09:26:47+10:00'
 categories: adventures

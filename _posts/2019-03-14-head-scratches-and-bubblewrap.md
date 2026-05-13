@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Head Scratches and Bubblewrap!
 date: '2019-03-14T09:22:24+10:00'
 categories: adventures

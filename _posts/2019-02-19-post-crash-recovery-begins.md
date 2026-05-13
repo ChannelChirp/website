@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Post Crash, Recovery Begins!
 date: '2019-02-19T23:27:50+10:00'
 categories: adventures

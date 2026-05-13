@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Food Frenzy with Chip!
 date: '2018-02-25T13:13:58+10:00'
 categories: adventures

@@ -218,11 +218,6 @@ blockquote p {
   background: #29a518;     /* accent */
 }
 
-/* Hide meta bar on blog posts (where date is shown) */
-.post-card .entry-meta::after {
-  display: none;
-}
-
 .post-card .entry-content,
 .post-card .entry-summary {
   color: #424242;

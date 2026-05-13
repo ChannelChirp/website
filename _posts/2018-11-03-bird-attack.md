@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bird Attack!
 date: '2018-11-03T11:29:17+10:00'
 categories: adventures

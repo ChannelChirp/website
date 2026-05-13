@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Baby Borb, Chip, is Hatching a New Plan!
 date: '2018-03-20T23:37:42+10:00'
 categories: adventures

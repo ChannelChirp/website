@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Head Scritches and The Sultana War!
 date: '2019-02-14T08:37:27+10:00'
 categories: adventures

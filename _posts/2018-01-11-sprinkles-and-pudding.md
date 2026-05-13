@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sprinkles and Pudding!
 date: '2018-01-11T12:53:44+10:00'
 categories: adventures

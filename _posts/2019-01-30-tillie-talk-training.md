@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie Talk Training!
 date: '2019-01-30T11:47:01+10:00'
 categories: adventures

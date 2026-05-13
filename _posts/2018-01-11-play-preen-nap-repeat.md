@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Play! Preen! Nap! Repeat!
 date: '2018-01-11T14:09:55+10:00'
 categories: adventures

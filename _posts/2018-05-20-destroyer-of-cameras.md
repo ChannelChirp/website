@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Destroyer of Cameras!
 date: '2018-05-20T20:11:37+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Professional Turkeys!
 date: '2018-01-31T03:21:53+10:00'
 categories: adventures

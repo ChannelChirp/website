@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Play Fighting and Exploring Caves!
 date: '2019-03-19T11:36:51+10:00'
 categories: adventures

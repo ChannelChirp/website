@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Banana Party!
 date: '2019-01-23T07:32:45+10:00'
 categories: adventures

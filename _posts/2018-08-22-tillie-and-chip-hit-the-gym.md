@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie and Chip Hit the Gym!
 date: '2018-08-22T01:55:17+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s First Bath
 date: '2018-02-13T07:18:13+10:00'
 categories: adventures

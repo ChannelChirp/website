@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drinky Flaps!
 date: '2019-02-10T12:39:29+10:00'
 categories: adventures

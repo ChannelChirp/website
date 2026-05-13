@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie Zoom, Chippy Boom!
 date: '2018-07-18T08:29:48+10:00'
 categories: adventures

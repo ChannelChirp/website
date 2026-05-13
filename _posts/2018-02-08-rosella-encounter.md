@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rosella Encounter!
 date: '2018-02-08T09:56:56+10:00'
 categories: adventures

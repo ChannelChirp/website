@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Very Last Good Morning Chirpies!
 date: '2019-03-20T07:00:20+10:00'
 categories: adventures

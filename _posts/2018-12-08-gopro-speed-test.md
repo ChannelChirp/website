@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: GoPro Speed Test
 date: '2018-12-08T11:08:44+10:00'
 categories: adventures

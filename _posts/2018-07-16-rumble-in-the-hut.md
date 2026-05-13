@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rumble in the Hut!
 date: '2018-07-16T11:57:51+10:00'
 categories: adventures

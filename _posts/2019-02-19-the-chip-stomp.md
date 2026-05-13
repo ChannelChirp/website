@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Chip Stomp!
 date: '2019-02-19T23:31:25+10:00'
 categories: adventures

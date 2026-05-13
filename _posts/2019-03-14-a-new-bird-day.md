@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A New Bird Day!
 date: '2019-03-14T06:47:33+10:00'
 categories: adventures

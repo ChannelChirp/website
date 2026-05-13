@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Burrrp! Tillie!
 date: '2019-02-19T10:26:33+10:00'
 categories: adventures

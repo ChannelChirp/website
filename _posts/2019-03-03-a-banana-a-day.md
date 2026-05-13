@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A Banana a Day!
 date: '2019-03-03T17:21:16+10:00'
 categories: adventures

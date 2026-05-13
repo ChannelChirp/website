@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Breakout!
 date: '2018-05-15T11:06:45+10:00'
 categories: adventures

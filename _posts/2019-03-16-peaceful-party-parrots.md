@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Peaceful Party Parrots!
 date: '2019-03-16T07:13:35+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: This is Chip’s Hair Now!
 date: '2018-06-08T06:38:06+10:00'
 categories: adventures

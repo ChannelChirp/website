@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Cuddle Chickens!
 date: '2019-02-05T16:18:01+10:00'
 categories: adventures

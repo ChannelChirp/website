@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip Enjoys the New Hut!
 date: '2018-06-04T20:03:47+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie Finds the Calci-YUM Bell!
 date: '2019-02-09T16:48:22+10:00'
 categories: adventures

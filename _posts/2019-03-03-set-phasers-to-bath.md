@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Set Phasers to Bath!
 date: '2019-03-03T17:24:23+10:00'
 categories: adventures

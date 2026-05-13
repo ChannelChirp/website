@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie, Tillie! Bite! Bite! Bite!
 date: '2018-11-15T12:51:24+10:00'
 categories: adventures

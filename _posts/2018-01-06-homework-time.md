@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Homework Time!
 date: '2018-01-06T17:45:51+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie Attack Formation!
 date: '2018-11-14T16:39:58+10:00'
 categories: adventures

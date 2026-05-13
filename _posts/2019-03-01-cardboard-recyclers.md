@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Cardboard Recyclers!
 date: '2019-03-01T17:16:39+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chirpy Chip’s Bath!
 date: '2019-03-19T16:11:34+10:00'
 categories: adventures

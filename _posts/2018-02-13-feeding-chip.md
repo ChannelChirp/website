@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Feeding Chip!
 date: '2018-02-13T07:20:30+10:00'
 categories: adventures

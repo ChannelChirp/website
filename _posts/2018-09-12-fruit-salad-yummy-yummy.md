@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fruit Salad! Yummy, Yummy!
 date: '2018-09-12T11:09:06+10:00'
 categories: adventures

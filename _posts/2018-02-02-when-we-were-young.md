@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: When We Were Young…
 date: '2018-02-02T12:10:53+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Troublemaker Tillie!
 date: '2018-07-03T19:05:18+10:00'
 categories: adventures

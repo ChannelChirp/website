@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A Day in the Life…
 date: '2018-12-05T17:17:13+10:00'
 categories: adventures

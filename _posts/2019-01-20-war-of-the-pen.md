@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: War of the Pen!
 date: '2019-01-20T18:04:22+10:00'
 categories: adventures

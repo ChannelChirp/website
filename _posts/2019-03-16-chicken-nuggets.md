@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chicken Nuggets!
 date: '2019-03-16T12:18:30+10:00'
 categories: adventures

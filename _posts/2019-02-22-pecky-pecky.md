@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pecky Pecky!
 date: '2019-02-22T17:35:44+10:00'
 categories: adventures

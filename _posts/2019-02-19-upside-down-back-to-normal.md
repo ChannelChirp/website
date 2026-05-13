@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'Upside Down: Back to Normal!'
 date: '2019-02-19T23:32:24+10:00'
 categories: adventures

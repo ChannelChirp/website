@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Morning After!
 date: '2019-02-20T17:33:34+10:00'
 categories: adventures

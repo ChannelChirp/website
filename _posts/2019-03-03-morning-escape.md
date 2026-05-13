@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Morning Escape!
 date: '2019-03-03T17:20:10+10:00'
 categories: adventures

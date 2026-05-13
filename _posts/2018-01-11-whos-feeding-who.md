@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Who’s Feeding Who?!?!
 date: '2018-01-11T14:08:48+10:00'
 categories: adventures

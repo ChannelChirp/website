@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Vertical Bird!
 date: '2019-02-22T17:36:40+10:00'
 categories: adventures

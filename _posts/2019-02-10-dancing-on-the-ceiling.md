@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Dancing on the Ceiling!
 date: '2019-02-10T12:28:51+10:00'
 categories: adventures

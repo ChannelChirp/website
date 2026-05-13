@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Slam Dunkin’ Sultanas!
 date: '2019-02-27T09:53:59+10:00'
 categories: adventures

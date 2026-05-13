@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The First Day!
 date: '2018-01-01T16:45:26+10:00'
 categories: adventures

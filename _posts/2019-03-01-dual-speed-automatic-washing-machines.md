@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Dual Speed Automatic Washing Machines!
 date: '2019-03-01T10:54:00+10:00'
 categories: adventures

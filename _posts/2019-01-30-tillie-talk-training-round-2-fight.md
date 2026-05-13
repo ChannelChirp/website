@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie Talk Training! Round 2! Fight!
 date: '2019-01-30T13:04:05+10:00'
 categories: adventures

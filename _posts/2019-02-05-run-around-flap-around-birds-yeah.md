@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Run Around, Flap Around, Birds! Yeah!
 date: '2019-02-05T13:39:40+10:00'
 categories: adventures

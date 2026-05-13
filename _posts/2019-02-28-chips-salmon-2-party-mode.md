@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'Chip’s Salmon 2: Party Mode!'
 date: '2019-02-28T10:51:32+10:00'
 categories: adventures

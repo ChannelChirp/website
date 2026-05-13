@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hello Chip, Chirp, Chirp!
 date: '2019-02-12T09:28:40+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Baby Borb Live Stream True Colour Camera Testing!
 date: '2018-02-06T08:59:14+10:00'
 categories: adventures

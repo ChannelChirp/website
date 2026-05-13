@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'For Sale: Two Birdies'
 date: '2019-02-04T22:58:28+10:00'
 categories: adventures

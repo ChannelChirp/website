@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip Eating!
 date: '2019-02-19T23:29:25+10:00'
 categories: adventures

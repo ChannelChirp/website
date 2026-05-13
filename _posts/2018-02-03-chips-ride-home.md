@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s Ride Home
 date: '2018-02-03T12:20:17+10:00'
 categories: adventures

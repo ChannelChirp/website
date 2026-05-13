@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bird Tub Time Machine!
 date: '2019-01-31T13:21:08+10:00'
 categories: adventures

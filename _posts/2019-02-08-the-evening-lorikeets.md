@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Evening Lorikeets!
 date: '2019-02-08T07:06:58+10:00'
 categories: adventures

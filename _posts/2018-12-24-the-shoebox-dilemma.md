@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Shoebox Dilemma!
 date: '2018-12-24T21:49:28+10:00'
 categories: adventures

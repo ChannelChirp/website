@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Seed and Legos!
 date: '2018-09-28T11:12:42+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Wakey Wakey!
 date: '2019-03-02T06:18:35+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Preen Time for Human-Bird!
 date: '2019-02-04T12:13:09+10:00'
 categories: adventures

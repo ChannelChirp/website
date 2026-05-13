@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Run, Chippy, Run!
 date: '2019-03-03T17:21:53+10:00'
 categories: adventures

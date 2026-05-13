@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Baby Borb Live Stream Lag Test!
 date: '2018-02-06T15:23:20+10:00'
 categories: adventures

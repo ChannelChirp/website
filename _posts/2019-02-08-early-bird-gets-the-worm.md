@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Early Bird Gets the Worm!
 date: '2019-02-08T06:47:15+10:00'
 categories: adventures

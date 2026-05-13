@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sleepy Time!
 date: '2018-07-07T20:13:45+10:00'
 categories: adventures

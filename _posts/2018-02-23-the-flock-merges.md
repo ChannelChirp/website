@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Flock Merges…
 date: '2018-02-23T13:10:01+10:00'
 categories: adventures

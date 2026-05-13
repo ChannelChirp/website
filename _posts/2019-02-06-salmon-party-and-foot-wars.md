@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Salmon Party and Foot Wars!
 date: '2019-02-06T18:29:59+10:00'
 categories: adventures

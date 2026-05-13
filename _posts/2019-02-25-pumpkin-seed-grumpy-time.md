@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pumpkin Seed Grumpy Time!
 date: '2019-02-25T10:26:45+10:00'
 categories: adventures

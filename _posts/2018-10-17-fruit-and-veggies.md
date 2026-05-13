@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fruit and Veggies!
 date: '2018-10-17T14:32:03+10:00'
 categories: adventures

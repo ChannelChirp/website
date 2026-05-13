@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Secret Agent Car Alarm!
 date: '2019-01-30T12:51:45+10:00'
 categories: adventures

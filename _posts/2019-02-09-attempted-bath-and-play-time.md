@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Attempted Bath and Play Time!
 date: '2019-02-09T11:56:25+10:00'
 categories: adventures

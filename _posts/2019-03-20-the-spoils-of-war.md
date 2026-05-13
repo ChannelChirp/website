@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Spoils of War!
 date: '2019-03-20T08:49:44+10:00'
 categories: adventures

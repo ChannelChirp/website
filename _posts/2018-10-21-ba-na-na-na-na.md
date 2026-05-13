@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ba-na-na-na-na!
 date: '2018-10-21T14:33:24+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sultana Box Hijacking!
 date: '2019-03-19T13:02:01+10:00'
 categories: adventures

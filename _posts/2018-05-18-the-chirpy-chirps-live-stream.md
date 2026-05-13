@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Chirpy Chirps Live Stream!
 date: '2018-05-18T13:59:52+10:00'
 categories: adventures

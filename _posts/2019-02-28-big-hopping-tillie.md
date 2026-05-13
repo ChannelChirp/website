@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Big Hopping Tillie!
 date: '2019-02-28T10:40:56+10:00'
 categories: adventures

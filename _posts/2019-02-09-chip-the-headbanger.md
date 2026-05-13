@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip The Headbanger!
 date: '2019-02-09T08:22:36+10:00'
 categories: adventures

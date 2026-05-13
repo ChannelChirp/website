@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sunrise Beak Scratches!
 date: '2019-03-11T07:41:50+10:00'
 categories: adventures

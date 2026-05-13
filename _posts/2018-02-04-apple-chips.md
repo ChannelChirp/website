@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Apple Chips!
 date: '2018-02-04T18:57:42+10:00'
 categories: adventures

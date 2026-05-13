@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Have a Drink on Me!
 date: '2018-02-01T08:40:11+10:00'
 categories: adventures

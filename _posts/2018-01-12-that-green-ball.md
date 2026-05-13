@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: That Green Ball!
 date: '2018-01-12T12:10:40+10:00'
 categories: adventures

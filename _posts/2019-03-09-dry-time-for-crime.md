@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Dry Time for Crime!
 date: '2019-03-09T06:24:10+10:00'
 categories: adventures

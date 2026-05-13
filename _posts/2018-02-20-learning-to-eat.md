@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Learning to Eat!
 date: '2018-02-20T08:15:36+10:00'
 categories: adventures

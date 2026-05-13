@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Evening Snack!
 date: '2019-02-28T20:11:24+10:00'
 categories: adventures

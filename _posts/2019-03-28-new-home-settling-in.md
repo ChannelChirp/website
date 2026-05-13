@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: New Home – Settling In!
 date: '2019-03-28T18:14:04+10:00'
 categories: adventures

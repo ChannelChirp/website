@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Quiet Time!
 date: '2019-01-20T23:25:44+10:00'
 categories: adventures

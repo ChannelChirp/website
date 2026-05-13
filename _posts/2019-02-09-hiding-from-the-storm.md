@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hiding from the Storm!
 date: '2019-02-09T18:28:43+10:00'
 categories: adventures

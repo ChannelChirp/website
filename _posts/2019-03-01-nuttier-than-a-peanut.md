@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Nuttier Than a Peanut!
 date: '2019-03-01T17:13:18+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Stomp! The Musical!
 date: '2018-03-20T07:23:55+10:00'
 categories: adventures

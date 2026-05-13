@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Carrot Drop!
 date: '2019-03-14T08:14:33+10:00'
 categories: adventures

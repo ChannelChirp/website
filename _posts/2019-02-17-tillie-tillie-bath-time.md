@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie, Tillie Bath Time!
 date: '2019-02-17T09:33:31+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Big Bath Exploring Fun!
 date: '2019-03-13T21:30:49+10:00'
 categories: adventures

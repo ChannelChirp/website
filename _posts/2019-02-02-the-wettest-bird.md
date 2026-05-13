@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Wettest Bird!
 date: '2019-02-02T06:51:44+10:00'
 categories: adventures

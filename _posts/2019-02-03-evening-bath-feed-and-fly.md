@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Evening Bath, Feed and Fly!
 date: '2019-02-03T21:07:00+10:00'
 categories: adventures

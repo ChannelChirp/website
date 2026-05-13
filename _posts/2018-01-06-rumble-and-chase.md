@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rumble and Chase!
 date: '2018-01-06T14:02:03+10:00'
 categories: adventures

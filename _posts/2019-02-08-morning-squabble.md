@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Morning Squabble!
 date: '2019-02-08T18:56:24+10:00'
 categories: adventures

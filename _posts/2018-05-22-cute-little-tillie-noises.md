@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Cute Little Tillie Noises!
 date: '2018-05-22T07:25:38+10:00'
 categories: adventures

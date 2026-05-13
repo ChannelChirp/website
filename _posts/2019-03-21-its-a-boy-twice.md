@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: It’s a Boy! Twice?
 date: '2019-03-21T19:32:17+10:00'
 categories: adventures

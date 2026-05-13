@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Preen, Camera Attack and Bed!
 date: '2019-02-04T21:00:43+10:00'
 categories: adventures

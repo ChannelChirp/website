@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Half-Bowl Water Skating Bath!
 date: '2018-08-04T07:28:02+10:00'
 categories: adventures

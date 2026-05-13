@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ground Control Reports Lift-off!
 date: '2019-03-03T17:23:18+10:00'
 categories: adventures

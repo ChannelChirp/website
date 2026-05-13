@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hanging Around!
 date: '2019-02-09T14:23:53+10:00'
 categories: adventures

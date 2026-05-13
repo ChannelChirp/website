@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Snuggle Sleepers…
 date: '2018-01-09T14:11:23+10:00'
 categories: adventures

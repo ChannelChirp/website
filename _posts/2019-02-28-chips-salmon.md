@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s Salmon!
 date: '2019-02-28T10:50:46+10:00'
 categories: adventures

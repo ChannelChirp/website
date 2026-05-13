@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Slow-mo Tillie Lift-off!
 date: '2018-11-12T17:10:55+10:00'
 categories: adventures

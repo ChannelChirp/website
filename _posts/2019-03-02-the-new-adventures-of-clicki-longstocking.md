@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The New Adventures of Clicki Longstocking!
 date: '2019-03-02T11:04:23+10:00'
 categories: adventures

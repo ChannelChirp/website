@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Morning Kisses!
 date: '2019-02-19T09:34:11+10:00'
 categories: adventures

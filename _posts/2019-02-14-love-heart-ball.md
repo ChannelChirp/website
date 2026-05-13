@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Love Heart Ball!
 date: '2019-02-14T09:30:39+10:00'
 categories: adventures

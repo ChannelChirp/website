@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Destroyer of Pears!
 date: '2018-10-30T15:02:49+10:00'
 categories: adventures

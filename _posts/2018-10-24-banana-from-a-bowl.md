@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Banana from a Bowl!
 date: '2018-10-24T14:57:58+10:00'
 categories: adventures

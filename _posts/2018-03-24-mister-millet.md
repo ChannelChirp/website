@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mister Millet!
 date: '2018-03-24T08:58:51+10:00'
 categories: adventures

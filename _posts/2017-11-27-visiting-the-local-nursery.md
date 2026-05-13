@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Visiting the Local Nursery
 date: '2017-11-27T08:25:45+10:00'
 categories: adventures

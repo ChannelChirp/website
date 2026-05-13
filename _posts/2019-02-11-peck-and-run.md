@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Peck and Run!
 date: '2019-02-11T09:28:08+10:00'
 categories: adventures

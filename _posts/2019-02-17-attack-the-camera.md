@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Attack the Camera!
 date: '2019-02-17T19:22:42+10:00'
 categories: adventures

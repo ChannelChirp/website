@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bird World is Messy World!
 date: '2019-01-20T20:06:58+10:00'
 categories: adventures

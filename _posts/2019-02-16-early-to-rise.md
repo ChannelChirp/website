@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Early to Rise!
 date: '2019-02-16T09:32:05+10:00'
 categories: adventures

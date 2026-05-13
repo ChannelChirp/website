@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Carrot, Parrot Party!
 date: '2019-02-26T10:28:28+10:00'
 categories: adventures

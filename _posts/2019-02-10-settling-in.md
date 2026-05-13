@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Settling In!
 date: '2019-02-10T07:33:10+10:00'
 categories: adventures

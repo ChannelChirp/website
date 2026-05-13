@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bird, Bird, Bird, Bird!
 date: '2019-02-14T10:22:45+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Heart Ball Preenfest ’19!
 date: '2019-02-25T10:25:28+10:00'
 categories: adventures

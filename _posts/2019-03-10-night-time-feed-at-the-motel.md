@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Night Time Feed at the Motel!
 date: '2019-03-10T06:25:17+10:00'
 categories: adventures

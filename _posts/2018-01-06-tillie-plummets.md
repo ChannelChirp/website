@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tillie Plummets!
 date: '2018-01-06T13:59:37+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Heart Ball of Love!
 date: '2018-01-11T14:16:43+10:00'
 categories: adventures

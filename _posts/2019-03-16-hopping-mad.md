@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hopping Mad!
 date: '2019-03-16T15:21:01+10:00'
 categories: adventures

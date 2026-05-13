@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Autumn Morning Breakout!
 date: '2019-03-08T17:26:44+10:00'
 categories: adventures

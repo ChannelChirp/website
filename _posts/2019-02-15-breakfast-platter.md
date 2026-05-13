@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Breakfast Platter!
 date: '2019-02-15T09:31:39+10:00'
 categories: adventures

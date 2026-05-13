@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rattle Ball Attack!
 date: '2018-01-11T14:05:48+10:00'
 categories: adventures

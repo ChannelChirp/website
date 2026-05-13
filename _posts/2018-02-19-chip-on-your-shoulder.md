@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip on Your Shoulder!
 date: '2018-02-19T19:34:38+10:00'
 categories: adventures

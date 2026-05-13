@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A Chirpy Bird is a Noisy Bird!
 date: '2019-02-17T19:53:57+10:00'
 categories: adventures

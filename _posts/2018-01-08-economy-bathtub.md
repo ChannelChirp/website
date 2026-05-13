@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Economy Bathtub!
 date: '2018-01-08T12:09:45+10:00'
 categories: adventures

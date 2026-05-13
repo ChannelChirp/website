@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Beak Pats and Food!
 date: '2019-02-10T12:43:12+10:00'
 categories: adventures

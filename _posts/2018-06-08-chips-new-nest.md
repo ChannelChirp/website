@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s New Nest!
 date: '2018-06-08T20:09:20+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Flippy Birds!
 date: '2019-02-17T17:24:36+10:00'
 categories: adventures

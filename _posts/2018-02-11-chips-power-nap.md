@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s Power Nap!
 date: '2018-02-11T14:20:34+10:00'
 categories: adventures

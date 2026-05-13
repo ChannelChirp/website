@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Preening Party!
 date: '2018-03-08T07:19:35+10:00'
 categories: adventures

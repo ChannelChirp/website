@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sunflowers on a Rainy Day!
 date: '2019-02-10T09:26:35+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Capsicum Top Drop!
 date: '2019-02-10T12:35:37+10:00'
 categories: adventures

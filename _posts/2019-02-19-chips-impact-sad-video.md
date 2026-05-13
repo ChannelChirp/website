@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chip’s Impact! (Sad Video!)
 date: '2019-02-19T10:34:50+10:00'
 categories: adventures

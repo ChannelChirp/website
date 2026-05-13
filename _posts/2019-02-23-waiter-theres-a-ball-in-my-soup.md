@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Waiter, There’s a Ball in My Soup!
 date: '2019-02-23T17:54:23+10:00'
 categories: adventures

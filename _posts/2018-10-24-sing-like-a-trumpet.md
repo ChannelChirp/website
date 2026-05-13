@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sing Like a Trumpet!
 date: '2018-10-24T15:00:55+10:00'
 categories: adventures

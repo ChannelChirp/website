@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hello Tillie!
 date: '2019-02-10T12:46:52+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Play Time for Crime Birds!
 date: '2018-05-09T10:48:56+10:00'
 categories: adventures

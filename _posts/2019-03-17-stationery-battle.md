@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Stationery Battle!
 date: '2019-03-17T10:22:56+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Talking and Funky Dancing!
 date: '2019-01-30T10:42:45+10:00'
 categories: adventures

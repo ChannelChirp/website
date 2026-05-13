@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Charity Ball!
 date: '2018-01-11T14:21:57+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Birds Aren’t Real!
 date: '2019-02-06T20:00:34+10:00'
 categories: adventures

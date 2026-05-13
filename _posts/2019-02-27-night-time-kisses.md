@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Night Time Kisses!
 date: '2019-02-27T10:18:28+10:00'
 categories: adventures

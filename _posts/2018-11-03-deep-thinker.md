@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Deep Thinker!
 date: '2018-11-03T11:24:16+10:00'
 categories: adventures

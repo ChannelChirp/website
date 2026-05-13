@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Half a Bath!
 date: '2019-02-11T09:27:09+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bookshelf Birds!
 date: '2019-01-29T09:47:36+10:00'
 categories: adventures

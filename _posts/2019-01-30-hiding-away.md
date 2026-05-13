@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hiding Away!
 date: '2019-01-30T00:34:51+10:00'
 categories: adventures

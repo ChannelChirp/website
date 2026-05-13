@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Baby Borb Cage Setup Live Stream!
 date: '2018-02-06T08:41:00+10:00'
 categories: adventures

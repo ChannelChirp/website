@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Hunt for Green October!
 date: '2019-03-05T17:25:34+10:00'
 categories: adventures

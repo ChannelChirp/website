@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'Canned Atlantic Salmon: The Movie!'
 date: '2019-03-01T08:14:26+10:00'
 categories: adventures

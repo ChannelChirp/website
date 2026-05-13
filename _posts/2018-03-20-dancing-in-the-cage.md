@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Dancing in the Cage!
 date: '2018-03-20T10:18:54+10:00'
 categories: adventures

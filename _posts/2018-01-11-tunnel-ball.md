@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tunnel Ball!
 date: '2018-01-11T14:19:37+10:00'
 categories: adventures

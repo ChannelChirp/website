@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Banana Bobbing!
 date: '2019-03-11T07:55:09+10:00'
 categories: adventures

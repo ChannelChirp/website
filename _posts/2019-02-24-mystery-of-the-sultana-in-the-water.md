@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mystery of the Sultana in the Water!
 date: '2019-02-24T10:24:23+10:00'
 categories: adventures

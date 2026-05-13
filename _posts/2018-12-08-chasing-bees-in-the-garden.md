@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Chasing Bees in the Garden
 date: '2018-12-08T09:10:06+10:00'
 categories: adventures

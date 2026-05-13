@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sharing is Birding!
 date: '2018-05-21T20:52:56+10:00'
 categories: adventures

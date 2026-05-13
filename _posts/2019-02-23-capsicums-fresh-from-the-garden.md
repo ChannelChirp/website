@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Capsicums, Fresh from the Garden!
 date: '2019-02-23T17:40:34+10:00'
 categories: adventures

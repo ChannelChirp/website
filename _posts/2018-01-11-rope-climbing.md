@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rope Climbing!
 date: '2018-01-11T14:03:55+10:00'
 categories: adventures

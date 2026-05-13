@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Exploring and Eating!
 date: '2018-02-25T13:31:49+10:00'
 categories: adventures

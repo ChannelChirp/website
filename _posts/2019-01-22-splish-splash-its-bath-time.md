@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Splish! Splash! It’s Bath Time!
 date: '2019-01-22T09:15:14+10:00'
 categories: adventures

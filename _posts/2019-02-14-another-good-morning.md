@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Another Good Morning!
 date: '2019-02-14T09:30:11+10:00'
 categories: adventures

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Slow-mo Tille Flight!
 date: '2018-11-12T17:19:49+10:00'
 categories: adventures

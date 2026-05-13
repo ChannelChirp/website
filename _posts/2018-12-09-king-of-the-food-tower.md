@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: King of the Food Tower!
 date: '2018-12-09T07:06:12+10:00'
 categories: adventures

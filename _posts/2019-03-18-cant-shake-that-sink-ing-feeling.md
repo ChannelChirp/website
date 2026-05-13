@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Can’t Shake That Sink-ing Feeling!
 date: '2019-03-18T10:40:27+10:00'
 categories: adventures

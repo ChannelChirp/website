@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pecking and Playing!
 date: '2019-02-14T09:31:20+10:00'
 categories: adventures
