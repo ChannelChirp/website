@@ -278,12 +278,12 @@ blockquote p {
 }
 .widget-title {
   position: relative;
-  font-size: 14px;
+  font-size: 18px;
   margin: -24px -24px 10px;
   padding: 20px 5px 20px 20px;
   border-bottom: 1px solid #ddd;
   border-left: 3px solid #29a518;   /* accent left bar */
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .widget a { color: #727272; }
@@ -466,6 +466,8 @@ tbody tr:nth-child(odd) {
 /* Navigation links */
 .navbar-nav .nav-link {
   font-weight: 400;   /* was 600 – 400 is regular weight */
+  padding-left: 1.5rem;   /* for spacing in the nav menu */
+  padding-right: 1.5rem;  /* for spacing in the nav menu */
 }
 
 /* Navbar brand (site name) */
