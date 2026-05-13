@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-12-08T09:10:06+10:00'
-excerpt: ''
-format: false
-guid: http://channelchirp.com/?p=197
-id: 197
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /chasing-bees-in-the-garden/
+layout: default
 title: Chasing Bees in the Garden
+date: '2018-12-08T09:10:06+10:00'
+categories: adventures
+permalink: /chasing-bees-in-the-garden/
 ---
-
 {% include embed/youtube.html id="3RyBiDd09m4" %}
 
 {% include embed/youtube.html id="gOraCv4HUrA" %}

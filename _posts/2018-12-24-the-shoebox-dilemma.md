@@ -1,21 +1,13 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-12-24T21:49:28+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=313
-id: 313
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /the-shoebox-dilemma/
+layout: default
 title: The Shoebox Dilemma!
+date: '2018-12-24T21:49:28+10:00'
+categories: adventures
+permalink: /the-shoebox-dilemma/
 ---
+{% include embed/youtube.html id="R7eI_yIzfjY" %}
 
-https://www.youtube.com/watch?v=R7eI\_yIzfjY
-
-https://www.youtube.com/watch?v=fgQ\_DXTRn4w
+{% include embed/youtube.html id="fgQ_DXTRn4w" %}
 
 {% include embed/youtube.html id="P0HfnYVBO8g" %}
 

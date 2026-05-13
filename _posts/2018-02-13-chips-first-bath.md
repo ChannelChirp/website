@@ -1,19 +1,11 @@
 ---
-author: Sprinkles
-categories: adventures
+layout: default
+title: Chip’s First Bath
 date: '2018-02-13T07:18:13+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=314
-id: 314
-layout: post
-lazyload_thumbnail_quality:
-- default
+categories: adventures
 permalink: /chips-first-bath/
-title: Chip&#8217;s First Bath
 ---
-
-https://www.youtube.com/watch?v=1yOt-\_CpdnQ
+{% include embed/youtube.html id="1yOt-_CpdnQ" %}
 
 {% include embed/youtube.html id="MYBZcES4560" %}
 

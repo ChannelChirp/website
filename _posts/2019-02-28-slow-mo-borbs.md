@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2019-02-28T10:31:19+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=426
-id: 426
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /slow-mo-borbs/
+layout: default
 title: Slow-mo Borbs!
+date: '2019-02-28T10:31:19+10:00'
+categories: adventures
+permalink: /slow-mo-borbs/
 ---
-
 {% include embed/youtube.html id="VrbfrNFzMEQ" %}
 
 {% include embed/youtube.html id="ZMtamW2uUN4" %}

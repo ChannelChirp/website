@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
+layout: default
+title: Chip’s Ride Home
 date: '2018-02-03T12:20:17+10:00'
-excerpt: ''
-format: false
-guid: http://channelchirp.com/?p=211
-id: 211
-layout: post
-lazyload_thumbnail_quality:
-- default
+categories: adventures
 permalink: /chips-ride-home/
-title: Chip&#8217;s Ride Home
 ---
-
 {% include embed/youtube.html id="VAQKRXZAn50" %}
 
 {% include embed/youtube.html id="lS4FPEMxCz0" %}

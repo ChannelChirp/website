@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-02-25T13:31:49+10:00'
-excerpt: ''
-format: false
-guid: http://channelchirp.com/?p=221
-id: 221
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /exploring-and-eating/
+layout: default
 title: Exploring and Eating!
+date: '2018-02-25T13:31:49+10:00'
+categories: adventures
+permalink: /exploring-and-eating/
 ---
-
 {% include embed/youtube.html id="wV4RjlGKWFw" %}
 
 {% include embed/youtube.html id="YqX6sFd8jv8" %}

@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-02-11T14:27:15+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=339
-id: 339
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /feeding-baby-borb/
+layout: default
 title: Feeding Baby Borb!
+date: '2018-02-11T14:27:15+10:00'
+categories: adventures
+permalink: /feeding-baby-borb/
 ---
-
 {% include embed/youtube.html id="WLHf71mbeWU" %}
 
 {% include embed/youtube.html id="THWq65VcGgo" %}

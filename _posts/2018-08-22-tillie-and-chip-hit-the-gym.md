@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-08-22T01:55:17+10:00'
-excerpt: ''
-format: false
-guid: http://thedailyparrot.com/tillie-and-chip-workout-video-2018-08-22/
-id: 115
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /tillie-and-chip-hit-the-gym/
+layout: default
 title: Tillie and Chip Hit the Gym!
+date: '2018-08-22T01:55:17+10:00'
+categories: adventures
+permalink: /tillie-and-chip-hit-the-gym/
 ---
-
 {% include embed/youtube.html id="ZwpKT5FDB4Q" %}
 
 Let's hit the gym!

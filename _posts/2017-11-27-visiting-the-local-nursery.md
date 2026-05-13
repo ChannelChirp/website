@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2017-11-27T08:25:45+10:00'
-excerpt: ''
-format: false
-guid: http://channelchirp.com/?p=194
-id: 194
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /visiting-the-local-nursery/
+layout: default
 title: Visiting the Local Nursery
+date: '2017-11-27T08:25:45+10:00'
+categories: adventures
+permalink: /visiting-the-local-nursery/
 ---
-
 {% include embed/youtube.html id="HYL0MbuKRt4" %}
 
 {% include embed/youtube.html id="BYOohRhX5aQ" %}

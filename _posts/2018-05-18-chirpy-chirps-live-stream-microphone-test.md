@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-05-18T13:34:50+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=491
-id: 491
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /chirpy-chirps-live-stream-microphone-test/
+layout: default
 title: Chirpy Chirps Live Stream Microphone Test!
+date: '2018-05-18T13:34:50+10:00'
+categories: adventures
+permalink: /chirpy-chirps-live-stream-microphone-test/
 ---
-
 {% include embed/youtube.html id="ift6XGeVrTc" %}
 
 {% include embed/youtube.html id="cWkbPQIYDIc" %}

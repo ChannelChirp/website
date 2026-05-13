@@ -1,19 +1,11 @@
 ---
-author: Sprinkles
-categories: adventures
-date: '2018-01-06T17:45:51+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=232
-id: 232
-layout: post
-lazyload_thumbnail_quality:
-- default
-permalink: /homework-time/
+layout: default
 title: Homework Time!
+date: '2018-01-06T17:45:51+10:00'
+categories: adventures
+permalink: /homework-time/
 ---
-
-https://www.youtube.com/watch?v=Gsj70wGg\_V4
+{% include embed/youtube.html id="Gsj70wGg_V4" %}
 
  We love to do our homework on the Apple iPad... but we also like eating apple. I'm sure this will work out well!
 

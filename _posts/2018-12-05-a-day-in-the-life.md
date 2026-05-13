@@ -1,18 +1,10 @@
 ---
-author: Sprinkles
-categories: adventures
+layout: default
+title: A Day in the Life…
 date: '2018-12-05T17:17:13+10:00'
-excerpt: ''
-format: false
-guid: https://channelchirp.ddev.site/?p=230
-id: 230
-layout: post
-lazyload_thumbnail_quality:
-- default
+categories: adventures
 permalink: /a-day-in-the-life/
-title: A Day in the Life&#8230;
 ---
-
 {% include embed/youtube.html id="fOFKxYHJgD4" %}
 
 {% include embed/youtube.html id="x2KiaiE32Sk" %}
