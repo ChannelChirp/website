@@ -428,7 +428,13 @@ tbody tr:nth-child(odd) {
   --pagefind-ui-text: #424242;
   --pagefind-ui-background: #fff;
   --pagefind-ui-border: #ddd;
-  --pagefind-ui-border-radius: 3px;
+  --pagefind-ui-border-radius: 1px;
   --pagefind-ui-font: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   --pagefind-ui-scale: 1;
+}
+
+/* Full‑width search page tweaks */
+.page-search .pagefind-ui__form {
+  max-width: 600px;      /* nice readable width */
+  margin: 0 auto 1.5em;
 }
