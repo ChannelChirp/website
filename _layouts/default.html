@@ -25,7 +25,9 @@
   {% elsif page.type == 'year' %}
     <h1 class="entry-title">{{ page.date | date: "%Y" }}</h1>
   {% else %}
-    <h1 class="entry-title">{{ page.title }}</h1>
+    <h1 class="entry-title">{% unless page.hide_title %}
+# {{ page.title }}
+{% endunless %}</h1>
   {% endif %}
   {% if page.date and page.type != 'month' and page.type != 'year' %}
     <div class="entry-meta">
