@@ -31,63 +31,66 @@ show_hero: false
       </li>
     {% endif %}
 
-    {% assign total = paginator.total_pages %}
-    {% assign current = paginator.page %}
-    {% assign window = 2 %}
+{% assign total = paginator.total_pages %}
+{% assign current = paginator.page %}
+{% assign window = 2 %}
 
-    {% if total > 1 %}
-      <!-- Always show first page -->
-      {% if current > 1 %}
-        <li class="page-item">
-          <!-- Page 1 links to the base /adventures/ (not /page1/) -->
-          <a class="page-link" href="{{ '/adventures/' | relative_url }}">1</a>
-        </li>
-      {% else %}
-        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-      {% endif %}
+{% if total > 1 %}
+  <!-- Always show first page -->
+  {% if current > 1 %}
+    <li class="page-item">
+      <a class="page-link" href="{{ '/adventures/' | relative_url }}">1</a>
+    </li>
+  {% else %}
+    <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+  {% endif %}
 
-      <!-- Show ellipsis if current is far from start -->
-      {% if current > window + 2 %}
-        <li class="page-item disabled"><span class="page-link">…</span></li>
-      {% endif %}
+  <!-- Show ellipsis if current is far from start -->
+  {% assign far_start = window | plus: 2 %}
+  {% if current > far_start %}
+    <li class="page-item disabled"><span class="page-link">…</span></li>
+  {% endif %}
 
-      <!-- Window of pages around current -->
-      {% assign start = current | minus: window %}
-      {% assign end = current | plus: window %}
+  <!-- Window of pages around current -->
+  {% assign start = current | minus: window %}
+  {% assign end = current | plus: window %}
 
-      {% if start < 2 %}
-        {% assign start = 2 %}
-      {% endif %}
-      {% if end > total | minus: 1 %}
-        {% assign end = total | minus: 1 %}
-      {% endif %}
+  {% if start < 2 %}
+    {% assign start = 2 %}
+  {% endif %}
 
-      {% for page_num in (start..end) %}
-        {% if page_num == current %}
-          <li class="page-item active" aria-current="page"><span class="page-link">{{ page_num }}</span></li>
-        {% else %}
-          <li class="page-item">
-            <a class="page-link" href="{{ site.paginate_path | replace: ':num', page_num | relative_url }}">{{ page_num }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
+  {% assign total_minus_1 = total | minus: 1 %}
+  {% if end > total_minus_1 %}
+    {% assign end = total_minus_1 %}
+  {% endif %}
 
-      <!-- Show ellipsis if current is far from end -->
-      {% if current < total | minus: window | minus: 1 %}
-        <li class="page-item disabled"><span class="page-link">…</span></li>
-      {% endif %}
-
-      <!-- Always show last page if it's different from the first -->
-      {% if total > 1 %}
-        {% if current == total %}
-          <li class="page-item active"><span class="page-link">{{ total }}</span></li>
-        {% else %}
-          <li class="page-item">
-            <a class="page-link" href="{{ site.paginate_path | replace: ':num', total | relative_url }}">{{ total }}</a>
-          </li>
-        {% endif %}
-      {% endif %}
+  {% for page_num in (start..end) %}
+    {% if page_num == current %}
+      <li class="page-item active" aria-current="page"><span class="page-link">{{ page_num }}</span></li>
+    {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | replace: ':num', page_num | relative_url }}">{{ page_num }}</a>
+      </li>
     {% endif %}
+  {% endfor %}
+
+  <!-- Show ellipsis if current is far from end -->
+  {% assign far_end = total | minus: window | minus: 1 %}
+  {% if current < far_end %}
+    <li class="page-item disabled"><span class="page-link">…</span></li>
+  {% endif %}
+
+  <!-- Always show last page if it's different from the first -->
+  {% if total > 1 %}
+    {% if current == total %}
+      <li class="page-item active"><span class="page-link">{{ total }}</span></li>
+    {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | replace: ':num', total | relative_url }}">{{ total }}</a>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endif %}
 
     <!-- Next page -->
     {% if paginator.next_page %}
