@@ -6,7 +6,7 @@
 /* ----- 1. Global Typography & Background ----- */
 body {
   background: #424242;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif, verdana;
   color: #424242;
   font-size: 18px;
 }
@@ -278,11 +278,12 @@ blockquote p {
 }
 .widget-title {
   position: relative;
+  font-size: 14px;
   margin: -24px -24px 10px;
   padding: 20px 5px 20px 20px;
   border-bottom: 1px solid #ddd;
   border-left: 3px solid #29a518;   /* accent left bar */
-  font-weight: 900;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .widget a { color: #727272; }
@@ -470,9 +471,4 @@ tbody tr:nth-child(odd) {
 /* Navbar brand (site name) */
 .navbar-brand {
   font-weight: 600;   /* slightly bolder than links, but still thinner than 900 */
-}
-
-/* Sidebar widget titles */
-.widget-title {
-  font-weight: 500;   /* was 900 */
 }
