@@ -11,8 +11,10 @@ body {
   font-size: 18px;
 }
 
+
 .container-main {
-  margin: 80px auto 0;
+  max-width: 900px;   /* adjust this value to your taste (e.g., 850px, 960px) */
+  margin-top: 80px;  /* keep your existing top spacing */
 }
 
 h1, h2, h3, h4, h5, h6,
