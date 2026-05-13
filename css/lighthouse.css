@@ -514,9 +514,21 @@ body.post-layout .entry-title {
   margin: 2em 0;
 }
 
-/* Remove the green accent bar when the title is hidden */
+/* Remove the green accent bar when the title is hidden (Mainly on Adventures) */
 body.hide-title .entry-title::after {
   display: none;
+}
+
+/* Grey spacer between posts on Adventures page */
+.post-card .entry-content > header.entry-header,
+.post-card .entry-content > div.entry-content,
+.post-card .entry-content > footer.entry-footer {
+  margin-bottom: 3rem;          /* space to see the grey background */
+}
+
+/* Remove the margin from the last element so the card’s bottom stays flush */
+.post-card .entry-content > :last-child {
+  margin-bottom: 0;
 }
 
 
