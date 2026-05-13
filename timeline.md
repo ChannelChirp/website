@@ -12,13 +12,12 @@ permalink: /timeline/
   {% assign sorted_posts = site.posts | sort: "date" %}
   {% for post in sorted_posts %}
   <div class="timeline-event">
-    <div class="timeline-content">
-      <span class="timeline-date">{{ post.date | date: "%B %Y" }}</span>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {% endif %}
-    </div>
+    <span class="timeline-date">
+      {{ post.date | date: "%d %B %Y, %-I:%M %p" }}
+    </span>
+    <h3 class="timeline-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
   </div>
   {% endfor %}
 

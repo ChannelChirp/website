@@ -507,12 +507,86 @@ body.post-layout .entry-title {
   margin-bottom: 5px;
 }
 
-/* Remove the green title bar on the timeline page */
-body.timeline-page .entry-title::after {
-  display: none;
+/* ============================
+   Compact Single‑Column Timeline
+   ============================ */
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em 0 2em 2.5em;   /* left padding for the line */
 }
 
-body.timeline-page .entry-title {
-  padding-bottom: 0;
-  margin-bottom: 10px;
+/* Green vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  width: 4px;
+  background: #29a518;
+}
+
+/* Each event – one per line */
+.timeline-event {
+  position: relative;
+  margin-bottom: 1.8em;        /* tighter spacing */
+  padding-left: 2em;
+  font-size: 0.95em;           /* slightly smaller than body text */
+}
+
+/* Green dot */
+.timeline-event::before {
+  content: "";
+  position: absolute;
+  top: 0.4em;
+  left: 8px;                   /* aligns with the 4px line (20px - 6px) */
+  width: 12px;
+  height: 12px;
+  background: #29a518;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 0 0 3px #29a518;
+}
+
+/* Date / time line */
+.timeline-date {
+  font-weight: 600;
+  color: #29a518;
+  display: block;
+  margin-bottom: 0.2em;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Title (link) */
+.timeline-title {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.timeline-title a {
+  color: #212121;
+}
+
+.timeline-title a:hover {
+  color: #29a518;
+}
+
+/* Remove left offset on mobile (keep the same layout) */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 2em;
+  }
+  .timeline::before {
+    left: 12px;
+  }
+  .timeline-event::before {
+    left: 0;
+  }
 }
