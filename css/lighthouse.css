@@ -11,6 +11,10 @@ body {
   font-size: 18px;
 }
 
+.container-main {
+  margin-top: 80px;
+}
+
 h1, h2, h3, h4, h5, h6,
 .navbar-brand,
 .site-title,
@@ -175,7 +179,7 @@ blockquote p {
   border-radius: 3px;
   padding: 0 4em;
   margin-bottom: 2em;
-  margin-top: 80px;        /* pushes content below fixed navbar (since hero is missing) */
+  margin-top: 0;        /* pushes content below fixed navbar (since hero is missing) */
 }
 .post-card .entry-header {
   text-align: center;
