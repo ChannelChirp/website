@@ -13,7 +13,7 @@ body {
 
 
 .container-main {
-  max-width: 900px;   /* adjust this value to your taste (e.g., 850px, 960px) */
+  max-width: 1150px;   /* adjust this value to your taste (e.g., 850px, 960px) */
   margin-top: 80px;  /* keep your existing top spacing */
 }
 
