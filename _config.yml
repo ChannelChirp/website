@@ -4,4 +4,4 @@ url: https://channelchirp.com
 baseurl: /
 
 # The blog structure
-permalink: /:categories/:title/
+permalink: /:title/
