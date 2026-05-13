@@ -5,3 +5,7 @@ baseurl: /
 
 # The blog structure
 permalink: /:title/
+
+# Pagination for the blog (adventures)
+paginate: 5
+paginate_path: "/adventures/page:num/"

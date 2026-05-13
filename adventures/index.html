@@ -1,0 +1,60 @@
+---
+layout: default
+title: Adventures
+show_hero: false
+---
+
+<h1>Adventures</h1>
+
+<ul>
+  {% for post in paginator.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- Pagination navigation -->
+<nav aria-label="Page navigation">
+  <ul class="pagination justify-content-center">
+    <!-- Previous page -->
+    {% if paginator.previous_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+    {% else %}
+      <li class="page-item disabled">
+        <span class="page-link">&laquo;</span>
+      </li>
+    {% endif %}
+
+    <!-- Page numbers -->
+    {% for page_num in (1..paginator.total_pages) %}
+      {% if page_num == paginator.page %}
+        <li class="page-item active" aria-current="page">
+          <span class="page-link">{{ page_num }}</span>
+        </li>
+      {% else %}
+        <li class="page-item">
+          <a class="page-link" href="{{ paginator.page_path | replace: ':num', page_num | relative_url }}">{{ page_num }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Next page -->
+    {% if paginator.next_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    {% else %}
+      <li class="page-item disabled">
+        <span class="page-link">&raquo;</span>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

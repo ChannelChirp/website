@@ -397,3 +397,14 @@ tbody tr:nth-child(odd) {
   top: 0;
   left: 15px;
 }
+
+/* ----- 12. Pagination ----- */
+
+.pagination .page-link {
+  color: #29a518;
+}
+.pagination .page-item.active .page-link {
+  background-color: #29a518;
+  border-color: #29a518;
+  color: #fff;
+}
