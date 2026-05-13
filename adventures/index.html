@@ -4,7 +4,7 @@ title: Adventures
 show_hero: false
 ---
 
-<h1>Adventures</h1>
+<!-- The layout already prints <h1>Adventures</h1>, so we don't need another # Adventures here -->
 
 <ul>
   {% for post in paginator.posts %}
@@ -38,8 +38,10 @@ show_hero: false
           <span class="page-link">{{ page_num }}</span>
         </li>
       {% else %}
+        <!-- Build the page number link manually from site.paginate_path -->
+        {% assign page_path = site.paginate_path | replace: ':num', page_num %}
         <li class="page-item">
-          <a class="page-link" href="{{ paginator.page_path | replace: ':num', page_num | relative_url }}">{{ page_num }}</a>
+          <a class="page-link" href="{{ page_path | relative_url }}">{{ page_num }}</a>
         </li>
       {% endif %}
     {% endfor %}
