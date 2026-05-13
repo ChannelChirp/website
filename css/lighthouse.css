@@ -422,3 +422,13 @@ tbody tr:nth-child(odd) {
   color: #727272;
 }
 
+/* Pagefind Default UI – theme overrides */
+:root {
+  --pagefind-ui-primary: #29a518;
+  --pagefind-ui-text: #424242;
+  --pagefind-ui-background: #fff;
+  --pagefind-ui-border: #ddd;
+  --pagefind-ui-border-radius: 3px;
+  --pagefind-ui-font: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  --pagefind-ui-scale: 1;
+}
