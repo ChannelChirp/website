@@ -1,0 +1,19 @@
+{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
+{% assign sorted_months = posts_by_month | sort: "name" | reverse %}
+
+<aside class="widget">
+  <h4 class="widget-title">Archives</h4>
+  <select class="form-select" onchange="if(this.value) window.location.href=this.value;">
+    <option value="">Select Month</option>
+    {% for month_group in sorted_months %}
+      {% assign parts = month_group.name | split: '-' %}
+      {% assign year = parts[0] %}
+      {% assign month = parts[1] %}
+      {% assign count = month_group.items | size %}
+      {% assign archive_url = "/" | append: year | append: "/" | append: month | append: "/" %}
+      <option value="{{ archive_url | relative_url }}">
+        {{ month_group.name | date: "%B %Y" }} ({{ count }})
+      </option>
+    {% endfor %}
+  </select>
+</aside>

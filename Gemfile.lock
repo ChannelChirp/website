@@ -74,6 +74,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-archives (2.3.0)
+      jekyll (>= 3.6, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
@@ -163,6 +165,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3)
+  jekyll-archives
   jekyll-paginate
   webrick
 

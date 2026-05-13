@@ -21,3 +21,12 @@ exclude:
 # The plugin section!
 plugins:
   - jekyll-paginate
+  - jekyll-archives
+
+# Archives drop-down box!
+jekyll-archives:
+  enabled:
+    - month
+  layout: default
+  permalinks:
+    month: '/:year/:month/'
