@@ -9,3 +9,11 @@ permalink: /:title/
 # Pagination for the blog (adventures)
 paginate: 5
 paginate_path: "/adventures/page:num/"
+
+
+# Not needed to send to the internet or something but optional to not do.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
