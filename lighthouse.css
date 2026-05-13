@@ -1,0 +1,399 @@
+/* ============================
+   Lighthouse Theme – Channel Chirp
+   Bootstrap 5 adaptation – Accent #29a518
+   ============================ */
+
+/* ----- 1. Global Typography & Background ----- */
+body {
+  background: #eceff1;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  color: #424242;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.site-title,
+.site-description {
+  font-family: 'Lato', sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  color: #212121;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: #29a518;
+}
+a:visited {
+  color: #1e8c10;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+  color: #1e8c10;
+}
+
+blockquote {
+  border-left: 5px solid #29a518;
+  background: #f5f5f5;
+  margin-left: .5em;
+  font-size: 18px;
+}
+blockquote p {
+  font-size: inherit;
+}
+
+/* ----- 2. Navbar ----- */
+.navbar {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 1s;
+  box-shadow: 0 1px 1px rgba(100, 100, 0, .2);
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Transparent effect */
+.lh-nav-bg-transform {
+  background-color: rgba(255, 255, 255, 0) !important;
+  box-shadow: none !important;
+}
+.lh-nav-bg-transform .navbar-brand,
+.lh-nav-bg-transform .navbar-nav .nav-link {
+  color: #fff !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+.lh-nav-bg-transform .navbar-nav .nav-link:hover,
+.lh-nav-bg-transform .navbar-brand:hover {
+  color: #29a518 !important;
+}
+
+@media (max-width: 767px) {
+  .lh-nav-bg-transform {
+    background-color: rgba(0, 0, 0, .9) !important;
+    box-shadow: none !important;
+  }
+  .lh-nav-bg-transform .navbar-toggler {
+    background-color: #fff;
+  }
+}
+
+/* Active / hover colour */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #29a518 !important;
+}
+.navbar-nav .nav-link.active {
+  color: #29a518 !important;
+}
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+  background-color: #29a518;
+  color: #fff;
+}
+
+/* Hover dropdowns for desktop */
+@media (min-width: 768px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .dropdown-menu {
+    border-radius: 3px;
+    padding: 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,.15);
+  }
+  .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+  }
+  .dropdown-menu .dropdown-item:last-child {
+    border-bottom: none;
+  }
+}
+
+/* ----- 3. Site Header (Hero) – hidden by default, can be enabled ----- */
+.site-header {
+  background-size: cover;
+  min-height: 500px;
+  display: none;           /* ← matches your original custom CSS */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3em;
+}
+/* Uncomment « display: flex; » if you want to show a hero image */
+
+.site-title {
+  font-size: 3.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+}
+.site-title::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 20%;
+  background: #fff;
+  margin: 10px auto;
+}
+.site-description {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .site-title { font-size: 2.1em; letter-spacing: 10px; }
+  .site-description { font-size: 14px; letter-spacing: 1px; }
+  .site-header { min-height: 350px; }
+}
+
+/* ----- 4. Post Card ----- */
+.post-card {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.15);
+  border-radius: 3px;
+  padding: 0 4em;
+  margin-bottom: 2em;
+  margin-top: 80px;        /* pushes content below fixed navbar (since hero is missing) */
+}
+.post-card .entry-header {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.post-card .entry-title {
+  margin-bottom: 14px;
+}
+.post-card .entry-title a {
+  color: #212121;
+}
+.post-card .entry-title a:hover {
+  color: #29a518;
+}
+.post-card .entry-meta {
+  color: #727272;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.post-card .entry-meta a {
+  color: #727272;
+}
+.post-card .entry-meta::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 125px;
+  margin: 10px auto;
+  background: #29a518;     /* accent */
+}
+.post-card .entry-content,
+.post-card .entry-summary {
+  color: #424242;
+  padding: 0 0 1.5em;
+}
+.post-card .entry-footer {
+  padding-bottom: 2.5em;
+  word-spacing: 3px;
+}
+.post-card .cat-links a,
+.post-card .tags-links a {
+  color: #29a518;
+  text-transform: capitalize;
+  font-style: italic;
+}
+@media (max-width: 900px) {
+  .post-card {
+    padding: 0 1.5em;
+  }
+}
+
+/* ----- 5. Buttons (rounded pill, green accent) ----- */
+.btn-primary,
+.btn-secondary {
+  padding: 15px 46px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 35px;
+  color: #fff;
+  background: #29a518;
+  border: 1px solid #29a518;
+}
+.btn-primary:hover,
+.btn-secondary:hover {
+  background: #1e8c10;
+  border-color: #1e8c10;
+}
+
+/* ----- 6. Widgets ----- */
+.widget {
+  background: #fff;
+  color: #727272;
+  font-size: 16px;
+  margin-bottom: 2em;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.15);
+  border-radius: 3px;
+}
+.widget-title {
+  position: relative;
+  margin: -24px -24px 10px;
+  padding: 20px 5px 20px 20px;
+  border-bottom: 1px solid #ddd;
+  border-left: 3px solid #29a518;   /* accent left bar */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.widget a { color: #727272; }
+.widget a:hover { color: #29a518; }
+.widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 -24px;
+}
+.widget li {
+  border-bottom: 1px solid #ddd;
+  padding: .5em 25px;
+}
+.widget li:first-child { margin-top: 0; padding-top: 0; }
+.widget li:last-child { border-bottom: none; }
+.widget hr { border-color: #ddd; }
+
+/* ----- 7. Search Form ----- */
+.search-form label {
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+}
+.search-field {
+  border-radius: 2px 0 0 2px;
+  width: calc(100% - 42px);
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 5px 10px;
+}
+.search-submit {
+  border-radius: 0 2px 2px 0;
+  overflow: hidden;
+  padding: 0;
+  width: 42px;
+  border: 1px solid #29a518;
+  background: #29a518;
+  color: #fff;
+}
+.search-submit::before {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+}
+
+/* ----- 8. Footer ----- */
+.site-footer {
+  background-color: #101010;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 1em 0;
+  text-align: center;
+  min-height: 70px;
+}
+.site-footer a {
+  color: #bcbcbc;
+}
+.footer-widgets {
+  background-color: #131313;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-widgets h3 {
+  color: #fff;
+  font-weight: 900;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  padding-bottom: 12px;
+  margin-top: 0;
+}
+.footer-widgets ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-widgets li {
+  padding: 5px 0;
+}
+.footer-widgets a {
+  color: rgba(255,255,255,.5);
+}
+.footer-widgets a:hover {
+  color: #29a518;
+}
+
+/* ----- 9. Images & Alignments ----- */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.aligncenter {
+  display: block;
+  margin: 5px auto;
+}
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* ----- 10. Tables ----- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  padding: .7em;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+thead {
+  background: #fff;
+  color: #212121;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+/* ----- 11. Sticky post (if needed) ----- */
+.sticky-post {
+  background: #29a518;
+  color: white;
+  padding: 5px 15px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
