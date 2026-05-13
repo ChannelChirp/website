@@ -35,11 +35,16 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build --destination _site
 
-      - name: Run Pagefind
-        uses: pagefind-io/pagefind-action@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          source: _site
-          output: _site/pagefind
+          node-version: 18
+
+      - name: Install Pagefind
+        run: npm install -g pagefind
+
+      - name: Run Pagefind
+        run: pagefind --source _site --output-subdir pagefind
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
