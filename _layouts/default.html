@@ -27,9 +27,21 @@
             </div>
             {% endif %}
           </header>
-          <div class="entry-content">
-            {{ content }}
-          </div>
+<div class="entry-content">
+  {% if page.posts %}
+    <!-- Archive page: list posts for this month/year -->
+    <ul class="archive-list">
+      {% for post in page.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {{ content }}
+  {% endif %}
+</div>
           <footer class="entry-footer"></footer>
         </article>
       </div>
