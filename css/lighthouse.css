@@ -465,9 +465,10 @@ tbody tr:nth-child(odd) {
 
 /* Navigation links */
 .navbar-nav .nav-link {
-  font-weight: 400;   /* was 600 – 400 is regular weight */
-  padding-left: 1.5rem;   /* for spacing in the nav menu */
-  padding-right: 1.5rem;  /* for spacing in the nav menu */
+  font-weight: 600;   /* was 600 – 400 is regular weight */
+  font-size: 16px;
+  padding-left: 15px;   /* for spacing in the nav menu */
+  padding-right: 15px;  /* for spacing in the nav menu */
 }
 
 /* Navbar brand (site name) */
