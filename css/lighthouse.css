@@ -507,6 +507,13 @@ body.post-layout .entry-title {
   margin-bottom: 5px;
 }
 
+/* Formats separator between Adventure posts */
+.post-separator {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
 /* ============================
    Compact Single‑Column Timeline
    ============================ */

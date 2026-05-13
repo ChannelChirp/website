@@ -4,16 +4,29 @@ title: Adventures
 show_hero: false
 ---
 
-<!-- The layout already prints <h1>Adventures</h1> -->
+{% for post in paginator.posts %}
+  <article class="post-card">
+    <header class="entry-header">
+      <h2 class="entry-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <div class="entry-meta">
+        {{ post.date | date: "%B %-d, %Y" }}
+      </div>
+    </header>
 
-<ul>
-  {% for post in paginator.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-    </li>
-  {% endfor %}
-</ul>
+    <div class="entry-content">
+      {{ post.content }}
+    </div>
+
+    <footer class="entry-footer">
+      <!-- Optional: tags, categories, etc. -->
+    </footer>
+  </article>
+
+  <hr class="post-separator">
+{% endfor %}
+
 
 <!-- Pagination navigation -->
 <nav aria-label="Page navigation">
