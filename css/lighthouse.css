@@ -493,3 +493,8 @@ tbody tr:nth-child(odd) {
   background-color: #29a518;
   margin: 10px auto 0;          /* 10px above, 0 below, auto centres it */
 }
+
+/* Remove green title bar on Adventure posts */
+body.post-layout .entry-title::after {
+  display: none;
+}
