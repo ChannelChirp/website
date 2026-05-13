@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-light bg-white lh-nav-bg-transform">
+  <div class="container">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">Channel Chirp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.url contains '/adventures/' %}active{% endif %}" href="{{ '/adventures/' | relative_url }}">Adventures</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.url == '/diet/' %}active{% endif %}" href="{{ '/diet/' | relative_url }}">Diet</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.url == '/pudge/' %}active{% endif %}" href="{{ '/pudge/' | relative_url }}">Pudge’s Profile</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.url == '/tillie/' %}active{% endif %}" href="{{ '/tillie/' | relative_url }}">Tillie’s Profile</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.url == '/chip/' %}active{% endif %}" href="{{ '/chip/' | relative_url }}">Chip’s Profile</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

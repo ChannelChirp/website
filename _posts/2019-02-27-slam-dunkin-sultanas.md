@@ -1,0 +1,19 @@
+---
+id: 424
+title: 'Slam Dunkin&#8217; Sultanas!'
+date: '2019-02-27T09:53:59+10:00'
+author: Sprinkles
+excerpt: ''
+layout: post
+guid: 'https://channelchirp.ddev.site/?p=424'
+permalink: /slam-dunkin-sultanas/
+lazyload_thumbnail_quality:
+    - default
+categories:
+    - Birds
+format: false
+---
+
+{% include embed/youtube.html id="an2W7JQLzKU" %}
+
+We discover the mystery of the sultana in the water from a few days ago... it was Tillie! She was rehydrating the sultanas to extract the sweet nectar! Maybe she has more in common with the lorikeets than we know...
