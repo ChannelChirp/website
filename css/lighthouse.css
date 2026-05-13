@@ -467,11 +467,28 @@ tbody tr:nth-child(odd) {
 .navbar-nav .nav-link {
   font-weight: 600;   /* was 600 – 400 is regular weight */
   font-size: 16px;
-  padding-left: 15px;   /* for spacing in the nav menu */
-  padding-right: 15px;  /* for spacing in the nav menu */
+  padding-left: 105px;   /* for spacing in the nav menu */
+  padding-right: 105px;  /* for spacing in the nav menu */
 }
 
 /* Navbar brand (site name) */
 .navbar-brand {
   font-weight: 600;   /* slightly bolder than links, but still thinner than 900 */
+}
+
+
+/* Green accent bar under page title */
+.entry-title {
+  position: relative;
+  padding-bottom: 18px;         /* space for the bar + 10px margin */
+  margin-bottom: 10px;
+}
+
+.entry-title::after {
+  content: "";
+  display: block;
+  width: 125px;
+  height: 4px;
+  background-color: #29a518;
+  margin: 10px auto 0;          /* 10px above, 0 below, auto centres it */
 }
