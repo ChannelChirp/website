@@ -1,6 +1,11 @@
 <aside class="widget">
   <h4 class="widget-title">Find-a-squawk</h4>
-  <pagefind-search bundle-path="/pagefind/"></pagefind-search>
+  <div id="search"></div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true });
+    });
+  </script>
 </aside>
 
 <aside class="widget">
