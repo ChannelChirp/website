@@ -523,12 +523,11 @@ body.hide-title .entry-title::after {
 .post-card .entry-content > header.entry-header,
 .post-card .entry-content > div.entry-content,
 .post-card .entry-content > footer.entry-footer {
-  margin-bottom: 3rem;          /* space to see the grey background */
+  border-bottom: 8px solid #424242;
 }
 
-/* Remove the margin from the last element so the card’s bottom stays flush */
 .post-card .entry-content > :last-child {
-  margin-bottom: 0;
+  border-bottom: none;
 }
 
 
