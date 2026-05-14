@@ -521,9 +521,9 @@ body.hide-title .entry-title::after {
 
 /* Grey gap between adventure posts */
 .adventure-post {
-  border-bottom: 12px solid #424242;   /* 12px thick – adjust to 10px or 15px as you like */
+  border-bottom: 35px solid #424242;   /* 12px thick – adjust to 10px or 15px as you like */
   padding-bottom: 0;                   /* no extra internal space */
-  margin-bottom: 0;                    /* remove any other margins */
+  margin-bottom: -35px;                    /* remove any other margins */
 }
 
 /* Remove the border from the last post so the page ends cleanly */
