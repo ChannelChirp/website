@@ -541,11 +541,6 @@ body.hide-title .post-card {
   box-shadow: none;              /* remove the thin shadow line */
 }
 
-/* Remove the gap before the first post - this is bad code haha but it works */
-.adventure-post:first-child {
-  margin-top: -68px;
-}
-
 /* Remove the gap after the last post */
 .adventure-post:last-child {
   margin-bottom: 0;
