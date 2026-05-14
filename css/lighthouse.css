@@ -474,8 +474,8 @@ tbody tr:nth-child(odd) {
 .navbar-nav .nav-link {
   font-weight: 600;   /* was 600 – 400 is regular weight */
   font-size: 16px;
-  padding-left: 105px;   /* for spacing in the nav menu */
-  padding-right: 105px;  /* for spacing in the nav menu */
+  padding-left: 1.5rem;   /* for spacing in the nav menu */
+  padding-right: 1.5rem;  /* for spacing in the nav menu */
 }
 
 /* Navbar brand (site name) */
@@ -511,7 +511,7 @@ body.post-layout .entry-title {
   margin-bottom: 5px;
 }
 
-/* Formats separator between Adventure posts */
+/* Formats separator between Adventure posts - deleted? */
 .post-separator {
   border: 0;
   border-top: 1px solid #ddd;
