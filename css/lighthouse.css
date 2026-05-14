@@ -519,10 +519,18 @@ body.hide-title .entry-title::after {
   display: none;
 }
 
-/* Grey background gap between adventure posts */
+/* Grey gap between adventure posts */
 .adventure-post {
-  margin-bottom: 3rem;        /* adjust gap size (2rem, 4rem, etc.) */
+  border-bottom: 12px solid #424242;   /* 12px thick – adjust to 10px or 15px as you like */
+  padding-bottom: 0;                   /* no extra internal space */
+  margin-bottom: 0;                    /* remove any other margins */
 }
+
+/* Remove the border from the last post so the page ends cleanly */
+.adventure-post:last-child {
+  border-bottom: none;
+}
+
 
 /* ============================
    Compact Single‑Column Timeline
