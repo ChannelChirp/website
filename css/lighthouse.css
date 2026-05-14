@@ -519,6 +519,10 @@ body.hide-title .entry-title::after {
   display: none;
 }
 
+/* Grey background gap between adventure posts */
+.adventure-post {
+  margin-bottom: 3rem;        /* adjust gap size (2rem, 4rem, etc.) */
+}
 
 /* ============================
    Compact Single‑Column Timeline
