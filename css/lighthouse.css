@@ -546,6 +546,11 @@ body.hide-title .post-card {
   margin-bottom: 0;
 }
 
+/* Align the top of the first adventure post with the sidebar */
+body.hide-title .adventure-post:first-child .entry-header {
+  padding-top: 0;
+}
+
 
 /* ============================
    Compact Single‑Column Timeline
