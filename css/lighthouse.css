@@ -531,7 +531,8 @@ body.hide-title .post-card {
   padding: 1.5em 2em;            /* inner spacing */
   margin-bottom: 35px;           /* the grey gap – adjust to 10px or 15px */
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border: none;                  /* remove any possible border */
+  box-shadow: none;              /* remove the thin shadow line */
 }
 
 /* Remove the gap after the last post */
