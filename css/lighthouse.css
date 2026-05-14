@@ -53,6 +53,10 @@ blockquote p {
   font-size: inherit;
 }
 
+.entry-title a {
+  text-decoration: none;
+}
+
 /* ----- 2. Navbar ----- */
 .navbar {
   font-size: 18px;
@@ -523,6 +527,8 @@ body.hide-title .entry-title::after {
 /* Make the whole post-card grey on the Adventures page */
 body.hide-title .post-card {
   background-color: #424242;      /* the dark grey you want for the gaps */
+  box-shadow: none;
+  border: none;
 }
 
 /* Each post is a white card with a grey gap below */
