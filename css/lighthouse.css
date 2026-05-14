@@ -539,6 +539,7 @@ body.hide-title .post-card {
   border-radius: 4px;
   border: none;                  /* remove any possible border */
   box-shadow: none;              /* remove the thin shadow line */
+  margin: -68px;
 }
 
 /* Remove the gap after the last post */
@@ -546,10 +547,6 @@ body.hide-title .post-card {
   margin-bottom: 0;
 }
 
-/* Hide the empty top header on pages where the title is hidden (Adventures) */
-body.hide-title .post-card > header.entry-header {
-  display: none;
-}
 
 /* ============================
    Compact Single‑Column Timeline
