@@ -551,6 +551,10 @@ body.hide-title .adventure-post:first-child .entry-header {
   padding-top: 0;
 }
 
+body.hide-title .post-card {
+  padding-top: 0 !important;
+}
+
 
 /* ============================
    Compact Single‑Column Timeline
