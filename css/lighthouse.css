@@ -521,9 +521,9 @@ body.hide-title .entry-title::after {
 
 /* Space between post cards on listing pages */
 .post-card + .post-card {
-  margin-top: 2rem;   /* the gap that shows the grey background */
+  border-top: 8px solid #424242;
+  padding-top: 1.5rem;
 }
-
 
 
 /* ============================
