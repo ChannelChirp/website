@@ -536,8 +536,6 @@ body.hide-title .post-card {
   background: #fff;
   padding: 1.5em 2em;            /* inner spacing */
   margin-bottom: 35px;           /* the grey gap */
-  margin-left: 50px;
-  margin-right: 50px; 
   border-radius: 4px;
   border: none;                  /* remove any possible border */
   box-shadow: none;              /* remove the thin shadow line */
