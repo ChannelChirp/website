@@ -32,9 +32,11 @@
   {% elsif page.type == 'year' %}
     <h1 class="entry-title">{{ page.date | date: "%Y" }}</h1>
   {% else %}
-    <h1 class="entry-title">{% unless page.hide_title %}
-# {{ page.title }}
-{% endunless %}</h1>
+    <h1 class="entry-title">
+    	{% unless page.hide_title %}
+		# {{ page.title }}
+		{% endunless %}
+	</h1>
   {% endif %}
   {% if page.date and page.type != 'month' and page.type != 'year' %}
     <div class="entry-meta">
@@ -49,7 +51,7 @@
       {% for post in page.posts reversed %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+          <small>{{ post.date | date: "%-d %B %Y" }}</small>
         </li>
       {% endfor %}
     </ul>
