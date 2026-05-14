@@ -5,9 +5,9 @@ hide_title: true
 show_hero: false
 ---
 
-
 {% for post in paginator.posts %}
-  <div class="adventure-post">
+ <div class="adventure-post">
+    
     <header class="entry-header">
       <h2 class="entry-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -20,8 +20,9 @@ show_hero: false
     <div class="entry-content">
       {{ post.content }}
     </div>
+    
+    </div>
 
-  </div>
 {% endfor %}
 
 
