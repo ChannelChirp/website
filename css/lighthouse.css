@@ -546,15 +546,10 @@ body.hide-title .post-card {
   margin-bottom: 0;
 }
 
-/* Align the top of the first adventure post with the sidebar */
-body.hide-title .adventure-post:first-child .entry-header {
-  padding-top: 0;
+/* Hide the empty top header on pages where the title is hidden (Adventures) */
+body.hide-title .post-card > header.entry-header {
+  display: none;
 }
-
-body.hide-title .post-card {
-  padding-top: 0 !important;
-}
-
 
 /* ============================
    Compact Single‑Column Timeline

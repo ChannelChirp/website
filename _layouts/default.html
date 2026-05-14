@@ -35,7 +35,8 @@
     <h1 class="entry-title">
     	{% unless page.hide_title %}
 		{{ page.title }}
-    </h1>
+		{% endunless %}
+	</h1>
   {% endif %}
   {% if page.date and page.type != 'month' and page.type != 'year' %}
     <div class="entry-meta">
@@ -43,7 +44,6 @@
     </div>
   {% endif %}
 </header>
-	{% endunless %}
 <div class="entry-content">
   {% if page.posts %}
     <!-- Archive page: list posts for this month/year -->
