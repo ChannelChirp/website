@@ -542,7 +542,7 @@ body.hide-title .post-card {
 }
 
 /* Remove the gap before the first post */
-.adventure-post:last-child {
+.adventure-post:first-child {
   margin-top: -68px;
 }
 
