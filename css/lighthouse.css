@@ -491,6 +491,15 @@ tbody tr:nth-child(odd) {
   font-size: 16px;
 }
 
+/* Vertically centre the navbar link text */
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  height: 100%;            /* fill the full height of the navbar */
+  padding-top: 0;          /* let flex handle the vertical centring */
+  padding-bottom: 0;
+}
+
 /* Navbar brand (site name) */
 .navbar-brand {
   font-weight: 600;   /* slightly bolder than links, but still thinner than 900 */
