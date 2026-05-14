@@ -519,16 +519,11 @@ body.hide-title .entry-title::after {
   display: none;
 }
 
-/* Grey spacer between posts on Adventures page */
-.post-card .entry-content > header.entry-header,
-.post-card .entry-content > div.entry-content,
-.post-card .entry-content > footer.entry-footer {
-  border-bottom: 8px solid #424242;
+/* Space between post cards on listing pages */
+.post-card + .post-card {
+  margin-top: 2rem;   /* the gap that shows the grey background */
 }
 
-.post-card .entry-content > :last-child {
-  border-bottom: none;
-}
 
 
 /* ============================
