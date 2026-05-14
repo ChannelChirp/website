@@ -519,12 +519,6 @@ body.hide-title .entry-title::after {
   display: none;
 }
 
-/* Space between post cards on listing pages */
-.post-card + .post-card {
-  border-top: 8px solid #424242;
-  padding-top: 1.5rem;
-}
-
 
 /* ============================
    Compact Single‑Column Timeline
