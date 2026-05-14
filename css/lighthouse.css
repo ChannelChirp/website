@@ -519,16 +519,24 @@ body.hide-title .entry-title::after {
   display: none;
 }
 
-/* Grey gap between adventure posts */
-.adventure-post {
-  border-bottom: 35px solid #424242;   /* 12px thick – adjust to 10px or 15px as you like */
-  padding-bottom: 0;                   /* no extra internal space */
-  margin-bottom: 0;                    /* remove any other margins */
+
+/* Make the whole post-card grey on the Adventures page */
+body.hide-title .post-card {
+  background-color: #424242;      /* the dark grey you want for the gaps */
 }
 
-/* Remove the border from the last post so the page ends cleanly */
+/* Each post is a white card with a grey gap below */
+.adventure-post {
+  background: #fff;
+  padding: 1.5em 2em;            /* inner spacing */
+  margin-bottom: 35px;           /* the grey gap – adjust to 10px or 15px */
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Remove the gap after the last post */
 .adventure-post:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 
