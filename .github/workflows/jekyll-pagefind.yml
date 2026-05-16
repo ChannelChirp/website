@@ -16,43 +16,57 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5          # was v4
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1          # unchanged, already fine
-        with:
-          ruby-version: '3.2'
-          bundler-cache: true
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
 
-      - name: Install Jekyll and dependencies
-        run: |
-          gem install bundler
-          bundle install
+    - name: Install Jekyll and dependencies
+      run: |
+        gem install bundler
+        bundle install
 
-      - name: Build site with Jekyll
-        run: bundle exec jekyll build --destination _site
+    - name: Build site with Jekyll
+      run: bundle exec jekyll build --destination _site
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v6       # was v4
-        with:
-          node-version: 18
+    - name: Setup Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: 18
 
-      - name: Install Pagefind
-        run: npm install -g pagefind
+    - name: Install Pagefind
+      run: npm install -g pagefind
 
-      - name: Run Pagefind
-        run: pagefind --site _site --output-subdir pagefind --exclude-selectors "img,.widget,.site-footer,.footer-widgets,.navbar,.pagination,.adventure-pagination,.post-navigation,#secondary"
+    - name: Run Pagefind
+      run: pagefind --site _site --output-subdir pagefind --exclude-selectors "img,.widget,.site-footer,.footer-widgets,.navbar,.pagination,.adventure-pagination,.post-navigation,#secondary"
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v6   # was v4
+    # Check for broken links in _site
+    - name: Check links with Lychee
+      uses: lycheeverse/lychee-action@v2
+      with:
+        args: >
+          --base _site
+          --verbose
+          --no-progress
+          --max-concurrency 8
+          --accept 200,429
+          './_site/**/*.html'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5   # was v3
-        with:
-          path: _site
+    - name: Configure Pages
+      uses: actions/configure-pages@v6
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v5
+      with:
+        path: _site
 
   deploy:
     needs: build
