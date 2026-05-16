@@ -352,16 +352,37 @@ blockquote p {
   font-size: 16px;
 }
 
-/* ----- 8. Footer ----- */
+/* ----- 8. Footer (revised) ----- */
 .site-footer {
   background-color: #101010;
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
-  padding: 1em 0;
-  text-align: center;
   min-height: 70px;
+  display: flex;
+  align-items: center;          /* vertical centring */
+  justify-content: center;      /* horizontal centring */
+  text-align: center;
+  padding: 0;
 }
+
+/* Override Bootstrap's container inside the footer */
+.site-footer .container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Remove any default paragraph margin that could push things */
+.site-footer p {
+  margin: 0;
+}
+
+
+
 .site-footer a {
   color: #bcbcbc;
 }
