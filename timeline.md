@@ -13,7 +13,7 @@ permalink: /timeline/
   {% for post in sorted_posts %}
   <div class="timeline-event">
     <span class="timeline-date">
-      {{ post.date | date: "%d %B %Y, %-I:%M %p" }}
+      {% include ordinal_date.html date=post.date %}
     </span>
     <h3 class="timeline-title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
