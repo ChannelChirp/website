@@ -67,7 +67,7 @@ blockquote p {
   min-height: 50px;
 }
 
-.navbar-brand {
+.navbar-brand {                      /* Channel Chirp title on the left */
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -93,6 +93,21 @@ blockquote p {
 .lh-nav-bg-transform .navbar-brand:hover {
   color: #29a518 !important;
 }
+
+/* Black brand when scrolled (solid navbar) */
+.navbar:not(.lh-nav-bg-transform) .navbar-brand {
+  color: #000 !important;
+}
+
+/* Solid navbar: brand is black, turns green on hover */
+.navbar:not(.lh-nav-bg-transform) .navbar-brand {
+  color: #000 !important;
+}
+.navbar:not(.lh-nav-bg-transform) .navbar-brand:hover {
+  color: #29a518 !important;
+}
+
+
 
 @media (max-width: 767px) {
   .lh-nav-bg-transform {
@@ -426,18 +441,25 @@ tbody tr:nth-child(odd) {
 
 /* ----- 12. Pagination ----- */
 
+/* Inactive page numbers – black by default */
 .pagination .page-link {
-  color: #29a518;
+  color: #212121;                /* dark grey, matches body headings */
+  background-color: transparent;
+  border-color: #ddd;            /* optional, keeps a subtle border */
 }
+
+/* Light green hover – only the text colour changes */
+.pagination .page-link:hover {
+  color: #fff;                /* soft light green, can be adjusted */
+  background-color: #29a518; /* no background glow */
+  border-color: #18610e;
+}
+
+/* Active page – white text on green pill */
 .pagination .page-item.active .page-link {
   background-color: #29a518;
-  border-color: #29a518;
+  border-color: #000;
   color: #fff;
-}
-.pagination .page-item.disabled .page-link {
-  background: transparent;
-  border: none;
-  color: #727272;
 }
 
 /* Pagefind Default UI – theme overrides */
@@ -499,12 +521,6 @@ tbody tr:nth-child(odd) {
   padding-top: 0;          /* let flex handle the vertical centring */
   padding-bottom: 0;
 }
-
-/* Navbar brand (site name) */
-.navbar-brand {
-  font-weight: 600;   /* slightly bolder than links, but still thinner than 900 */
-}
-
 
 /* Green accent bar under page title */
 .entry-title {
@@ -587,8 +603,24 @@ body.hide-title > .container-main .post-card > header.entry-header {
 
 /* Pagination card – same white width, keep bottom margin */
 .adventure-pagination {
-  padding: 1em 2em;        /* a little less vertical padding than post cards */
-  text-align: center;      /* center the nav inside */
+  padding: 1em 0;          /* vertical padding only – horizontal removed */
+  text-align: center;
+  border-bottom: none;     /* no grey gap below */
+}
+
+.adventure-pagination .pagination {
+  display: flex;
+  justify-content: space-between;  /* push items to the edges and space them out */
+  flex-wrap: wrap;                 /* allow wrapping on very narrow screens */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.adventure-pagination .page-link {
+  min-width: 44px;         /* larger touch target */
+  text-align: center;
+  padding: 0.5em 0.75em;
 }
 
 /* Remove the grey border on the pagination wrapper itself */
