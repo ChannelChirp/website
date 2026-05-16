@@ -1,5 +1,5 @@
 {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
-{% assign sorted_months = posts_by_month | sort: "name" | reverse %}
+{% assign sorted_months = posts_by_month | sort: "name" %}
 
 <aside class="widget">
   <h4 class="widget-title">Archives</h4>

@@ -207,7 +207,7 @@ blockquote p {
 }
 .post-card .entry-header {
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2px;
   padding-top: 2em;
   padding-bottom: 0.5em;
@@ -716,7 +716,7 @@ body.hide-title > .container-main .post-card > header.entry-header {
   display: block;
   margin-bottom: 0.2em;
   font-size: 0.85em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.5px;
 }
 
@@ -779,4 +779,54 @@ body.hide-title > .container-main .post-card > header.entry-header {
   display: block;
   font-size: 0.85em;
   margin-top: 0.2em;
+}
+
+
+
+/* Post navigation (previous / next) on single adventure posts*/
+.post-navigation {
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid #ddd;
+}
+
+.post-nav-label {
+  display: block;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #727272;
+  margin-bottom: 0.25em;
+}
+
+.post-navigation a {
+  color: #29a518;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1.3;
+  word-wrap: break-word;
+  transition: color 0.2s ease;
+}
+
+.post-navigation a:hover {
+  color: #1e8c10;
+}
+
+.prev-post,
+.next-post {
+  word-wrap: break-word;
+}
+
+/* Random post button – same size as the sidebar search button */
+.btn-random {
+  /* Inherits .btn-sm-pill styles; you can override colours if you like */
+  background: #29a518;
+  border-color: #29a518;
+  color: #fff;
+}
+.btn-random:hover {
+  background: #1e8c10;
+  border-color: #1e8c10;
+  color: #fff;
 }

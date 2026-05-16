@@ -29,7 +29,28 @@
           <div class="entry-content">
             {{ content }}
           </div>
-          <footer class="entry-footer"></footer>
+<footer class="entry-footer">
+  <nav class="post-navigation" aria-label="Post navigation">
+    <div class="row">
+      <div class="col-6 prev-post">
+        {% if page.previous %}
+          <span class="post-nav-label">Older Post</span>
+          <a href="{{ page.previous.url | relative_url }}" rel="prev">
+            {{ page.previous.title }}
+          </a>
+        {% endif %}
+      </div>
+      <div class="col-6 next-post text-end">
+        {% if page.next %}
+          <span class="post-nav-label">Newer Post</span>
+          <a href="{{ page.next.url | relative_url }}" rel="next">
+            {{ page.next.title }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+</footer>
         </article>
       </div>
 
@@ -58,7 +79,23 @@
     document.querySelector('.navbar').classList.add('lh-nav-bg-transform');
   </script>
 
+<!-- Pagefind -->
 <script src="/pagefind/pagefind-ui.js" type="module"></script>
+
+<!-- Post Randomiser -->
+<script>
+  const allPostUrls = [
+    {% for post in site.posts %}
+      "{{ post.url | relative_url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  function goToRandomPost() {
+    if (allPostUrls.length === 0) return;
+    const randomIndex = Math.floor(Math.random() * allPostUrls.length);
+    window.location.href = allPostUrls[randomIndex];
+  }
+</script>
 
 </body>
 </html>
