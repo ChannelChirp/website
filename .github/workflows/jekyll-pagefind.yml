@@ -44,18 +44,7 @@ jobs:
         run: npm install -g pagefind
 
       - name: Run Pagefind
-        run: >
-          pagefind --site _site --output-subdir pagefind
-          --exclude-selectors
-          img,
-          .widget,
-          .site-footer,
-          .footer-widgets,
-          .navbar,
-          .pagination,
-          .adventure-pagination,
-          .post-navigation,
-          #secondary
+        run: pagefind --site _site --output-subdir pagefind --exclude-selectors "img,.widget,.site-footer,.footer-widgets,.navbar,.pagination,.adventure-pagination,.post-navigation,#secondary"
 
       - name: Configure Pages
         uses: actions/configure-pages@v6   # was v4
