@@ -545,7 +545,7 @@ tbody tr:nth-child(odd) {
 
 /* Clear button */
 .pagefind-ui__search-clear {
-  color: #29a518;
+  display: none !important;
 }
 
 /* Results list */
@@ -563,24 +563,25 @@ tbody tr:nth-child(odd) {
   border-bottom: none;
 }
 
-/* Result title */
+/* Result title – reduce bottom margin */
 .pagefind-ui__result-title {
   font-size: 1.1em;
   font-weight: 600;
   color: #212121;
   text-decoration: none;
+  margin-bottom: 0.1em;          /* was probably 0.5em by default */
 }
 
 .pagefind-ui__result-title:hover {
   color: #29a518;
 }
 
-/* Result excerpt */
+/* Result excerpt – reduce top margin */
 .pagefind-ui__result-excerpt {
   color: #424242;
   font-size: 0.9em;
   line-height: 1.6;
-  margin-top: 0.25em;
+  margin-top: 0;            /* even tighter – adjust to 0 if you like */
 }
 
 /* Load more button – match your green pills */
