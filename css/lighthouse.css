@@ -584,6 +584,7 @@ body.hide-title > .container-main .post-card > header.entry-header {
   margin-top: 0;
 }
 
+
 /* ============================
    Adventure Posts Pagination
    ============================ */
@@ -594,11 +595,12 @@ body.hide-title > .container-main .post-card > header.entry-header {
   text-align: center;      /* center the nav inside */
 }
 
-/* Remove any unwanted extra border or shadow */
-.adventure-pagination {
-  border: none;
-  box-shadow: none;
+/* Override bottom margin for the pagination wrapper */
+.adventure-post.adventure-pagination {
+  margin-bottom: 0;         /* flush with the container */
 }
+
+
 
 
 
