@@ -6,40 +6,36 @@ show_hero: false
 
 ![Pudge]({{ '/images/pudge.jpg' | relative_url }}){: .alignright width="300"}
 
-**Species:** Green‑cheeked conure (genus *Pyrrhura*)  
-**Sex:** Male (Assumed)  
+**Species:** Green‑cheeked conure  
+**Sex:** Male (Unconfirmed)  
 **Nickname:** Pudding  
 **Hatchday:** Late 2017  
-**Adoption Anniversary:** 1 January 2018  
-**Forever Home:** 19 May 2018 (pictured with his new turquoise green‑cheeked conure friend)  
+**Adoption Anniversary:** 1st January 2018  
+**Forever Home:** 19th May 2018  
 **Personality:** Adventurous leader - the undisputed king bird  
 
 ## Pudge’s Story
 
-Pudge and his sister Tillie were adopted together on New Year's Day 2018. They were brother and sister, from the same nest. He was the greyer bird on top - and the **king of the cage**. Nobody told Pudge what to do! [reference:0]
-
-Also known as *Pudding*, Pudge was a compact, upside‑down‑loving green‑cheeked conure of the genus *Pyrrhura*. [reference:1]
+Pudge and his sister Tillie were adopted together on New Year’s Day 2018. They were brother and sister, from the same nest. Also known as Pudding, he was a compact, upside‑down‑loving green‑cheeked conure - greyer on top - and the **king of the cage**. Nobody told Pudge what to do.
 
 ### The Adventurous Leader
 
-Pudge was the most adventurous leader of the parrot gang - always jumping head‑first into the unknown. [reference:2] Whether it was a rooftop rumble and chase with Tillie [reference:3], a play‑fight smackdown where even the referee joined in [reference:4], or scaling a newly‑made rope from the bottom of the cage to the top [reference:5], Pudge led the charge.
+From day one, Pudge was the most adventurous leader of the parrot gang - always jumping head‑first into the unknown. He and Tillie quickly became a team. They raced across the rooftop, rumbling and chasing each other in spirited play. They smacked each other down in wild play‑fights, sometimes so intense that even the referee couldn’t stay neutral and joined in. Together they scaled a newly‑made rope from the bottom of the cage to the top, a true adventure for a compact conure.
 
-He and Tillie were close. After a long week of getting used to their new home, they would snuggle down together for the night. [reference:6] They played, preened, and napped - the three most important things every conure should do before 9am. [reference:7]
+After a long first week getting used to their new home, Pudge and Tillie would snuggle down together for the night. Their daily routine was the sacred trinity of conure life: play, preen, nap - and repeat, all before 9am.
 
 ### The Boss Meets the Baby
 
-When Chip (Baby Borb) arrived on 3 February 2018, Pudge was established as **"The Boss"**. During the flock merge, Chip got acquainted with Pudge outside the cage while Tillie (2IC) hid inside to prevent conflict. It all ended with quite a surprise to both Tillie and Pudge! [reference:8]
+When Chip - the Baby Borb - arrived on 3 February 2018, Pudge was already established as **The Boss**. During the great flock merge, while Tillie (second‑in‑command) hid inside the cage to prevent conflict, Pudge met the newcomer outside. It all ended with quite a surprise to both Tillie and Pudge!
 
-Pudge didn't always play nice with the newcomer - he was spotted stomping on Chip in what was described as "Stomp! The Musical!" [reference:9] But eventually the three birds partied around the cage together until the break of dawn. [reference:10]
-
-One post hinted at the inbreeding concern directly: *"I don't think we should be mother and father though as that would be inbreeding, maybe we'll each settle down with a nice turquoise or cinnamon conure friend…"* [reference:11]
+Pudge didn’t always play nice with the new baby. He was caught stomping on Chip in what can only be described as a musical of tiny tyranny. But eventually the three birds found their rhythm, partying around the cage together until the break of dawn. They shared millet, with Pudge and Tillie pecking away while Chip rested nearby. Even a hardened boss needs a break.
 
 ### The Great Breakout & Beyond
 
-After doing hard time for a failed heist, Pudge, Chip and Tillie escaped the slammer and headed for high ground as the tide rolled in. [reference:12]
+After doing hard time for a failed heist, Pudge joined Chip and Tillie in a daring breakout. They escaped the slammer and headed for high ground as the tide rolled in - a true conure caper.
 
-Realising two almost identical birds with almost identical genetics wasn't a good long‑term plan, Pudge was rehomed separately. The post "Pudge's New Home" (7 July 2018) shared a short clip from his new forever home - where he now lives happily with a gorgeous turquoise green‑cheeked conure companion. [reference:13]
+Realising two almost identical birds with almost identical genetics wasn’t a good long‑term plan - they were siblings, after all - Pudge was rehomed separately. He went to his forever home on 19 May 2018, where he now lives happily with a gorgeous turquoise green‑cheeked conure companion. The photos sent back show a very happy, confident bird.
 
-Even though he's moved on, Pudge's legacy as king of the cage remains unchallenged.
+Even though he’s moved on, Pudge’s legacy as king of the cage remains unchallenged.
 
-*(More of Pudge's early adventures - from adoption through breakouts - can be found on the [Timeline](/timeline/).)*
+*“I’m still the king of the cage.”*
