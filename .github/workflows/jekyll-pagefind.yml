@@ -46,12 +46,12 @@ jobs:
       - name: Run Pagefind
         run: pagefind --site _site --output-subdir pagefind --exclude-selectors "img,.widget,.site-footer,.footer-widgets,.navbar,.pagination,.adventure-pagination,.post-navigation,#secondary"
 
-      # ✅ New step: check for broken links in _site
+      # New step: check for broken links in _site
       - name: Check links with Lychee
         uses: lycheeverse/lychee-action@v2
         with:
           args: >
-            --base _site
+            --root-dir ${{ github.workspace }}/_site
             --verbose
             --no-progress
             --max-concurrency 8
