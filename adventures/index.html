@@ -13,7 +13,7 @@ show_hero: false
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
       <div class="entry-meta">
-        {{ post.date | date: "%-d %B %Y" }}
+         {% include ordinal_date.html date=post.date %}
       </div>
     </header>
 

@@ -40,7 +40,7 @@
   {% endif %}
   {% if page.date and page.type != 'month' and page.type != 'year' %}
     <div class="entry-meta">
-      {{ page.date | date: "%B %-d, %Y" }}
+      {% include ordinal_date.html date=page.date %}
     </div>
   {% endif %}
 </header>
@@ -52,7 +52,7 @@
       {% for post in page.posts reversed %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <small>{{ post.date | date: "%-d %B %Y" }}</small>
+          <small> {% include ordinal_date.html date=post.date %}</small>
         </li>
       {% endfor %}
     </ul>
