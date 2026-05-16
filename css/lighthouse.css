@@ -14,8 +14,21 @@ body {
 
 .container-main {
   max-width: 1150px;   /* adjust this value to your taste (e.g., 850px, 960px) */
+  min-height: 1050px;
   margin-top: 80px;  /* keep your existing top spacing */
 }
+
+/* Homepage image caption */
+.aligncenter figcaption,
+.wp-caption-text {
+  margin-top: -0.5em;
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+  color: #727272;
+  text-align: center;
+  font-style: italic;
+}
+
 
 h1, h2, h3, h4, h5, h6,
 .navbar-brand,
@@ -829,4 +842,22 @@ body.hide-title > .container-main .post-card > header.entry-header {
   background: #1e8c10;
   border-color: #1e8c10;
   color: #fff;
+}
+
+
+/* Solid navbar: black text for brand and links */
+.navbar:not(.lh-nav-bg-transform) .navbar-brand,
+.navbar:not(.lh-nav-bg-transform) .nav-link {
+  color: #000 !important;
+}
+
+/* Keep the green accent on hover */
+.navbar:not(.lh-nav-bg-transform) .nav-link:hover,
+.navbar:not(.lh-nav-bg-transform) .navbar-brand:hover {
+  color: #29a518 !important;
+}
+
+/* Active link can stay green if you prefer, or black – choose one */
+.navbar:not(.lh-nav-bg-transform) .nav-link.active {
+  color: #29a518 !important;   /* green for the current page */
 }
