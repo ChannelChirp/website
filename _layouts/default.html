@@ -8,8 +8,7 @@
 {% if page.hide_title %}
   {% capture body_classes %}{{ body_classes }} hide-title{% endcapture %}
 {% endif %}
-<body{% if body_classes != "" %} class="{{ body_classes | strip }}"{% endif %}>
-
+<body{% if page.exclude_search %} data-pagefind-ignore{% endif %}{% if body_classes != "" %} class="{{ body_classes | strip }}"{% endif %}>
   {% include navbar.html %}
 
   <!-- Hero section (hidden by default; can be shown per page) -->
