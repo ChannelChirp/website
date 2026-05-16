@@ -547,13 +547,13 @@ body.hide-title .entry-title::after {
 }
 
 
-/* Make the whole post-card grey on the Adventures page 
+/* Make the whole post-card grey on the Adventures page */
 body.hide-title .post-card {
   background-color: #424242;
   box-shadow: none;
   border: none;
 }
-*/
+
 
 
 /* Remove the gap after the last post */
