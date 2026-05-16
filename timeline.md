@@ -5,6 +5,7 @@ hide_sidebar: true
 show_hero: false
 body_class: timeline-page
 permalink: /timeline/
+exclude_search: true
 ---
 
 <div class="timeline">

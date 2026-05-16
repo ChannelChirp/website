@@ -3,6 +3,7 @@ layout: default
 title: Search
 show_hero: false
 permalink: /search/
+exclude_search: true
 ---
 
 <div id="search"></div>
