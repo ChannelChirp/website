@@ -591,13 +591,7 @@ body.hide-title > .container-main .post-card > header.entry-header {
 /* Pagination card – same white width, keep bottom margin */
 .adventure-pagination {
   padding: 1em 2em;        /* a little less vertical padding than post cards */
-  margin-bottom: 35px;     /* grey gap below pagination */
   text-align: center;      /* center the nav inside */
-}
-
-/* Override :last‑child removal so the grey gap stays */
-body.hide-title .adventure-pagination {
-  margin-bottom: 35px;
 }
 
 /* Remove any unwanted extra border or shadow */
