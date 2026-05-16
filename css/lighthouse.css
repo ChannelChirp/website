@@ -188,7 +188,6 @@ blockquote p {
   box-shadow: 0 1px 3px rgba(0,0,0,.15);
   border-radius: 3px;
   padding: 0 4em;
-  margin-bottom: 2em;
   margin-top: 0;        /* pushes content below fixed navbar (since hero is missing) */
 }
 .post-card .entry-header {
@@ -547,33 +546,29 @@ body.hide-title .entry-title::after {
 }
 
 
-/* Make the whole post-card grey on the Adventures page */
+/* Remove the grey border on the last regular post (second‑last child) */
+.adventure-post:nth-last-child(2) {
+  border-bottom: none;
+}
+
+/* TESTING TO FIX SPACING ON ADVENTURE POSTS - IT WORKED! Yay! */
+
+/* Adventures page: make the post-card container edge‑to‑edge and grey */
 body.hide-title .post-card {
   background-color: #424242;
   box-shadow: none;
   border: none;
-}
-
-/* Remove the grey gap below the last post AND the pagination card */
-.adventure-post:last-child,
-.adventure-post.adventure-pagination {
+  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 0;
 }
 
-/* TESTING TO FIX SPACING ON ADVENTURE POSTS */
-
-/* Adventures page: make the post-card container edge‑to‑edge */
-body.hide-title .post-card {
-  padding-left: 0;
-  padding-right: 0;
-}
-
+/* White post card with a grey bottom border as the gap */
 .adventure-post {
   background: #fff;
-  padding: 1.5em 2em;        /* keep padding for text */
-  margin-bottom: 35px;       /* grey gap */
+  padding: 1.5em 2em;
+  border-bottom: 35px solid #424242;   /* the grey gap */
   border-radius: 0;
-  border: none;
   box-shadow: none;
 }
 
@@ -596,12 +591,10 @@ body.hide-title > .container-main .post-card > header.entry-header {
   text-align: center;      /* center the nav inside */
 }
 
-/* Override bottom margin for the pagination wrapper */
+/* Remove the grey border on the pagination wrapper itself */
 .adventure-post.adventure-pagination {
-  margin-bottom: 0;         /* flush with the container */
+  border-bottom: none;
 }
-
-
 
 
 
