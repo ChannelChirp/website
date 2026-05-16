@@ -209,8 +209,8 @@ blockquote p {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
 }
 .post-card .entry-title {
   margin-bottom: 14px;
@@ -535,12 +535,25 @@ tbody tr:nth-child(odd) {
   width: 125px;
   height: 4px;
   background-color: #29a518;
-  margin: 10px auto 0;          /* 10px above, 0 below, auto centres it */
+  margin: 18px auto 0;          /* 18px above - pushes green bar down, 0 below, auto centres it */
 }
 
-/* Remove green title bar on Adventure posts */
+/* Remove the 2em top padding from adventure post headers */
+.adventure-post .entry-header {
+  padding-top: 1em;
+}
+
+
+/* Remove secondary green title bar on Adventure posts from under title */
 body.post-layout .entry-title::after {
   display: none;
+}
+
+/* Reduce gap between heading and date on Adventure blog roll posts */
+.adventure-post .entry-title {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 5px;
 }
 
 /* Reduce gap between heading and date on Adventure posts */
@@ -549,12 +562,6 @@ body.post-layout .entry-title {
   margin-bottom: 5px;
 }
 
-/* Formats separator between Adventure posts - deleted? */
-.post-separator {
-  border: 0;
-  border-top: 1px solid #ddd;
-  margin: 2em 0;
-}
 
 /* Remove the green accent bar when the title is hidden (Mainly on Adventures) */
 body.hide-title .entry-title::after {
@@ -566,8 +573,6 @@ body.hide-title .entry-title::after {
 .adventure-post:nth-last-child(2) {
   border-bottom: none;
 }
-
-/* TESTING TO FIX SPACING ON ADVENTURE POSTS - IT WORKED! Yay! */
 
 /* Adventures page: make the post-card container edge‑to‑edge and grey */
 body.hide-title .post-card {
@@ -582,10 +587,11 @@ body.hide-title .post-card {
 /* White post card with a grey bottom border as the gap */
 .adventure-post {
   background: #fff;
-  padding: 1.5em 2em;
+  padding: 1.5em 4em;
   border-bottom: 35px solid #424242;   /* the grey gap */
   border-radius: 0;
   box-shadow: none;
+  
 }
 
 body.hide-title > .container-main .post-card > header.entry-header {
@@ -593,7 +599,14 @@ body.hide-title > .container-main .post-card > header.entry-header {
 }
 
 .adventure-post:first-child {
+  padding-top: 1em;   /* mimics the .entry-header top padding */
   margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .adventure-post {
+    padding: 1.5em 1.5em;   /* same as .post-card’s mobile padding */
+  }
 }
 
 

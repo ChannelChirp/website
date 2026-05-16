@@ -28,15 +28,15 @@
         <article class="post-card">
 <header class="entry-header">
   {% if page.type == 'month' %}
-    <h1 class="entry-title">{{ page.date | date: "%B %Y" }}</h1>
+    <h2 class="entry-title">{{ page.date | date: "%B %Y" }}</h2>
   {% elsif page.type == 'year' %}
-    <h1 class="entry-title">{{ page.date | date: "%Y" }}</h1>
+    <h2 class="entry-title">{{ page.date | date: "%Y" }}</h2>
   {% else %}
-    <h1 class="entry-title">
+    <h2 class="entry-title">
     	{% unless page.hide_title %}
 		{{ page.title }}
 		{% endunless %}
-	</h1>
+	</h2>
   {% endif %}
   {% if page.date and page.type != 'month' and page.type != 'year' %}
     <div class="entry-meta">
