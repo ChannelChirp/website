@@ -2,6 +2,7 @@ title: Channel Chirp
 description: Green-cheeked and Big Beaked
 url: https://channelchirp.com
 baseurl: ""
+timezone: Australia/Sydney
 
 # The blog structure
 permalink: /:title/
