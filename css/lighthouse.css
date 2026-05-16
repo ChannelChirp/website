@@ -554,8 +554,9 @@ body.hide-title .post-card {
   border: none;
 }
 
-/* Remove the gap after the last post */
-.adventure-post:last-child {
+/* Remove the grey gap below the last post AND the pagination card */
+.adventure-post:last-child,
+.adventure-post.adventure-pagination {
   margin-bottom: 0;
 }
 
