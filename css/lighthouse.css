@@ -217,6 +217,7 @@ blockquote p {
   border-radius: 3px;
   padding: 0 4em;
   margin-top: 0;        /* pushes content below fixed navbar (since hero is missing) */
+  margin-bottom: 50px; /* Adds 50px of grey space below the white content card */
 }
 .post-card .entry-header {
   text-align: center;
