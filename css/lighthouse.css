@@ -969,3 +969,7 @@ body.hide-title > .container-main .post-card > header.entry-header {
   color: #29a518 !important;   /* green for the current page */
 }
 
+/* Making the gap larger when there's an image then text, then an image. The underside needs more space */
+.adventure-post .entry-content img {
+  margin-top: 1em;
+}
