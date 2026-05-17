@@ -973,3 +973,22 @@ body.hide-title > .container-main .post-card > header.entry-header {
 .adventure-post .entry-content img {
   margin-top: 1em;
 }
+
+/* ── Image Alignment Fix for Mobile ── */
+@media (max-width: 767px) {
+  .alignright,
+  .alignleft {
+    float: none;           /* remove the float */
+    display: block;        /* make it a block element for centering */
+    margin: 1.5em auto;    /* vertical spacing + auto centering */
+    max-width: 100%;       /* prevent overflow */
+    height: auto;
+  }
+}
+
+/* Grey gap below sidebar when it stacks under content on mobile */
+@media (max-width: 767px) {
+  .col-md-9 {
+    margin-bottom: 3rem;   /* adjust to match the space you like (2rem, 35px, etc.) */
+  }
+}
