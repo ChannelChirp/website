@@ -23,6 +23,9 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Archives drop-down box!
 jekyll-archives:

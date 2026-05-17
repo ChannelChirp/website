@@ -19,13 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5          # was v4
+        uses: actions/checkout@v5         # was v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1          # unchanged, already fine
         with:
           ruby-version: '3.2'
-          bundler-cache: true
+          bundler-cache: true             # this caches gems automatically
 
       - name: Install Jekyll and dependencies
         run: |
