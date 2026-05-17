@@ -6,13 +6,13 @@ show_hero: false
 
 ![Chip]({{ '/images/chip.jpg' | relative_url }}){: .alignright width="300"}
 
-**Nicknames:** Baby Borb, Chippy  
+**Nicknames:** Baby Borb, Chippy, Cinnamon  
 **Species:** Cinnamon green‑cheeked conure  
 **Sex:** Likely male (DNA inconclusive)  
 **Hatchday:** Very late 2017 in Charlestown, NSW, Australia  
 **Adoption Anniversary:** 3rd February 2018  
 **Forever Home:** 19th March 2019  
-**Weight:** 64 grams (DATE?)  
+**Weight:** 56 grams (6th June 2018)  
 **Favourite foods:** Corn, almonds, apple, salmon, sultanas  
 **Personality:** Adventurous and carefree, a bit of a clown  
 

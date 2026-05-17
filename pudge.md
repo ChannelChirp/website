@@ -12,7 +12,7 @@ show_hero: false
 **Hatchday:** Late 2017 in Maitland, NSW, Australia    
 **Adoption Anniversary:** 1st January 2018  
 **Forever Home:** 19th May 2018  
-**Weight:** ?? grams (DATE?)  
+**Weight:** 75 grams (2nd May 2018)  
 **Favourite foods:** Sunflower seeds, grapes, apple, millet
 **Personality:** The adventurous leader  
 

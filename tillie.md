@@ -12,7 +12,7 @@ show_hero: false
 **Hatchday:** Late 2017 in Maitland, NSW, Australia    
 **Adoption Anniversary:** 1st January 2018  
 **Forever Home:** 19th March 2019  
-**Weight:** 74 grams (DATE?)  
+**Weight:** 68 grams (6th June 2018)  
 **Favourite foods:** Banana, blueberry, capsicum, carrot - plus grape, apple, and millet  
 **Personality:** Cautious with attitude  
 
