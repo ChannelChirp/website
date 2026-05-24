@@ -7,4 +7,4 @@ permalink: /squawking-squawkers/
 ---
 {% include embed/youtube.html id="KQPZWjhVjKs" %}
 
-Tillie and Chip go crazy at the local swimming hole. They get in a big flap over nothing and then head back to camp to dry off. Also a cameo from [FRANK THE SNAKE](/homepages/frank/).
+Tillie and Chip go crazy at the local swimming hole. They get in a big flap over nothing and then head back to camp to dry off. Also a cameo from [FRANK THE SNAKE](https://mcretro.net/homepages/frank).
