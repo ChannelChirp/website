@@ -12,7 +12,7 @@ exclude_search: true
 <div id="soundborb" class="sb" data-manifest="{{ '/assets/soundborb/clips.json' | relative_url }}" data-audio-root="{{ '/assets/soundborb/' | relative_url }}">
   <header class="sb-hero">
     <div class="sb-hero-copy">
-      <span class="sb-kicker"><span class="sb-kicker-dot" aria-hidden="true"></span> THE LITTLE FLOCK SOUND MACHINE <span class="sb-version">v0.3</span></span>
+      <span class="sb-kicker"><span class="sb-kicker-dot" aria-hidden="true"></span> THE LITTLE FLOCK SOUND MACHINE <span class="sb-version">v0.4</span></span>
       <h1>Sound<span>borb.</span></h1>
       <p>Little beeps, big personalities. A pocket-sized collection of real chirps, chatter, mimicry and a few silly call-and-response noises from the Channel Chirp flock and one of the borb parents.</p>
       <div class="sb-hero-buttons">
@@ -47,7 +47,7 @@ exclude_search: true
 
   <div class="sb-main-grid">
     <section class="sb-library" aria-labelledby="sb-library-heading">
-      <div class="sb-section-head"><div><span class="sb-overline">THE SOUND LIBRARY</span><h2 id="sb-library-heading">Tiny noises, <em>huge character.</em></h2><p>Real recordings, split into individually playable moments. Most identities for these sounds still haven't been confirmed, and some of the playful noises are from one of the borb parents joining in.</p></div><div class="sb-count" id="sb-count" aria-live="polite">167 sounds</div></div>
+      <div class="sb-section-head"><div><span class="sb-overline">THE SOUND LIBRARY</span><h2 id="sb-library-heading">Tiny noises, <em>huge character.</em></h2><p>Real recordings, split into individually playable moments. Most identities for these sounds still haven't been confirmed, and some of the playful noises are from one of the borb parents joining in.</p></div><div class="sb-count" id="sb-count" aria-live="polite">231 sounds</div></div>
       <div class="sb-filters"><div class="sb-tabs" role="group" aria-label="Filter sounds"><button type="button" class="sb-tab is-active" data-filter="all" aria-pressed="true">All chirps</button><button type="button" class="sb-tab" data-filter="favourites" aria-pressed="false"><i class="far fa-heart" aria-hidden="true"></i> Favourites <span id="sb-fav-count">0</span></button></div><label class="sb-search"><i class="fas fa-search" aria-hidden="true"></i><span class="sr-only">Search chirps</span><input id="sb-search" type="search" placeholder="Find a chirp…" autocomplete="off"></label></div>
       <div class="sb-clips" id="sb-clips" aria-live="off"><p class="sb-loading">Preparing your little flock of sounds…</p></div>
       <p class="sb-empty" id="sb-empty" hidden>No chirps here yet. Try a different search or filter.</p>
@@ -60,7 +60,7 @@ exclude_search: true
       <div class="sb-machine-footer"><i class="fas fa-heart" aria-hidden="true"></i> Made for the little personalities behind every beep.</div>
     </aside>
   </div>
-  <footer class="sb-footer"><span>Channel Chirp · Soundborb v0.3</span><span>Original recordings preserved. Made with love for Pudge, Tillie, Chip, and one of the borb parents.</span></footer>
+  <footer class="sb-footer"><span>Channel Chirp · Soundborb v0.4</span><span>Original recordings preserved. Made with love for Pudge, Tillie, Chip, and one of the borb parents.</span></footer>
   <p class="sb-status sr-only" id="sb-status" role="status" aria-live="polite"></p>
 </div>
 <script src="{{ '/js/soundborb.js' | relative_url }}" defer></script>
