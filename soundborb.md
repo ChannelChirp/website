@@ -12,14 +12,15 @@ exclude_search: true
 <div id="soundborb" class="sb" data-manifest="{{ '/assets/soundborb/clips.json' | relative_url }}" data-audio-root="{{ '/assets/soundborb/' | relative_url }}">
   <header class="sb-hero">
     <div class="sb-hero-copy">
-      <span class="sb-kicker"><span class="sb-kicker-dot" aria-hidden="true"></span> THE LITTLE FLOCK SOUND MACHINE <span class="sb-version">v0.4</span></span>
+      <span class="sb-kicker"><span class="sb-kicker-dot" aria-hidden="true"></span> THE LITTLE FLOCK SOUND MACHINE <span class="sb-version">v0.5</span></span>
       <h1>Sound<span>borb.</span></h1>
       <p>Little beeps, big personalities. A pocket-sized collection of real chirps, chatter, mimicry and a few silly call-and-response noises from the Channel Chirp flock and one of the borb parents.</p>
       <div class="sb-hero-buttons">
         <button class="sb-btn sb-btn-primary" type="button" id="sb-random"><i class="fas fa-random" aria-hidden="true"></i> Random borb</button>
-        <button class="sb-btn sb-btn-secondary" type="button" id="sb-surprise"><i class="fas fa-music" aria-hidden="true"></i> Surprise me (5)</button>
+        <button class="sb-btn sb-btn-secondary" type="button" id="sb-surprise"><i class="fas fa-music" aria-hidden="true"></i> Surprise me (10)</button>
+        <button class="sb-btn sb-btn-party" type="button" id="sb-party" aria-pressed="false"><i class="fas fa-dove" aria-hidden="true"></i> Party Parrot</button>
       </div>
-      <p class="sb-hero-hint">Tap a sound to play it. Add sounds to the Borb Machine to make your own little concert.</p>
+      <p class="sb-hero-hint">Tap a sound to play it. Try 10 surprises, fill a queue with 10 random sounds, or let Party Parrot shuffle through the whole collection on repeat.</p>
     </div>
     <div class="sb-flock" aria-label="The Channel Chirp flock">
       <a href="{{ '/pudge/' | relative_url }}" class="sb-bird sb-bird-a" aria-label="Meet Pudge. Pudge is the bird at the back of the thumbnail.">
@@ -54,13 +55,13 @@ exclude_search: true
     </section>
 
     <aside class="sb-machine" aria-labelledby="sb-machine-heading">
-      <div class="sb-machine-head"><div class="sb-machine-tag">THE BORB MACHINE <span aria-hidden="true">✳</span></div><h2 id="sb-machine-heading">Make some <em>noise.</em></h2><p>Queue up your favourite sounds, then play them one after another.</p></div>
-      <div class="sb-machine-queue"><div class="sb-queue-heading"><strong>PLAY QUEUE</strong><span id="sb-queue-count">0 sounds</span></div><ol id="sb-queue" aria-label="Queued sounds"><li class="sb-queue-placeholder">It's quiet in here…<br>Add chirps using the <strong>+</strong> buttons.</li></ol></div>
+      <div class="sb-machine-head"><div class="sb-machine-tag">THE BORB MACHINE <span aria-hidden="true">✳</span></div><h2 id="sb-machine-heading">Make some <em>noise.</em></h2><p>Queue up your favourite sounds, or fill to 10 randomly. Party Parrot plays the full library in shuffled rounds.</p></div>
+      <div class="sb-machine-queue"><div class="sb-queue-heading"><strong>PLAY QUEUE</strong><span id="sb-queue-count">0 sounds</span></div><button type="button" class="sb-queue-ten" id="sb-queue-ten" disabled><i class="fas fa-random" aria-hidden="true"></i> Fill queue to 10</button><ol id="sb-queue" aria-label="Queued sounds"><li class="sb-queue-placeholder">It's quiet in here…<br>Add chirps using the <strong>+</strong> buttons.</li></ol></div>
       <div class="sb-machine-actions"><button class="sb-btn sb-btn-primary sb-machine-play" type="button" id="sb-play-queue" disabled><i class="fas fa-play" aria-hidden="true"></i> Play queue</button><div class="sb-machine-secondary"><button type="button" id="sb-shuffle" disabled><i class="fas fa-random" aria-hidden="true"></i> Shuffle</button><button type="button" id="sb-clear" disabled><i class="fas fa-trash-alt" aria-hidden="true"></i> Clear</button></div></div>
       <div class="sb-machine-footer"><i class="fas fa-heart" aria-hidden="true"></i> Made for the little personalities behind every beep.</div>
     </aside>
   </div>
-  <footer class="sb-footer"><span>Channel Chirp · Soundborb v0.4</span><span>Original recordings preserved. Made with love for Pudge, Tillie, Chip, and one of the borb parents.</span></footer>
+  <footer class="sb-footer"><span>Channel Chirp · Soundborb v0.5</span><span>Original recordings preserved. Made with love for Pudge, Tillie, Chip, and one of the borb parents.</span></footer>
   <p class="sb-status sr-only" id="sb-status" role="status" aria-live="polite"></p>
 </div>
 <script src="{{ '/js/soundborb.js' | relative_url }}" defer></script>

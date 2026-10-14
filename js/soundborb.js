@@ -1,4 +1,4 @@
-/* Soundborb v0.1. Static audio soundboard; no trackers or external services. */
+/* Soundborb v0.5. Static audio soundboard; no trackers or external services. */
 (() => {
   'use strict';
   const root = document.getElementById('soundborb');
@@ -7,7 +7,7 @@
   const audio = new Audio();
   audio.preload = 'none';
   audio.volume = 0.8;
-  const state = { clips: [], byId: new Map(), favourites: new Set(), filter: 'all', query: '', queue: [], playing: null, machine: false, machineIndex: -1, requestedToken: 0 };
+  const state = { clips: [], byId: new Map(), favourites: new Set(), filter: 'all', query: '', queue: [], playing: null, machine: false, machineIndex: -1, requestedToken: 0, party: false, partyDeck: [], partyRound: 0, partyLast: null, partyFailures: 0 };
   const storageKey = 'channelchirp-soundborb-favourites-v1';
   try { const saved = JSON.parse(localStorage.getItem(storageKey) || '[]'); if (Array.isArray(saved)) state.favourites = new Set(saved.filter((s) => typeof s === 'string')); } catch (_) { /* Private browsing may block local storage. */ }
   const status = (message) => { $('sb-status').textContent = message; };
@@ -48,26 +48,87 @@
       play.setAttribute('aria-label', (active ? 'Pause ' : 'Play ') + state.byId.get(card.dataset.clipId).title);
     });
     $('sb-play-queue').innerHTML = (state.machine && !audio.paused ? '<i class="fas fa-pause" aria-hidden="true"></i> Pause queue' : '<i class="fas fa-play" aria-hidden="true"></i> Play queue');
+    const partyButton = $('sb-party');
+    partyButton.setAttribute('aria-pressed', String(state.party));
+    partyButton.classList.toggle('is-active', state.party);
+    partyButton.innerHTML = state.party
+      ? '<i class="fas fa-stop" aria-hidden="true"></i> Stop Party Parrot'
+      : '<i class="fas fa-dove" aria-hidden="true"></i> Party Parrot';
+    $('sb-queue-ten').disabled = !state.clips.length;
     $('sb-queue').querySelectorAll('.sb-queue-item').forEach((li) => li.classList.toggle('is-current', state.machine && Number(li.dataset.index) === state.machineIndex));
   }
-  async function playClip(id, asMachine = false) {
+  let handledErrorToken = -1;
+  function handlePlaybackError(token) {
+    if (token !== state.requestedToken || handledErrorToken === token) return;
+    handledErrorToken = token;
+    if (state.party) {
+      state.partyFailures++;
+      if (state.partyFailures >= state.clips.length) stopPlayback('Party Parrot stopped because the sounds could not be loaded.');
+      else playNextParty();
+    } else {
+      stopPlayback('Could not play this sound. Please try another.');
+    }
+  }
+  async function playClip(id, asMachine = false, asParty = false) {
     const clip = state.byId.get(id); if (!clip) return;
-    state.requestedToken++;
+    const token = ++state.requestedToken;
     audio.pause(); state.playing = id;
     if (!asMachine) { state.machine = false; state.machineIndex = -1; }
+    if (!asParty) { state.party = false; state.partyDeck = []; state.partyRound = 0; }
     audio.src = fullUrl(clip.src); audio.load();
     $('sb-now-title').textContent = clip.title; $('sb-progress').style.width = '0%';
-    try { await audio.play(); status('Playing ' + clip.title); }
-    catch (error) { if (state.playing === id) { status('Could not play ' + clip.title + '. Please try again.'); $('sb-now-title').textContent = 'Audio unavailable'; state.machine = false; } }
+    try {
+      await audio.play();
+      if (token !== state.requestedToken) return;
+      state.partyFailures = 0;
+      status((state.party ? 'Party Parrot: ' : 'Playing ') + clip.title);
+    } catch (_) { handlePlaybackError(token); return; }
     updatePlayingUI(); renderQueue();
   }
   function stopPlayback(message = 'Playback stopped') {
-    state.requestedToken++; audio.pause(); audio.removeAttribute('src'); audio.load(); state.playing = null; state.machine = false; state.machineIndex = -1;
+    state.requestedToken++; audio.pause(); audio.removeAttribute('src'); audio.load();
+    state.playing = null; state.machine = false; state.machineIndex = -1;
+    state.party = false; state.partyDeck = []; state.partyRound = 0; state.partyLast = null; state.partyFailures = 0;
     $('sb-now-title').textContent = 'Pick a chirp!'; $('sb-progress').style.width = '0%'; status(message); updatePlayingUI(); renderQueue();
   }
   function togglePlay(id) {
+    // Manually selecting a chirp leaves Party Parrot mode, even if it is the currently playing sound.
+    if (state.party) { void playClip(id); return; }
     if (state.playing === id) { if (!audio.paused) { audio.pause(); state.machine = false; status('Paused ' + state.byId.get(id).title); updatePlayingUI(); return; } audio.play().then(updatePlayingUI).catch(() => status('Audio could not resume.')); return; }
     void playClip(id);
+  }
+  function playNextParty() {
+    if (!state.party || !state.clips.length) return;
+    if (!state.partyDeck.length) {
+      const nextDeck = shuffle(state.clips.map((clip) => clip.id));
+      // No immediate repeat at the boundary between two shuffled passes.
+      if (nextDeck.length > 1 && nextDeck[0] === state.partyLast) {
+        const swapAt = 1 + Math.floor(Math.random() * (nextDeck.length - 1));
+        [nextDeck[0], nextDeck[swapAt]] = [nextDeck[swapAt], nextDeck[0]];
+      }
+      state.partyDeck = nextDeck;
+      state.partyRound++;
+    }
+    const id = state.partyDeck.shift();
+    state.partyLast = id;
+    void playClip(id, false, true);
+  }
+  function toggleParty() {
+    if (state.party) { stopPlayback('Party Parrot stopped'); return; }
+    if (!state.clips.length) { status('Sounds are still loading.'); return; }
+    stopPlayback('Starting Party Parrot');
+    state.party = true;
+    playNextParty();
+  }
+  function fillQueueToTen() {
+    if (!state.clips.length) return;
+    const wanted = Math.max(0, 10 - state.queue.length);
+    if (!wanted) { status('Your queue already has 10 or more sounds.'); return; }
+    const existing = new Set(state.queue);
+    const picks = shuffle(state.clips.filter((c) => !existing.has(c.id))).slice(0, wanted).map((c) => c.id);
+    state.queue.push(...picks);
+    renderQueue();
+    status(picks.length + ' random sounds added to your queue');
   }
   function playQueueFrom(index) {
     if (index < 0 || index >= state.queue.length) { stopPlayback('Queue finished'); return; }
@@ -86,6 +147,7 @@
     });
     $('sb-queue-count').textContent = humanCount(state.queue.length);
     for (const id of ['sb-play-queue', 'sb-shuffle', 'sb-clear']) $(id).disabled = state.queue.length === 0;
+    $('sb-queue-ten').disabled = state.clips.length === 0;
     updatePlayingUI();
   }
   $('sb-clips').addEventListener('click', (event) => {
@@ -103,7 +165,9 @@
     renderQueue();
   });
   $('sb-random').addEventListener('click', () => { if (state.clips.length) { const id = state.clips[Math.floor(Math.random() * state.clips.length)].id; void playClip(id); } });
-  $('sb-surprise').addEventListener('click', () => { state.queue = shuffle(state.clips).slice(0,5).map((c) => c.id); renderQueue(); playQueueFrom(0); });
+  $('sb-surprise').addEventListener('click', () => { if (!state.clips.length) return; state.queue = shuffle(state.clips).slice(0, 10).map((c) => c.id); renderQueue(); playQueueFrom(0); });
+  $('sb-queue-ten').addEventListener('click', fillQueueToTen);
+  $('sb-party').addEventListener('click', toggleParty);
   $('sb-stop').addEventListener('click', () => stopPlayback());
   $('sb-play-queue').addEventListener('click', () => {
     if (!state.queue.length) return;
@@ -118,8 +182,12 @@
   root.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => { state.filter = button.dataset.filter; root.querySelectorAll('[data-filter]').forEach((b) => { const on = b === button; b.classList.toggle('is-active',on); b.setAttribute('aria-pressed',String(on)); }); renderCards(); }));
   audio.addEventListener('timeupdate', () => { $('sb-progress').style.width = (audio.duration && Number.isFinite(audio.duration) ? 100*audio.currentTime/audio.duration : 0) + '%'; });
   audio.addEventListener('play', updatePlayingUI); audio.addEventListener('pause', updatePlayingUI);
-  audio.addEventListener('ended', () => { if (state.machine && state.machineIndex + 1 < state.queue.length) playQueueFrom(state.machineIndex + 1); else stopPlayback(state.machine ? 'Queue finished' : 'Chirp finished'); });
-  audio.addEventListener('error', () => { if (audio.src) { status('Sorry, this audio file could not be loaded.'); state.machine = false; updatePlayingUI(); } });
+  audio.addEventListener('ended', () => {
+    if (state.party) playNextParty();
+    else if (state.machine && state.machineIndex + 1 < state.queue.length) playQueueFrom(state.machineIndex + 1);
+    else stopPlayback(state.machine ? 'Queue finished' : 'Chirp finished');
+  });
+  audio.addEventListener('error', () => { if (audio.src) handlePlaybackError(state.requestedToken); });
   async function init() {
     try {
       const response = await fetch(root.dataset.manifest, { cache: 'no-cache' });
