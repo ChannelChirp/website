@@ -1,4 +1,4 @@
-/* Soundborb v0.6. Static audio soundboard; no trackers or external services. */
+/* Soundborb v0.7. Static audio soundboard; no trackers or external services. */
 (() => {
   'use strict';
   const root = document.getElementById('soundborb');
