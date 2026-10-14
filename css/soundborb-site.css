@@ -1,0 +1,315 @@
+/* Soundborb site integration for the Channel Chirp Lighthouse theme.
+   Loaded after soundborb.css. All changes are scoped to Soundborb only. */
+
+/* Restore the original site's Bootstrap 9/3 content and sidebar columns. */
+.soundborb-page .container-main {
+  max-width: 1150px;
+  min-height: 1050px;
+}
+.soundborb-page .container-main > .row > .col-md-9 {
+  width: 75%;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+.soundborb-page .container-main > .row > .col-md-3 {
+  display: block;
+  width: 25%;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+.soundborb-page article.post-card > .entry-header {
+  display: block;
+}
+.soundborb-page .post-card {
+  background: #fff;
+  color: #424242;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+  margin-bottom: 50px;
+  padding: 0 1.5rem;
+  overflow: visible;
+}
+.soundborb-page .post-card .entry-content {
+  padding: 0 0 1.5em;
+}
+.soundborb-page .post-card .entry-footer {
+  padding-bottom: 1.5em;
+}
+
+/* Match Lighthouse's fonts, grey text, white panels and bright green accent. */
+.soundborb-page .sb {
+  --green: #29a518;
+  --dark: #424242;
+  --light: #f5f5f5;
+  --border: #ddd;
+  color: #424242;
+  font-size: 16px;
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+.soundborb-page .sb button:focus-visible,
+.soundborb-page .sb a:focus-visible,
+.soundborb-page .sb input:focus-visible {
+  outline: 3px solid #29a518;
+  outline-offset: 3px;
+}
+.soundborb-page .sb-hero {
+  display: block;
+  min-height: 0;
+  padding: 0 0 23px;
+  background: transparent;
+  overflow: visible;
+}
+.soundborb-page .sb-hero::after,
+.soundborb-page .sb-flock-spark { display: none; }
+.soundborb-page .sb-hero-copy { max-width: none; }
+.soundborb-page .sb-kicker,
+.soundborb-page .sb-overline,
+.soundborb-page .sb-machine-tag { color: #1e8c10; }
+.soundborb-page .sb-kicker-dot { background: #29a518; }
+.soundborb-page .sb-version {
+  background: #ecf7eb;
+  color: #1e8c10;
+}
+.soundborb-page .sb-hero p,
+.soundborb-page .sb-section-head p,
+.soundborb-page .sb-machine-head p {
+  color: #666;
+  line-height: 1.65;
+  max-width: none;
+}
+.soundborb-page .sb-hero p { font-size: 16px; }
+.soundborb-page .sb-hero .sb-hero-hint { font-size: 13px; color: #727272; }
+.soundborb-page .sb-hero-buttons { margin: 18px 0 10px; }
+.soundborb-page .sb-btn {
+  border-radius: 35px;
+  padding: 10px 16px;
+  min-height: 43px;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: none;
+}
+.soundborb-page .sb-btn-primary,
+.soundborb-page .sb-tab.is-active,
+.soundborb-page .sb-card.is-playing .sb-play { background: #29a518; border-color: #29a518; color: #fff !important; }
+.soundborb-page .sb-btn-primary:hover:not(:disabled) { background: #1e8c10; }
+.soundborb-page .sb-btn-secondary {
+  background: #fff;
+  color: #1e8c10 !important;
+  border: 1px solid #29a518;
+}
+.soundborb-page .sb-btn-secondary:hover:not(:disabled) { background: #f2faf0; }
+.soundborb-page .sb-btn-party { border-radius: 35px; }
+
+/* Use a normal, responsive card gallery rather than the full-width collage. */
+.soundborb-page .sb-flock {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  min-height: 0;
+  width: 100%;
+  max-width: none;
+  margin: 24px 0 0;
+  overflow: visible;
+}
+.soundborb-page .sb-bird,
+.soundborb-page .sb-bird-a,
+.soundborb-page .sb-bird-b,
+.soundborb-page .sb-bird-c,
+.soundborb-page .sb-bird-d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 8px 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12);
+  transform: none;
+  text-align: center;
+}
+.soundborb-page .sb-bird:hover,
+.soundborb-page .sb-bird-human:hover { transform: none !important; border-color: #29a518; }
+.soundborb-page .sb-bird img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+}
+.soundborb-page .sb-bird-name,
+.soundborb-page .sb-bird-human .sb-bird-name {
+  position: static;
+  display: block;
+  transform: none;
+  background: transparent;
+  box-shadow: none;
+  color: #212121;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 9px 0 0;
+  margin: 0;
+}
+.soundborb-page .sb-bird-arrow {
+  left: 11px;
+  top: 11px;
+  background: #1e8c10;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 10px;
+  padding: 4px 6px;
+  white-space: nowrap;
+}
+.soundborb-page .sb-bird-human {
+  justify-content: center;
+  background: #fafafa;
+  color: #424242;
+}
+.soundborb-page .sb-human-icon {
+  background: #edf7eb;
+  border-radius: 50%;
+  color: #29a518;
+}
+.soundborb-page .sb-bird-human small {
+  color: #727272;
+  font-size: 11px;
+  margin-top: 7px;
+}
+
+/* Familiar widget-like borders and accents for the player and queue. */
+.soundborb-page .sb-player {
+  background: #f5f5f5;
+  color: #424242;
+  border: 1px solid #ddd;
+  border-left: 3px solid #29a518;
+  border-radius: 3px;
+  padding: 13px 15px;
+  gap: 12px;
+  min-height: 77px;
+}
+.soundborb-page .sb-player-icon { background: #eaf6e8; color: #1e8c10; }
+.soundborb-page .sb-now .sb-overline { color: #1e8c10; }
+.soundborb-page .sb-now strong { color: #212121; }
+.soundborb-page .sb-playing-progress { background: #d9e9d5; }
+.soundborb-page .sb-playing-progress span { background: #29a518; }
+.soundborb-page .sb-icon-button {
+  color: #1e8c10;
+  background: #fff;
+  border: 1px solid #b9d9b5;
+  border-radius: 3px;
+}
+.soundborb-page .sb-volume { color: #555; }
+.soundborb-page .sb-volume input { accent-color: #29a518; }
+.soundborb-page .sb-main-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 26px;
+  padding: 26px 0 12px;
+}
+.soundborb-page .sb-library { min-width: 0; }
+.soundborb-page .sb-machine {
+  order: -1;
+  position: static;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-left: 3px solid #29a518;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+.soundborb-page .sb-machine-head {
+  background: #f5f5f5;
+  padding: 16px 19px 12px;
+}
+.soundborb-page .sb-machine-queue { min-height: 0; padding: 12px 17px; }
+.soundborb-page .sb-machine ol { max-height: 190px; }
+.soundborb-page .sb-machine-actions { padding: 0 17px 17px; }
+.soundborb-page .sb-machine-footer { background: #fafafa; border-top: 1px solid #ddd; }
+.soundborb-page .sb-queue-ten {
+  border-radius: 35px;
+  border-color: #29a518;
+  color: #1e8c10;
+}
+.soundborb-page .sb-section-head h2,
+.soundborb-page .sb-machine h2 { color: #212121; letter-spacing: 0; font-weight: 700; }
+.soundborb-page .sb-section-head h2 em,
+.soundborb-page .sb-machine h2 em { color: #29a518; }
+.soundborb-page .sb-count { background: #eaf6e8; color: #1e8c10; }
+.soundborb-page .sb-card,
+.soundborb-page .sb-tab,
+.soundborb-page .sb-search {
+  border-color: #ddd;
+  border-radius: 3px;
+  box-shadow: none;
+}
+.soundborb-page .sb-card.is-playing { background: #f5fbf4; border-color: #29a518; }
+.soundborb-page .sb-card:hover { border-color: #29a518; }
+.soundborb-page .sb-card-title { color: #212121; }
+.soundborb-page .sb-waveform span { background: #b9d9b5; }
+.soundborb-page .sb-card.is-playing .sb-waveform span { background: #29a518; }
+.soundborb-page .sb-play { background: #eaf6e8; color: #1e8c10; border-radius: 3px; }
+.soundborb-page .sb-queue-add { color: #1e8c10; border-radius: 3px; }
+.soundborb-page .sb-tab.is-active { border-radius: 3px; }
+.soundborb-page .sb-footer { border-color: #ddd; padding: 18px 0; color: #727272; }
+
+/* Bootstrap sidebar stacks beneath the article on small screens. */
+@media (max-width: 767.98px) {
+  .soundborb-page .container-main > .row > .col-md-9,
+  .soundborb-page .container-main > .row > .col-md-3 { width: 100%; }
+  .soundborb-page .sb-flock { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .soundborb-page .sb-clips { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 560px) {
+  .soundborb-page .post-card { border-radius: 3px; padding: 0 16px; }
+  .soundborb-page .sb-hero { padding: 0 0 16px; }
+  .soundborb-page .sb-flock { margin-top: 18px; gap: 9px; }
+  .soundborb-page .sb-bird,
+  .soundborb-page .sb-bird-a,
+  .soundborb-page .sb-bird-b,
+  .soundborb-page .sb-bird-c,
+  .soundborb-page .sb-bird-d { width: 100%; height: auto; padding: 7px; }
+  .soundborb-page .sb-bird img { height: auto; }
+  .soundborb-page .sb-bird-arrow { top: 9px; left: 9px; font-size: 9px; }
+  .soundborb-page .sb-main-grid { padding: 20px 0 8px; }
+  .soundborb-page .sb-player { padding: 12px; flex-wrap: wrap; }
+  .soundborb-page .sb-volume { min-width: 0; width: 100%; justify-content: flex-end; }
+  .soundborb-page .sb-section-head h2 { font-size: 24px; }
+  .soundborb-page .sb-card { padding: 10px; }
+  .soundborb-page .sb-footer { padding: 14px 0; }
+}
+@media (max-width: 370px) {
+  .soundborb-page .sb-clips { grid-template-columns: 1fr; }
+}
+
+/* Soundborb recording accordion. Categories start collapsed; each open recording
+   displays 12 cards at a time to avoid an overwhelmingly long main column. */
+.soundborb-page .sb-library-hint { color:#727272; font-size:13px; line-height:1.6; margin:6px 0 14px; }
+.soundborb-page .sb-clips { display:block; }
+.soundborb-page .sb-group { margin:0 0 10px; border:1px solid #ddd; background:#fff; border-radius:3px; overflow:hidden; }
+.soundborb-page .sb-group-heading { margin:0; padding:0; font-size:16px; line-height:1.4; }
+.soundborb-page .sb-group-toggle { display:flex; width:100%; min-height:53px; align-items:center; gap:12px; padding:10px 16px; border:0; background:#fff; color:#333; font:inherit; text-align:left; cursor:pointer; }
+.soundborb-page .sb-group-toggle:hover { background:#f3faef; }
+.soundborb-page .sb-group-toggle[aria-expanded="true"] { background:#f1f8ee; border-left:3px solid #29a518; padding-left:13px; }
+.soundborb-page .sb-group-toggle:focus-visible, .soundborb-page .sb-group-more:focus-visible { outline:3px solid #29a518; outline-offset:-3px; }
+.soundborb-page .sb-group-name { font-weight:700; min-width:0; flex:1; overflow-wrap:anywhere; }
+.soundborb-page .sb-group-total { flex:none; white-space:nowrap; color:#777; font-size:12px; font-weight:400; }
+.soundborb-page .sb-group-chevron { color:#29a518; font-size:21px; width:20px; flex:none; text-align:center; }
+.soundborb-page .sb-group-panel { border-top:1px solid #ddd; padding:12px; }
+.soundborb-page .sb-group-cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.soundborb-page .sb-group-more { display:block; width:100%; margin-top:12px; padding:10px; border:1px solid #29a518; background:#fff; color:#1e8c10; border-radius:35px; font-size:13px; font-weight:700; cursor:pointer; }
+.soundborb-page .sb-group-more:hover { background:#f1faee; }
+@media(max-width:560px){
+  .soundborb-page .sb-group-cards { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+  .soundborb-page .sb-group-toggle { padding:11px 12px; }
+  .soundborb-page .sb-group-total { font-size:11px; }
+}
+@media(max-width:370px){.soundborb-page .sb-group-cards {grid-template-columns:1fr;}}

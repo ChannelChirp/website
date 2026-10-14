@@ -1,4 +1,4 @@
-/* Soundborb v0.7. Static audio soundboard; no trackers or external services. */
+/* Soundborb v0.8. Static audio soundboard; no trackers or external services. */
 (() => {
   'use strict';
   const root = document.getElementById('soundborb');
@@ -7,7 +7,7 @@
   const audio = new Audio();
   audio.preload = 'none';
   audio.volume = 0.8;
-  const state = { clips: [], byId: new Map(), favourites: new Set(), filter: 'all', query: '', queue: [], playing: null, machine: false, machineIndex: -1, requestedToken: 0, party: false, partyDeck: [], partyRound: 0, partyLast: null, partyFailures: 0 };
+  const state = { clips: [], byId: new Map(), favourites: new Set(), filter: 'all', query: '', openSource: null, visibleBySource: new Map(), closedSearchGroups: new Set(), queue: [], playing: null, machine: false, machineIndex: -1, requestedToken: 0, party: false, partyDeck: [], partyRound: 0, partyLast: null, partyFailures: 0 };
   const storageKey = 'channelchirp-soundborb-favourites-v1';
   try { const saved = JSON.parse(localStorage.getItem(storageKey) || '[]'); if (Array.isArray(saved)) state.favourites = new Set(saved.filter((s) => typeof s === 'string')); } catch (_) { /* Private browsing may block local storage. */ }
   const status = (message) => { $('sb-status').textContent = message; };
@@ -32,14 +32,68 @@
     const add = document.createElement('button'); add.type = 'button'; add.className = 'sb-queue-add'; add.dataset.action = 'add'; add.dataset.id = clip.id; add.title = 'Add ' + clip.title + ' to queue'; add.setAttribute('aria-label', 'Add ' + clip.title + ' to queue'); add.innerHTML = '<i class="fas fa-plus" aria-hidden="true"></i>';
     actions.append(play, add); card.append(top, title, info, waveform, actions); return card;
   }
+  /* Group cards by their source recording. Render only open groups and a small page of clips. */
+  const groupPageSize = 12;
+  const sourceKey = (clip) => clip.source || clip.collection || 'Other sounds';
+  function filteredGroups() {
+    const groups = new Map();
+    for (const clip of state.clips) {
+      if (state.filter === 'favourites' && !state.favourites.has(clip.id)) continue;
+      if (!(clip.title + ' ' + clip.collection + ' ' + clip.id + ' ' + (clip.source || '')).toLowerCase().includes(state.query)) continue;
+      const key = sourceKey(clip);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(clip);
+    }
+    return groups;
+  }
   function renderCards() {
-    const filtered = state.clips.filter((clip) => (state.filter !== 'favourites' || state.favourites.has(clip.id)) && (clip.title + ' ' + clip.collection + ' ' + clip.id).toLowerCase().includes(state.query));
-    const container = $('sb-clips'); container.replaceChildren(...filtered.map((c) => makeClipCard(c, state.clips.indexOf(c))));
-    $('sb-empty').hidden = filtered.length !== 0; $('sb-count').textContent = humanCount(filtered.length);
+    const groups = filteredGroups();
+    const container = $('sb-clips');
+    const fragment = document.createDocumentFragment();
+    const inFilteredView = Boolean(state.query) || state.filter === 'favourites';
+    let matchingCount = 0;
+    let groupIndex = 0;
+    const indexes = new Map(state.clips.map((clip, index) => [clip.id, index]));
+    for (const [source, clips] of groups) {
+      matchingCount += clips.length;
+      const sample = clips[0];
+      const title = sample.collection || source.replace(/\.[^.]+$/, '');
+      const section = document.createElement('section');
+      section.className = 'sb-group';
+      section.dataset.source = source;
+      const heading = document.createElement('h3'); heading.className = 'sb-group-heading';
+      const toggle = document.createElement('button');
+      toggle.type = 'button'; toggle.className = 'sb-group-toggle'; toggle.dataset.sourceToggle = source;
+      const expanded = inFilteredView ? !state.closedSearchGroups.has(source) : state.openSource === source;
+      toggle.setAttribute('aria-expanded', String(expanded));
+      const panelId = 'sb-group-panel-' + groupIndex++;
+      toggle.setAttribute('aria-controls', panelId);
+      const label = document.createElement('span'); label.className = 'sb-group-name'; label.textContent = title;
+      const amount = document.createElement('span'); amount.className = 'sb-group-total'; amount.textContent = humanCount(clips.length);
+      const chevron = document.createElement('span'); chevron.className = 'sb-group-chevron'; chevron.setAttribute('aria-hidden', 'true'); chevron.textContent = expanded ? '−' : '+';
+      toggle.append(label, amount, chevron); heading.append(toggle); section.append(heading);
+      const panel = document.createElement('div'); panel.className = 'sb-group-panel'; panel.id = panelId;
+      panel.hidden = !expanded;
+      if (expanded) {
+        const shown = Math.min(clips.length, state.visibleBySource.get(source) || groupPageSize);
+        const grid = document.createElement('div'); grid.className = 'sb-group-cards';
+        grid.append(...clips.slice(0, shown).map((clip) => makeClipCard(clip, indexes.get(clip.id))));
+        panel.append(grid);
+        if (shown < clips.length) {
+          const more = document.createElement('button'); more.type = 'button'; more.className = 'sb-group-more'; more.dataset.sourceMore = source;
+          more.textContent = 'Show ' + Math.min(groupPageSize, clips.length - shown) + ' more · ' + shown + ' of ' + clips.length + ' shown';
+          panel.append(more);
+        }
+      }
+      section.append(panel);
+      fragment.append(section);
+    }
+    container.replaceChildren(fragment);
+    $('sb-empty').hidden = matchingCount !== 0;
+    $('sb-count').textContent = humanCount(matchingCount);
     $('sb-fav-count').textContent = String(state.favourites.size);
     updatePlayingUI();
-  }
-  function updatePlayingUI() {
+  }  function updatePlayingUI() {
     root.querySelectorAll('.sb-card').forEach((card) => {
       const active = state.playing === card.dataset.clipId && !audio.paused;
       card.classList.toggle('is-playing', active);
@@ -151,6 +205,23 @@
     updatePlayingUI();
   }
   $('sb-clips').addEventListener('click', (event) => {
+    const toggle = event.target.closest('button[data-source-toggle]');
+    if (toggle) {
+      const source = toggle.dataset.sourceToggle;
+      const searching = Boolean(state.query) || state.filter === 'favourites';
+      if (searching) {
+        state.closedSearchGroups.has(source) ? state.closedSearchGroups.delete(source) : state.closedSearchGroups.add(source);
+      } else {
+        state.openSource = state.openSource === source ? null : source;
+      }
+      renderCards(); return;
+    }
+    const more = event.target.closest('button[data-source-more]');
+    if (more) {
+      const source = more.dataset.sourceMore;
+      state.visibleBySource.set(source, (state.visibleBySource.get(source) || groupPageSize) + groupPageSize);
+      renderCards(); return;
+    }
     const button = event.target.closest('button[data-action]'); if (!button) return;
     const {action, id} = button.dataset;
     if (action === 'play') togglePlay(id);
@@ -178,8 +249,8 @@
   $('sb-shuffle').addEventListener('click', () => { stopPlayback('Queue shuffled'); state.queue = shuffle(state.queue); renderQueue(); });
   $('sb-clear').addEventListener('click', () => { stopPlayback('Queue cleared'); state.queue = []; renderQueue(); });
   $('sb-volume').addEventListener('input', (event) => { audio.volume = Number(event.target.value) / 100; });
-  $('sb-search').addEventListener('input', (event) => { state.query = event.target.value.trim().toLowerCase(); renderCards(); });
-  root.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => { state.filter = button.dataset.filter; root.querySelectorAll('[data-filter]').forEach((b) => { const on = b === button; b.classList.toggle('is-active',on); b.setAttribute('aria-pressed',String(on)); }); renderCards(); }));
+  $('sb-search').addEventListener('input', (event) => { state.query = event.target.value.trim().toLowerCase(); state.closedSearchGroups.clear(); state.visibleBySource.clear(); renderCards(); });
+  root.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => { state.filter = button.dataset.filter; state.openSource = null; state.closedSearchGroups.clear(); state.visibleBySource.clear(); root.querySelectorAll('[data-filter]').forEach((b) => { const on = b === button; b.classList.toggle('is-active',on); b.setAttribute('aria-pressed',String(on)); }); renderCards(); }));
   audio.addEventListener('timeupdate', () => { $('sb-progress').style.width = (audio.duration && Number.isFinite(audio.duration) ? 100*audio.currentTime/audio.duration : 0) + '%'; });
   audio.addEventListener('play', updatePlayingUI); audio.addEventListener('pause', updatePlayingUI);
   audio.addEventListener('ended', () => {
